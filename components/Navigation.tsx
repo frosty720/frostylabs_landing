@@ -45,7 +45,7 @@ export function Navigation() {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <Image
-              src="/resources/penguin-mascot.png"
+              src="/resources/frostylogo.png"
               alt="Frosty Penguin Mascot"
               width={40}
               height={40}

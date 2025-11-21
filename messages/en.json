@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "FrostyLabs - Automate Crypto Research in Minutes, Not Hours | AI Blockchain Workflows",
-    "description": "Build AI workflows that analyze tokens, track wallets, and automate DeFi trading across 35+ networks. No-code automation for crypto traders and developers. Free beta launching December 2025.",
-    "keywords": "AI crypto automation, blockchain workflow automation, no-code DeFi tools, token analysis automation, AI trading bot builder"
+    "title": "FrostyLabs - Build AI Agents for Web3 | Research • DeFi • NFTs • DAOs & More",
+    "description": "Build AI-powered workflows for anything in Web3. Automate research, DeFi operations, NFT minting, DAO governance, and more across 35+ networks. No-code automation. Join 100 Beta Founders - first month free. Launching December 2025.",
+    "keywords": "AI Web3 automation, blockchain AI agents, no-code DeFi automation, AI workflow builder, NFT automation, DAO automation, Web3 AI tools, crypto automation platform, FrostyDAO, FROST token, AI agent marketplace, Web3 workflow automation"
   },
   "nav": {
     "home": "Home",
@@ -14,10 +14,10 @@
     "twitter": "Twitter"
   },
   "hero": {
-    "title": "Automate Crypto Research",
-    "subtitle": "in Minutes, Not Hours",
-    "launchBadge": "🎁 Free Beta • 50 Spots Left",
-    "description": "Build AI workflows that analyze tokens, track wallets, and execute trades automatically. No coding required. Works across 35+ blockchains.",
+    "title": "Build AI Agents for Anything in Web3",
+    "subtitle": "Research • DeFi • NFTs • DAOs • And More",
+    "launchBadge": "🎁 Beta Launch • 100 Founding Members",
+    "description": "Create powerful AI workflows that automate your entire Web3 experience. From research to DeFi operations, NFT minting to DAO governance—no coding required.",
     "emailPlaceholder": "Enter your email for instant early access",
     "joinBeta": "Get Early Access  →",
     "frostyFlowButton": "FrostyFlow Coming Soon",
@@ -31,10 +31,7 @@
     "automatedExecution": "Automated Execution",
     "possibilities": "Possibilities"
   },
-  "poweredBy": {
-    "title": "Powered By Industry Leaders",
-    "aiModels": "AI Models"
-  },
+
   "useCases": {
     "title": "What Will You Automate?",
     "subtitle": "From social media to DeFi trading, FrostyFlow handles it all. Build once, run forever.",
@@ -119,7 +116,7 @@
   },
   "pricing": {
     "title": "Beta Pricing",
-    "subtitle": "Get lifetime 50% discount by joining our beta—lock in your pricing before we launch.",
+    "subtitle": "Join our beta and get your first month free + exclusive Beta Founder NFT badge.",
     "free": {
       "name": "Free",
       "price": "Free Forever",
@@ -129,6 +126,7 @@
       "features": [
         "OpenRouter AI Models",
         "5 Basic Workflows",
+        "50 AI Calls/Month",
         "Community Support",
         "Basic Analytics"
       ]
@@ -138,8 +136,8 @@
       "price": "$25/mo",
       "description": "For professionals building advanced workflows",
       "emoji": "⚡",
-      "badge": "50% OFF BETA",
-      "cta": "Join Beta ($12.50/mo)",
+      "badge": "BETA FOUNDER",
+      "cta": "Join Beta (First Month Free)",
       "features": [
         "10 Projects",
         "50 Workflows",
@@ -155,7 +153,7 @@
       "price": "$99/mo",
       "description": "For teams and advanced automation",
       "emoji": "🏢",
-      "cta": "Join Beta ($49.50/mo)",
+      "cta": "Join Beta (First Month Free)",
       "features": [
         "Unlimited Projects",
         "Unlimited Workflows",
@@ -497,7 +495,7 @@
             },
             {
               "icon": "🚧",
-              "text": "Beta testing program (20-50 users)"
+              "text": "Beta Founder program (100 Founding Members)"
             },
             {
               "icon": "🚧",
@@ -550,25 +548,95 @@
           "items": [
             {
               "icon": "🔥",
-              "text": "FrostyDAO Protocol Owned Liquidity ecosystem",
+              "text": "$FROST token fair launch - Beta Founders auto-whitelisted",
               "bold": true
             },
             {
               "icon": "🔥",
-              "text": "$FROST token fairlaunch",
+              "text": "FTGOV governance token (earned by staking $FROST)",
               "bold": true
             },
             {
               "icon": "📋",
-              "text": "Governance & community-driven development"
+              "text": "Staking rewards: Earn FTGOV + revenue share from DAO operations"
             },
             {
               "icon": "📋",
-              "text": "DAO treasury management & voting mechanisms"
+              "text": "Protocol-Owned Liquidity (POL) - DAO owns 95% of subscription revenue"
             },
             {
               "icon": "📋",
-              "text": "Community rewards & incentive programs"
+              "text": "On-chain governance: Vote on treasury allocation & feature development"
+            },
+            {
+              "icon": "📋",
+              "text": "Beta Founder multisig selection for DAO treasury management"
+            }
+          ]
+        },
+        "q3_2026": {
+          "quarter": "Q3 2026",
+          "title": "Platform Scale & Multi-Chain Expansion",
+          "status": "PLANNED",
+          "items": [
+            {
+              "icon": "🌐",
+              "text": "Multi-chain expansion: Solana, Cosmos, Polkadot support",
+              "bold": true
+            },
+            {
+              "icon": "🔗",
+              "text": "Zapier & Make.com integration adapters",
+              "bold": true
+            },
+            {
+              "icon": "📱",
+              "text": "Mobile app launch (iOS & Android)"
+            },
+            {
+              "icon": "🏢",
+              "text": "Enterprise features: SSO, team management, audit logs"
+            },
+            {
+              "icon": "📊",
+              "text": "Advanced analytics & workflow performance tracking"
+            },
+            {
+              "icon": "🎯",
+              "text": "10,000+ active users milestone"
+            }
+          ]
+        },
+        "q4_2026": {
+          "quarter": "Q4 2026",
+          "title": "AI Marketplace & Creator Economy",
+          "status": "PLANNED",
+          "items": [
+            {
+              "icon": "🛒",
+              "text": "Agent & Workflow Marketplace launch",
+              "bold": true
+            },
+            {
+              "icon": "💰",
+              "text": "Revenue sharing for template creators (paid in $FROST)",
+              "bold": true
+            },
+            {
+              "icon": "📚",
+              "text": "Community template library: 1,000+ pre-built workflows"
+            },
+            {
+              "icon": "🤖",
+              "text": "Advanced multi-agent orchestration & collaboration"
+            },
+            {
+              "icon": "🎓",
+              "text": "Creator certification program & education resources"
+            },
+            {
+              "icon": "🌟",
+              "text": "DAO-funded grants for innovative agent development"
             }
           ]
         }
@@ -580,5 +648,126 @@
         "twitter": "Twitter"
       }
     }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about FrostyLabs",
+    "items": [
+      {
+        "question": "What is FrostyLabs?",
+        "answer": "FrostyLabs is building the future of AI automation with two flagship products: FrostyFlow—a no-code AI agent platform for Web3 and beyond, and FrostyDAO—a decentralized community governing the ecosystem. Create powerful workflows for crypto research, DeFi operations, NFT minting, DAO governance, or even non-blockchain tasks like data analysis and content creation."
+      },
+      {
+        "question": "Do I need coding experience to use FrostyFlow?",
+        "answer": "No! FrostyFlow is designed to be fully no-code. Our visual workflow builder and AI-powered natural language interface let you create sophisticated automation without writing a single line of code."
+      },
+      {
+        "question": "Which blockchain networks are supported?",
+        "answer": "We support 35+ networks including Ethereum, Polygon, Base, Arbitrum, Optimism, BSC, Avalanche, and more. Full multi-chain support for Solana, Cosmos, and Polkadot coming in Q3 2026."
+      },
+      {
+        "question": "What AI models does FrostyLabs use?",
+        "answer": "We integrate with the best AI models including GPT-4, GPT-5, Claude 4.5 Sonnet, Gemini 2.0 Flash, and DeepSeek. Pro users get access to premium models. We're also adding support for Nebula AI, ThirdWeb's proprietary model optimized for Web3 operations."
+      },
+      {
+        "question": "Is my wallet safe? Do I need crypto to get started?",
+        "answer": "Your security is paramount. We use ThirdWeb's in-app wallet technology and Vault SDK for enterprise-grade security—your private keys are never exposed or stored on our servers. Sign up easily with email and pay with credit card to mint your subscription NFT. No crypto wallet or tokens required to start! For advanced users, we support MetaMask, WalletConnect, and other Web3 wallets. SOC 2 compliant with regular security audits."
+      },
+      {
+        "question": "What's included in the Beta Founder program?",
+        "answer": "Beta Founders get: (1) First month free on Pro tier, (2) Exclusive Beta Founder NFT badge, (3) Auto-whitelist for $FROST token fair launch, (4) Eligibility for DAO treasury multisig, (5) Lifetime early adopter benefits on all FrostyDAO products."
+      },
+      {
+        "question": "What is $FROST and how does it work?",
+        "answer": "$FROST is FrostyDAO's utility token, launching Q2 2026. Stake $FROST to earn FTGOV (governance tokens) and receive revenue share from DAO operations. Use $FROST for payments, marketplace transactions, and governance voting. Fair launch with Beta Founders auto-whitelisted."
+      },
+      {
+        "question": "How does FrostyDAO governance work?",
+        "answer": "Stake $FROST to earn FTGOV tokens, which give you voting power. Vote on treasury allocation, feature development, partnerships, and DAO operations. The DAO controls 95% of subscription revenue and uses FrostyFlow to automate treasury management and DeFi strategies."
+      },
+      {
+        "question": "Can FrostyFlow automate DeFi trading?",
+        "answer": "Yes! Create workflows that monitor prices, execute trades on DEXs, manage liquidity positions, harvest yields, and more. Our AI agents can analyze market conditions and execute complex DeFi strategies automatically."
+      },
+      {
+        "question": "How is FrostyFlow different from Zapier or Make?",
+        "answer": "FrostyFlow combines the best of both worlds: powerful Web3-native integrations AND traditional automation. Unlike Zapier or Make, we offer blockchain-specific tools (token analysis, DeFi operations, security audits) powered by advanced AI that can make autonomous decisions. Plus, you can build autonomous AI agents, not just simple workflows. And yes—you can also automate non-blockchain tasks like any other platform!"
+      },
+      {
+        "question": "What pricing plans are available?",
+        "answer": "Free tier: 50 AI calls/month with basic features. Pro ($25/mo): 500 AI calls, premium AI models, 50 workflows. Enterprise ($99/mo): Unlimited workflows, 2000 AI calls, multi-agent coordination. Beta users get first month free on any tier."
+      },
+      {
+        "question": "Can I build and sell my own AI agents?",
+        "answer": "Yes! Our Agent Marketplace (launching Q4 2026) lets creators build, publish, and monetize custom agents and workflow templates. Earn revenue share in $FROST. DAO also offers grants for innovative agent development."
+      }
+    ]
+  },
+  "videoDemo": {
+    "title": "Analyze Any Token in 30 Seconds"
+  },
+  "poweredBy": {
+    "badge": "Powered By",
+    "titlePrefix": "Powered By The Best",
+    "titleHighlight": "AI Models",
+    "description": "We integrate with leading AI providers to give you the most powerful automation capabilities.",
+    "moreModels": "+ more via OpenRouter"
+  },
+  "security": {
+    "badge": "Enterprise Security",
+    "title": "Your Security is Our Priority",
+    "descriptionPrefix": "Powered by",
+    "descriptionHighlight": "thirdweb Vault",
+    "descriptionSuffix": ", the industry-leading secure key management solution",
+    "cta": "Learn More About Our Security",
+    "features": {
+      "bankGrade": {
+        "title": "Bank-Grade Security",
+        "description": "Your keys encrypted with AWS Nitro Enclaves"
+      },
+      "nonCustodial": {
+        "title": "Non-Custodial",
+        "description": "You always control your assets"
+      },
+      "infrastructure": {
+        "title": "Secure Infrastructure",
+        "description": "Military-grade encryption at rest & in transit"
+      },
+      "privacy": {
+        "title": "Privacy First",
+        "description": "Zero-knowledge architecture"
+      }
+    }
+  },
+  "timeline": {
+    "badge": "Launch Timeline",
+    "title": "Be Among the First",
+    "descriptionPrefix": "Join our beta program and get",
+    "descriptionHighlight": "exclusive founding member benefits",
+    "status": {
+      "inProgress": "In Progress",
+      "planned": "Planned"
+    },
+    "milestones": {
+      "beta": {
+        "title": "Public Beta Launch",
+        "items": [
+          "First month free (Pro tier)",
+          "Beta Founder NFT badge",
+          "Early adopter benefits"
+        ]
+      },
+      "launch": {
+        "title": "Full Platform Launch",
+        "items": [
+          "Marketplace launch",
+          "Advanced features",
+          "Enterprise support"
+        ]
+      }
+    },
+    "betaDate": "December 2025",
+    "betaDescription": "Public beta launch with exclusive benefits",
+    "viewRoadmap": "View Full Roadmap"
   }
 }

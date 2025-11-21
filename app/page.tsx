@@ -4,8 +4,11 @@ import { VideoDemo } from "@/components/VideoDemo";
 import { Stats } from "@/components/Stats";
 import { PoweredBy } from "@/components/PoweredBy";
 import { UseCases } from "@/components/UseCases";
-import { Pricing } from "@/components/Pricing";
 import { Features } from "@/components/Features";
+import { SecurityTrustBadge } from "@/components/SecurityTrustBadge";
+import { Pricing } from "@/components/Pricing";
+import { LaunchTimeline } from "@/components/LaunchTimeline";
+import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -14,11 +17,14 @@ export default function Home() {
       <Navigation />
       <Hero />
       <VideoDemo />
-      <Stats />
       <PoweredBy />
+      <Stats />
       <UseCases />
-      <Pricing />
       <Features />
+      <SecurityTrustBadge />
+      <Pricing />
+      <LaunchTimeline />
+      <FAQ />
       <Footer />
     </main>
   );

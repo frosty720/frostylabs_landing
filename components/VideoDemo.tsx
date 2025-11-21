@@ -1,11 +1,13 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { Play, Sparkles } from "lucide-react";
-import { useState } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { Play, Pause, Volume2, VolumeX, Maximize, Sparkles } from "lucide-react";
+import { useState, useRef } from "react";
+import { useTranslations } from "next-intl";
 
 export function VideoDemo() {
     const [isPlaying, setIsPlaying] = useState(false);
+    const t = useTranslations("videoDemo");
 
     return (
         <section className="relative py-24 overflow-hidden bg-gradient-to-b from-deep-arctic via-frozen-slate/50 to-deep-arctic">
@@ -33,7 +35,7 @@ export function VideoDemo() {
                     </motion.div>
 
                     <h2 className="text-5xl md:text-6xl font-orbitron font-bold mb-6">
-                        <span className="gradient-text">Analyze Any Token in 30 Seconds</span>
+                        <span className="gradient-text">{t('title')}</span>
                     </h2>
                     <p className="text-xl text-slate-300 max-w-2xl mx-auto">
                         See how FrostyLabs automatically fetches on-chain data, security audits, and price analysis—

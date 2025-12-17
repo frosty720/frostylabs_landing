@@ -8,6 +8,8 @@ import { getLocale, getMessages } from "next-intl/server";
 import Script from "next/script";
 import { ThirdwebProvider } from "thirdweb/react";
 
+const GA_MEASUREMENT_ID = "G-X9XDDBT2WM";
+
 const orbitron = Orbitron({
   variable: "--font-orbitron",
   subsets: ["latin"],
@@ -131,6 +133,20 @@ export default async function RootLayout({
       <head>
         <link rel="icon" type="image/png" href="/resources/frostylogo.png" />
         <link rel="apple-touch-icon" href="/resources/frostylogo.png" />
+
+        {/* Google Analytics */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
 
         {/* JSON-LD Schema Markup */}
         <Script

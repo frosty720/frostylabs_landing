@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Check, Sparkles } from "lucide-react";
+import Link from "next/link";
 
 export function Pricing() {
   const t = useTranslations("pricing");
@@ -119,14 +120,16 @@ export function Pricing() {
                   </ul>
 
                   {/* CTA Button */}
-                  <Button
-                    className={`w-full ${tier.key === "pro"
-                        ? "bg-gradient-to-r from-frost-blue to-crystal-blue hover:from-ice-blue hover:to-frost-blue text-white border-none shadow-lg shadow-frost-blue/20"
-                        : "bg-white/5 hover:bg-white/10 text-white border border-white/20"
-                      } py-6 px-6 rounded-xl font-semibold transition-all duration-300 group-hover:scale-105`}
-                  >
-                    {t(`${tier.key}.cta`)}
-                  </Button>
+                  <Link href="https://flow.frostylabs.ai" target="_blank" className="w-full">
+                    <Button
+                      className={`w-full ${tier.key === "pro"
+                          ? "bg-gradient-to-r from-frost-blue to-crystal-blue hover:from-ice-blue hover:to-frost-blue text-white border-none shadow-lg shadow-frost-blue/20"
+                          : "bg-white/5 hover:bg-white/10 text-white border border-white/20"
+                        } py-6 px-6 rounded-xl font-semibold transition-all duration-300 group-hover:scale-105`}
+                    >
+                      {t(`${tier.key}.cta`)}
+                    </Button>
+                  </Link>
                 </div>
               </Card>
             </motion.div>

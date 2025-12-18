@@ -34,6 +34,7 @@ export function Navigation() {
     { href: "/features", label: t("features") },
     { href: "/#pricing", label: t("pricing") },
     { href: "/about", label: t("about") },
+    { href: "https://flow.frostylabs.ai", label: t("launchApp"), external: true, highlight: true },
     { href: "https://github.com/FrostyLabsAi", label: t("github"), external: true },
     { href: "https://x.com/FrostyLabsAi", label: t("twitter"), external: true },
   ];
@@ -62,7 +63,11 @@ export function Navigation() {
                 href={link.href}
                 target={link.external ? "_blank" : undefined}
                 rel={link.external ? "noopener noreferrer" : undefined}
-                className="text-slate-300 hover:text-frost-blue transition-all duration-300 hover:scale-105"
+                className={
+                  link.highlight
+                    ? "bg-gradient-to-r from-frost-blue to-crystal-blue text-white px-4 py-2 rounded-lg font-semibold hover:from-ice-blue hover:to-frost-blue transition-all duration-300 hover:scale-105"
+                    : "text-slate-300 hover:text-frost-blue transition-all duration-300 hover:scale-105"
+                }
               >
                 {link.label}
               </a>

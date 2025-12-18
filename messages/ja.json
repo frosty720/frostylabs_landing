@@ -10,21 +10,18 @@
     "features": "機能",
     "pricing": "価格",
     "about": "概要",
+    "launchApp": "アプリを起動",
     "github": "GitHub",
     "twitter": "Twitter"
   },
   "hero": {
     "title": "オンチェーンエージェントのOS",
     "subtitle": "構築 • デプロイ • 自動化 • スケール",
-    "launchBadge": "🎁 ベータローンチ • 100名の創設メンバー",
+    "launchBadge": "🚀 Baseで公開中",
     "description": "自律型AIエージェントのためのオペレーティングシステム。リサーチ、トレード、ミント、ガバナンス—すべてオンチェーン、すべて自動化、コード不要。",
-    "emailPlaceholder": "メールアドレスを入力して早期アクセス",
-    "joinBeta": "早期アクセスを入手 →",
-    "frostyFlowButton": "FrostyFlow 近日公開",
+    "launchApp": "アプリを起動 →",
     "viewGithub": "GitHubで見る",
-    "successMessage": "✅ 登録完了！メールを確認してすぐにアクセスしてください。FrostyLabsへようこそ。",
-    "errorMessage": "❌ エラーが発生しました。もう一度お試しください。",
-    "waitlistOffer": "ウェイティングリストに参加しましょう。先着100名様にFrostyLabs AIの1ヶ月無料サブスクリプションをプレゼントします。"
+    "nftSubscription": "BaseでのNFTベースのサブスクリプション。アクセス権を所有しよう。"
   },
   "stats": {
     "aiModels": "AIモデル",
@@ -37,7 +34,7 @@
     "title": "何を自動化しますか？",
     "subtitle": "ソーシャルメディアからDeFi取引まで、FrostyFlowがすべて処理します。一度構築すれば、永遠に実行できます。",
     "cta": "これらはほんの始まりに過ぎません。あなたは何を作りますか？",
-    "ctaButton": "ベータ待機リストに参加 →",
+    "ctaButton": "今すぐ始める →",
     "cards": {
       "socialMedia": {
         "badge": "マーケティング",
@@ -137,8 +134,8 @@
       "price": "月額$25",
       "description": "高度なワークフローを構築するプロフェッショナル向け",
       "emoji": "⚡",
-      "badge": "ベータ创設者",
-      "cta": "無料の創設者NFTを請求する",
+      "badge": "人気No.1",
+      "cta": "プロを取得 →",
       "features": [
         "10 プロジェクト",
         "50 ワークフロー",
@@ -154,7 +151,7 @@
       "price": "$99/月",
       "description": "チームおよび高度な自動化向け",
       "emoji": "🏢",
-      "cta": "エンタープライズNFTをミントする",
+      "cta": "エンタープライズを取得 →",
       "features": [
         "無制限のプロジェクト",
         "無制限のワークフロー",

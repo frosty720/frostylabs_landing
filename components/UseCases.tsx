@@ -225,7 +225,9 @@ export function UseCases() {
             {t("cta")}
           </p>
           <a
-            href="#pricing"
+            href="https://flow.frostylabs.ai"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-gradient-to-r from-frost-blue to-crystal-blue hover:from-ice-blue hover:to-frost-blue text-white font-bold px-10 py-4 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-frost-blue/50 pulse-glow"
           >
             {t("ctaButton")}

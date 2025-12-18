@@ -10,21 +10,18 @@
     "features": "功能",
     "pricing": "定价",
     "about": "关于",
+    "launchApp": "启动应用",
     "github": "GitHub",
     "twitter": "Twitter"
   },
   "hero": {
     "title": "链上代理的操作系统",
     "subtitle": "构建 • 部署 • 自动化 • 扩展",
-    "launchBadge": "🎁 Beta发布 • 100名创始成员",
+    "launchBadge": "🚀 现已在Base上线",
     "description": "自主AI代理的操作系统。构建强大的工作流来研究、交易、铸造和治理——全部链上，全部自动化，无需代码。",
-    "emailPlaceholder": "输入您的电子邮件以获得即时抢先体验",
-    "joinBeta": "获取抢先体验 →",
-    "frostyFlowButton": "FrostyFlow 即将推出",
+    "launchApp": "启动应用 →",
     "viewGithub": "在GitHub上查看",
-    "successMessage": "✅ 您已加入！请查看您的电子邮件以获取即时访问权限。欢迎来到FrostyLabs。",
-    "errorMessage": "❌ 出错了。请重试。",
-    "waitlistOffer": "加入候补名单，前100名将免费获得FrostyLabs AI的1个月订阅。"
+    "nftSubscription": "Base上的NFT订阅。拥有您的访问权限。"
   },
   "stats": {
     "aiModels": "AI模型",
@@ -37,7 +34,7 @@
     "title": "您将自动化什么？",
     "subtitle": "从社交媒体到DeFi交易，FrostyFlow都能处理。一次构建，永久运行。",
     "cta": "这仅仅是个开始。您将构建什么？",
-    "ctaButton": "加入测试版候补名单 →",
+    "ctaButton": "开始构建 →",
     "cards": {
       "socialMedia": {
         "badge": "营销",
@@ -137,8 +134,8 @@
       "price": "$25/月",
       "description": "适合构建高级工作流的专业人士",
       "emoji": "⚡",
-      "badge": "BETA创始者",
-      "cta": "领取免费创始人NFT",
+      "badge": "最受欢迎",
+      "cta": "获取专业版 →",
       "features": [
         "10个项目",
         "50个工作流",
@@ -154,7 +151,7 @@
       "price": "$99/月",
       "description": "适用于团队和高级自动化",
       "emoji": "🏢",
-      "cta": "铸造企业版NFT",
+      "cta": "获取企业版 →",
       "features": [
         "无限项目",
         "无限工作流",

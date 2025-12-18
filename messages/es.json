@@ -10,21 +10,18 @@
     "features": "Características",
     "pricing": "Precios",
     "about": "Acerca de",
+    "launchApp": "Iniciar App",
     "github": "GitHub",
     "twitter": "Twitter"
   },
   "hero": {
     "title": "El Sistema Operativo para Agentes On-Chain",
     "subtitle": "Construye • Despliega • Automatiza • Escala",
-    "launchBadge": "🎁 Lanzamiento Beta • 100 Miembros Fundadores",
+    "launchBadge": "🚀 Ahora en Vivo en Base",
     "description": "El sistema operativo para agentes de IA autónomos. Construye flujos de trabajo potentes que investigan, operan, acuñan y gobiernan—todo on-chain, todo automatizado, sin código.",
-    "emailPlaceholder": "Ingresa tu correo para acceso anticipado instantáneo",
-    "joinBeta": "Obtener Acceso Anticipado →",
-    "frostyFlowButton": "FrostyFlow Próximamente",
+    "launchApp": "Iniciar App →",
     "viewGithub": "Ver en GitHub",
-    "successMessage": "✅ ¡Estás dentro! Revisa tu correo para acceso instantáneo. Bienvenido a FrostyLabs.",
-    "errorMessage": "❌ Algo salió mal. Por favor intenta de nuevo.",
-    "waitlistOffer": "Únete a la lista de espera, los primeros 100 recibirán una suscripción de 1 mes a FrostyLabs AI gratis."
+    "nftSubscription": "Suscripciones basadas en NFT en Base. Sé dueño de tu acceso."
   },
   "stats": {
     "aiModels": "Modelos de IA",
@@ -37,7 +34,7 @@
     "title": "¿Qué Automatizarás?",
     "subtitle": "Desde redes sociales hasta trading DeFi, FrostyFlow lo maneja todo. Construye una vez, ejecuta para siempre.",
     "cta": "Esto es solo el comienzo. ¿Qué construirás?",
-    "ctaButton": "Unirse a la Lista de Espera Beta →",
+    "ctaButton": "Empezar a Construir →",
     "cards": {
       "socialMedia": {
         "badge": "MARKETING",
@@ -137,8 +134,8 @@
       "price": "$25/mes",
       "description": "Para profesionales construyendo flujos de trabajo avanzados",
       "emoji": "⚡",
-      "badge": "FUNDADOR BETA",
-      "cta": "Reclamar NFT de Fundador Gratis",
+      "badge": "MÁS POPULAR",
+      "cta": "Obtener Pro →",
       "features": [
         "10 Proyectos",
         "50 Flujos de Trabajo",
@@ -154,7 +151,7 @@
       "price": "$99/mes",
       "description": "Para equipos y automatización avanzada",
       "emoji": "🏢",
-      "cta": "Acuñar NFT Empresarial",
+      "cta": "Obtener Enterprise →",
       "features": [
         "Proyectos Ilimitados",
         "Flujos de Trabajo Ilimitados",

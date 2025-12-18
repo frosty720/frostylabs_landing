@@ -10,21 +10,18 @@
     "features": "Fonctionnalités",
     "pricing": "Tarifs",
     "about": "À Propos",
+    "launchApp": "Lancer l'App",
     "github": "GitHub",
     "twitter": "Twitter"
   },
   "hero": {
     "title": "Le Système d'Exploitation pour Agents On-Chain",
     "subtitle": "Construire • Déployer • Automatiser • Évoluer",
-    "launchBadge": "🎁 Lancement Bêta • 100 Membres Fondateurs",
+    "launchBadge": "🚀 Maintenant en Ligne sur Base",
     "description": "Le système d'exploitation pour agents IA autonomes. Construisez des flux de travail puissants qui recherchent, tradent, mintent et gouvernent—tout on-chain, tout automatisé, sans code.",
-    "emailPlaceholder": "Entrez votre email pour un accès anticipé instantané",
-    "joinBeta": "Obtenir un Accès Anticipé →",
-    "frostyFlowButton": "FrostyFlow Bientôt Disponible",
+    "launchApp": "Lancer l'App →",
     "viewGithub": "Voir sur GitHub",
-    "successMessage": "✅ Vous êtes inscrit ! Vérifiez votre e-mail pour un accès instantané. Bienvenue chez FrostyLabs.",
-    "errorMessage": "❌ Une erreur s'est produite. Veuillez réessayer.",
-    "waitlistOffer": "Rejoignez la liste d'attente, les 100 premiers recevront un abonnement d'un mois à FrostyLabs AI gratuitement."
+    "nftSubscription": "Abonnements basés sur NFT sur Base. Possédez votre accès."
   },
   "stats": {
     "aiModels": "Modèles IA",
@@ -37,7 +34,7 @@
     "title": "Que Allez-vous Automatiser ?",
     "subtitle": "Des réseaux sociaux au trading DeFi, FrostyFlow gère tout. Construisez une fois, exécutez pour toujours.",
     "cta": "Ce n'est que le début. Que allez-vous construire ?",
-    "ctaButton": "Rejoindre la Liste d'Attente Bêta →",
+    "ctaButton": "Commencer à Construire →",
     "cards": {
       "socialMedia": {
         "badge": "MARKETING",
@@ -137,8 +134,8 @@
       "price": "25 $/mois",
       "description": "Pour les professionnels construisant des flux de travail avancés",
       "emoji": "⚡",
-      "badge": "FONDATEUR BÉTA",
-      "cta": "Réclamer NFT Fondateur Gratuit",
+      "badge": "LE PLUS POPULAIRE",
+      "cta": "Obtenir Pro →",
       "features": [
         "10 Projets",
         "50 Flux de Travail",
@@ -154,7 +151,7 @@
       "price": "99 $/mois",
       "description": "Pour les équipes et l'automatisation avancée",
       "emoji": "🏢",
-      "cta": "Mintez le NFT Entreprise",
+      "cta": "Obtenir Entreprise →",
       "features": [
         "Projets Illimités",
         "Flux de Travail Illimités",

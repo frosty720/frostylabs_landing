@@ -10,21 +10,18 @@
     "features": "Features",
     "pricing": "Pricing",
     "about": "About",
+    "launchApp": "Launch App",
     "github": "GitHub",
     "twitter": "Twitter"
   },
   "hero": {
     "title": "The OS for On-Chain Agents",
     "subtitle": "Build • Deploy • Automate • Scale",
-    "launchBadge": "🎁 Beta Launch • 100 Founding Members",
+    "launchBadge": "🚀 Now Live on Base",
     "description": "The operating system for autonomous AI agents. Build powerful workflows that research, trade, mint, and govern—all on-chain, all automated, no code required.",
-    "emailPlaceholder": "Enter your email for instant early access",
-    "joinBeta": "Get Early Access  →",
-    "frostyFlowButton": "FrostyFlow Coming Soon",
+    "launchApp": "Launch App →",
     "viewGithub": "View on GitHub",
-    "successMessage": "✅ You're in! Check your email for instant access. Welcome to FrostyLabs.",
-    "errorMessage": "❌ Something went wrong. Please try again.",
-    "waitlistOffer": "Join the waitlist, the first 100 will receive a 1 month subscription to FrostyLabs AI for free."
+    "nftSubscription": "NFT-based subscriptions on Base. Own your access."
   },
   "stats": {
     "aiModels": "AI Models",
@@ -37,7 +34,7 @@
     "title": "What Will You Automate?",
     "subtitle": "From social media to DeFi trading, FrostyFlow handles it all. Build once, run forever.",
     "cta": "These are just the beginning. What will you build?",
-    "ctaButton": "Join the Beta Waitlist →",
+    "ctaButton": "Start Building →",
     "cards": {
       "socialMedia": {
         "badge": "MARKETING",
@@ -137,8 +134,8 @@
       "price": "$25/mo",
       "description": "For professionals building advanced workflows",
       "emoji": "⚡",
-      "badge": "BETA FOUNDER",
-      "cta": "Claim Free Founder NFT",
+      "badge": "MOST POPULAR",
+      "cta": "Get Pro →",
       "features": [
         "10 Projects",
         "50 Workflows",
@@ -154,7 +151,7 @@
       "price": "$99/mo",
       "description": "For teams and advanced automation",
       "emoji": "🏢",
-      "cta": "Mint Enterprise NFT",
+      "cta": "Get Enterprise →",
       "features": [
         "Unlimited Projects",
         "Unlimited Workflows",

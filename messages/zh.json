@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "FrostyLabs - 为Web3中的任何事物构建AI代理 | 研究 • DeFi • NFT • DAO & 更多",
-    "description": "为Web3中的任何事物构建AI驱动的工作流。在35+个网络上自动化研究、DeFi操作、NFT铸造、DAO治理等。无代码自动化。100名Beta创始者参加 - 首月免费。2025年12月推出。",
-    "keywords": "AI Web3自动化, 区块链AI代理, 无代码DeFi自动化, AI工作流构建器, NFT自动化, DAO自动化, Web3 AI工具, 加密自动化平台, FrostyDAO, FROST代币, AI代理市场, Web3工作流自动化"
+    "title": "FrostyLabs - 链上代理的操作系统 | 构建、部署和自动化",
+    "description": "自主链上代理的操作系统。在35+个区块链网络上构建、部署和自动化AI工作流。无代码。Base上的NFT订阅。100名Beta创始者参加 - 首月免费。",
+    "keywords": "AI Web3自动化, 区块链AI代理, 无代码DeFi自动化, AI工作流构建器, NFT自动化, DAO自动化, Web3 AI工具, 加密自动化平台, FrostyDAO, FROST代币, AI代理市场, 链上代理, 自主代理"
   },
   "nav": {
     "home": "首页",
@@ -14,10 +14,10 @@
     "twitter": "Twitter"
   },
   "hero": {
-    "title": "为Web3中的任何事物构建AI代理",
-    "subtitle": "研究 • DeFi • NFT • DAO • 更多",
+    "title": "链上代理的操作系统",
+    "subtitle": "构建 • 部署 • 自动化 • 扩展",
     "launchBadge": "🎁 Beta发布 • 100名创始成员",
-    "description": "创建强大的AI工作流，自动化您的整个Web3体验。从研究到DeFi操作，从NFT铸造到DAO治理——无需编码。",
+    "description": "自主AI代理的操作系统。构建强大的工作流来研究、交易、铸造和治理——全部链上，全部自动化，无需代码。",
     "emailPlaceholder": "输入您的电子邮件以获得即时抢先体验",
     "joinBeta": "获取抢先体验 →",
     "frostyFlowButton": "FrostyFlow 即将推出",

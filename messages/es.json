@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "FrostyLabs - Construye Agentes de IA para Web3 | Investigación • DeFi • NFTs • DAOs y Más",
-    "description": "Construye flujos de trabajo impulsados por IA para cualquier cosa en Web3. Automatiza investigación, operaciones DeFi, acuñación de NFTs, gobernanza DAO y más en más de 35 redes. Automatización sin código. Únete a 100 Fundadores Beta - primer mes gratis. Lanzando Diciembre 2025.",
-    "keywords": "automatización IA Web3, agentes IA blockchain, automatización DeFi sin código, constructor de flujos de trabajo IA, automatización NFT, automatización DAO, herramientas IA Web3, plataforma automatización cripto, FrostyDAO, token FROST, mercado agentes IA, automatización flujos Web3"
+    "title": "FrostyLabs - El Sistema Operativo para Agentes On-Chain | Construye, Despliega y Automatiza",
+    "description": "El sistema operativo para agentes autónomos on-chain. Construye, despliega y automatiza flujos de trabajo de IA en más de 35 redes blockchain. Sin código. Suscripciones NFT en Base. Únete a 100 Fundadores Beta - primer mes gratis.",
+    "keywords": "automatización IA Web3, agentes IA blockchain, automatización DeFi sin código, constructor de flujos de trabajo IA, automatización NFT, automatización DAO, herramientas IA Web3, plataforma automatización cripto, FrostyDAO, token FROST, mercado agentes IA, agentes on-chain, agentes autónomos"
   },
   "nav": {
     "home": "Inicio",
@@ -14,10 +14,10 @@
     "twitter": "Twitter"
   },
   "hero": {
-    "title": "Construye Agentes de IA para Todo en Web3",
-    "subtitle": "Investigación • DeFi • NFTs • DAOs • Y Más",
+    "title": "El Sistema Operativo para Agentes On-Chain",
+    "subtitle": "Construye • Despliega • Automatiza • Escala",
     "launchBadge": "🎁 Lanzamiento Beta • 100 Miembros Fundadores",
-    "description": "Crea potentes flujos de trabajo de IA que automatizan toda tu experiencia Web3. Desde investigación hasta operaciones DeFi, acuñación de NFTs hasta gobernanza DAO—sin necesidad de código.",
+    "description": "El sistema operativo para agentes de IA autónomos. Construye flujos de trabajo potentes que investigan, operan, acuñan y gobiernan—todo on-chain, todo automatizado, sin código.",
     "emailPlaceholder": "Ingresa tu correo para acceso anticipado instantáneo",
     "joinBeta": "Obtener Acceso Anticipado →",
     "frostyFlowButton": "FrostyFlow Próximamente",

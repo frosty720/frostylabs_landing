@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "FrostyLabs - Construisez des Agents IA pour le Web3 | Recherche • DeFi • NFTs • DAOs & Plus",
-    "description": "Construisez des flux de travail alimentés par l'IA pour tout dans le Web3. Automatisez la recherche, les opérations DeFi, la création de NFT, la gouvernance DAO, et plus encore sur plus de 35 réseaux. Automatisation sans code. Rejoignez 100 Fondateurs Beta - premier mois gratuit. Lancement Décembre 2025.",
-    "keywords": "automatisation IA Web3, agents IA blockchain, automatisation DeFi sans code, constructeur de flux de travail IA, automatisation NFT, automatisation DAO, outils IA Web3, plateforme automatisation crypto, FrostyDAO, jeton FROST, marché agents IA, automatisation flux Web3"
+    "title": "FrostyLabs - Le Système d'Exploitation pour Agents On-Chain | Construisez, Déployez et Automatisez",
+    "description": "Le système d'exploitation pour agents autonomes on-chain. Construisez, déployez et automatisez des flux de travail IA sur plus de 35 réseaux blockchain. Sans code. Abonnements NFT sur Base. Rejoignez 100 Fondateurs Beta - premier mois gratuit.",
+    "keywords": "automatisation IA Web3, agents IA blockchain, automatisation DeFi sans code, constructeur de flux de travail IA, automatisation NFT, automatisation DAO, outils IA Web3, plateforme automatisation crypto, FrostyDAO, jeton FROST, marché agents IA, agents on-chain, agents autonomes"
   },
   "nav": {
     "home": "Accueil",
@@ -14,10 +14,10 @@
     "twitter": "Twitter"
   },
   "hero": {
-    "title": "Construisez des Agents IA pour Tout dans le Web3",
-    "subtitle": "Recherche • DeFi • NFTs • DAOs • Et Plus",
+    "title": "Le Système d'Exploitation pour Agents On-Chain",
+    "subtitle": "Construire • Déployer • Automatiser • Évoluer",
     "launchBadge": "🎁 Lancement Bêta • 100 Membres Fondateurs",
-    "description": "Créez des flux de travail IA puissants qui automatisent toute votre expérience Web3. De la recherche aux opérations DeFi, de la création de NFT à la gouvernance DAO—aucun code requis.",
+    "description": "Le système d'exploitation pour agents IA autonomes. Construisez des flux de travail puissants qui recherchent, tradent, mintent et gouvernent—tout on-chain, tout automatisé, sans code.",
     "emailPlaceholder": "Entrez votre email pour un accès anticipé instantané",
     "joinBeta": "Obtenir un Accès Anticipé →",
     "frostyFlowButton": "FrostyFlow Bientôt Disponible",

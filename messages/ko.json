@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "FrostyLabs - Web3용 AI 에이전트 구축 | 연구 • DeFi • NFT • DAO 및 기타",
-    "description": "Web3의 모든 것을 위한 AI 기반 workflow를 구축하세요. 35개 이상의 네트워크에서 연구, DeFi 운영, NFT 민팅, DAO 거버넌스 등을 자동화하세요. 노코드 자동화. 100명 베타 창립자 참여 - 첫 달 무료. 2025년 12월 출시.",
-    "keywords": "AI Web3 자동화, 블록체인 AI 에이전트, 노코드 DeFi 자동화, AI 워크플로우 빌더, NFT 자동화, DAO 자동화, Web3 AI 도구, 암호화폐 자동화 플랫폼, FrostyDAO, FROST 토큰, AI 에이전트 마켓플레이스, Web3 워크플로우 자동화"
+    "title": "FrostyLabs - 온체인 에이전트를 위한 OS | 구축, 배포 및 자동화",
+    "description": "자율 온체인 에이전트를 위한 운영 체제. 35개 이상의 블록체인 네트워크에서 AI 워크플로우를 구축, 배포 및 자동화하세요. 노코드. Base에서 NFT 구독. 100명 베타 창립자 참여 - 첫 달 무료.",
+    "keywords": "AI Web3 자동화, 블록체인 AI 에이전트, 노코드 DeFi 자동화, AI 워크플로우 빌더, NFT 자동화, DAO 자동화, Web3 AI 도구, 암호화폐 자동화 플랫폼, FrostyDAO, FROST 토큰, AI 에이전트 마켓플레이스, 온체인 에이전트, 자율 에이전트"
   },
   "nav": {
     "home": "홈",
@@ -14,10 +14,10 @@
     "twitter": "Twitter"
   },
   "hero": {
-    "title": "Web3의 모든 것을 위한 AI 에이전트 구축",
-    "subtitle": "연구 • DeFi • NFT • DAO • 기타 등등",
+    "title": "온체인 에이전트를 위한 OS",
+    "subtitle": "구축 • 배포 • 자동화 • 확장",
     "launchBadge": "🎁 베타 출시 • 100명의 창립 멤버",
-    "description": "전체 Web3 경험을 자동화하는 강력한 AI 워크플로우를 만드세요. 연구에서 DeFi 운영, NFT 민팅에서 DAO 거버넌스까지—코딩이 필요 없습니다.",
+    "description": "자율 AI 에이전트를 위한 운영 체제. 연구, 거래, 민팅, 거버넌스를 수행하는 강력한 워크플로우를 구축하세요—모두 온체인, 모두 자동화, 코드 불필요.",
     "emailPlaceholder": "즉시 조기 액세스를 위해 이메일을 입력하세요",
     "joinBeta": "조기 액세스 받기 →",
     "frostyFlowButton": "FrostyFlow 곧 출시 예정",

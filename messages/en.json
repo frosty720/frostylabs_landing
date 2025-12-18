@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "FrostyLabs - Build AI Agents for Web3 | Research • DeFi • NFTs • DAOs & More",
-    "description": "Build AI-powered workflows for anything in Web3. Automate research, DeFi operations, NFT minting, DAO governance, and more across 35+ networks. No-code automation. Join 100 Beta Founders - first month free. Launching December 2025.",
-    "keywords": "AI Web3 automation, blockchain AI agents, no-code DeFi automation, AI workflow builder, NFT automation, DAO automation, Web3 AI tools, crypto automation platform, FrostyDAO, FROST token, AI agent marketplace, Web3 workflow automation"
+    "title": "FrostyLabs - The OS for On-Chain Agents | Build, Deploy & Automate AI Workflows",
+    "description": "The operating system for autonomous on-chain agents. Build, deploy, and automate AI workflows across 35+ blockchain networks. No-code. NFT subscriptions on Base. Join 100 Beta Founders - first month free.",
+    "keywords": "AI Web3 automation, blockchain AI agents, no-code DeFi automation, AI workflow builder, NFT automation, DAO automation, Web3 AI tools, crypto automation platform, FrostyDAO, FROST token, AI agent marketplace, on-chain agents, autonomous agents"
   },
   "nav": {
     "home": "Home",
@@ -14,10 +14,10 @@
     "twitter": "Twitter"
   },
   "hero": {
-    "title": "Build AI Agents for Anything in Web3",
-    "subtitle": "Research • DeFi • NFTs • DAOs • And More",
+    "title": "The OS for On-Chain Agents",
+    "subtitle": "Build • Deploy • Automate • Scale",
     "launchBadge": "🎁 Beta Launch • 100 Founding Members",
-    "description": "Create powerful AI workflows that automate your entire Web3 experience. From research to DeFi operations, NFT minting to DAO governance—no coding required.",
+    "description": "The operating system for autonomous AI agents. Build powerful workflows that research, trade, mint, and govern—all on-chain, all automated, no code required.",
     "emailPlaceholder": "Enter your email for instant early access",
     "joinBeta": "Get Early Access  →",
     "frostyFlowButton": "FrostyFlow Coming Soon",

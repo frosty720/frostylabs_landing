@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "FrostyLabs - 链上代理的操作系统 | 构建、部署和自动化",
-    "description": "自主链上代理的操作系统。在35+个区块链网络上构建、部署和自动化AI工作流。无代码。Base上的NFT订阅。100名Beta创始者参加 - 首月免费。",
-    "keywords": "AI Web3自动化, 区块链AI代理, 无代码DeFi自动化, AI工作流构建器, NFT自动化, DAO自动化, Web3 AI工具, 加密自动化平台, FrostyDAO, FROST代币, AI代理市场, 链上代理, 自主代理"
+    "title": "FrostyFi — Build autonomous on-chain agents",
+    "description": "The visual platform for AI agents that act on-chain. Build workflows, run them anywhere, pay per call with x402. Now in beta.",
+    "keywords": "on-chain AI agents, x402 payments, no-code AI workflows, web3 automation, agent platform, EVM, Solana"
   },
   "nav": {
     "home": "首页",
@@ -15,13 +15,11 @@
     "twitter": "Twitter"
   },
   "hero": {
-    "title": "链上代理的操作系统",
-    "subtitle": "构建 • 部署 • 自动化 • 扩展",
-    "launchBadge": "🚀 现已在Base上线",
-    "description": "自主AI代理的操作系统。构建强大的工作流来研究、交易、铸造和治理——全部链上，全部自动化，无需代码。",
-    "launchApp": "启动应用 →",
-    "viewGithub": "在GitHub上查看",
-    "nftSubscription": "Base上的NFT订阅。拥有您的访问权限。"
+    "badge": "Now in beta",
+    "title": "Build autonomous on-chain agents",
+    "description": "The visual platform for AI agents that act on-chain. Describe it, build it visually, deploy it — workflows that pay per call with x402.",
+    "launchApp": "Launch app",
+    "watchDemo": "Watch demo"
   },
   "stats": {
     "aiModels": "AI模型",
@@ -29,7 +27,6 @@
     "automatedExecution": "自动执行",
     "possibilities": "可能性"
   },
-
   "useCases": {
     "title": "您将自动化什么？",
     "subtitle": "从社交媒体到DeFi交易，FrostyFlow都能处理。一次构建，永久运行。",
@@ -256,12 +253,24 @@
       "emailSocial": {
         "title": "电子邮件 & 社交登录",
         "description": "使用Google、Discord、Twitter、GitHub或电子邮件注册——就像任何其他应用程序一样。",
-        "methods": ["Google", "Discord", "Twitter", "电子邮件", "GitHub", "Passkey"]
+        "methods": [
+          "Google",
+          "Discord",
+          "Twitter",
+          "电子邮件",
+          "GitHub",
+          "Passkey"
+        ]
       },
       "wallet": {
         "title": "连接您的钱包",
         "description": "已有MetaMask、Coinbase Wallet或其他钱包？立即连接。",
-        "wallets": ["MetaMask", "Coinbase", "Rainbow", "Ledger"]
+        "wallets": [
+          "MetaMask",
+          "Coinbase",
+          "Rainbow",
+          "Ledger"
+        ]
       },
       "behindScenes": {
         "title": "幕后发生了什么？",

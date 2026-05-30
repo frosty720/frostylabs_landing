@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "FrostyLabs - El Sistema Operativo para Agentes On-Chain | Construye, Despliega y Automatiza",
-    "description": "El sistema operativo para agentes autónomos on-chain. Construye, despliega y automatiza flujos de trabajo de IA en más de 35 redes blockchain. Sin código. Suscripciones NFT en Base. Únete a 100 Fundadores Beta - primer mes gratis.",
-    "keywords": "automatización IA Web3, agentes IA blockchain, automatización DeFi sin código, constructor de flujos de trabajo IA, automatización NFT, automatización DAO, herramientas IA Web3, plataforma automatización cripto, FrostyDAO, token FROST, mercado agentes IA, agentes on-chain, agentes autónomos"
+    "title": "FrostyFi — Build autonomous on-chain agents",
+    "description": "The visual platform for AI agents that act on-chain. Build workflows, run them anywhere, pay per call with x402. Now in beta.",
+    "keywords": "on-chain AI agents, x402 payments, no-code AI workflows, web3 automation, agent platform, EVM, Solana"
   },
   "nav": {
     "home": "Inicio",
@@ -15,13 +15,11 @@
     "twitter": "Twitter"
   },
   "hero": {
-    "title": "El Sistema Operativo para Agentes On-Chain",
-    "subtitle": "Construye • Despliega • Automatiza • Escala",
-    "launchBadge": "🚀 Ahora en Vivo en Base",
-    "description": "El sistema operativo para agentes de IA autónomos. Construye flujos de trabajo potentes que investigan, operan, acuñan y gobiernan—todo on-chain, todo automatizado, sin código.",
-    "launchApp": "Iniciar App →",
-    "viewGithub": "Ver en GitHub",
-    "nftSubscription": "Suscripciones basadas en NFT en Base. Sé dueño de tu acceso."
+    "badge": "Now in beta",
+    "title": "Build autonomous on-chain agents",
+    "description": "The visual platform for AI agents that act on-chain. Describe it, build it visually, deploy it — workflows that pay per call with x402.",
+    "launchApp": "Launch app",
+    "watchDemo": "Watch demo"
   },
   "stats": {
     "aiModels": "Modelos de IA",
@@ -29,7 +27,6 @@
     "automatedExecution": "Ejecución Automatizada",
     "possibilities": "Posibilidades"
   },
-
   "useCases": {
     "title": "¿Qué Automatizarás?",
     "subtitle": "Desde redes sociales hasta trading DeFi, FrostyFlow lo maneja todo. Construye una vez, ejecuta para siempre.",
@@ -256,12 +253,24 @@
       "emailSocial": {
         "title": "Correo y Redes Sociales",
         "description": "Regístrate con Google, Discord, Twitter, GitHub o correo - como cualquier otra aplicación.",
-        "methods": ["Google", "Discord", "Twitter", "Correo", "GitHub", "Passkey"]
+        "methods": [
+          "Google",
+          "Discord",
+          "Twitter",
+          "Correo",
+          "GitHub",
+          "Passkey"
+        ]
       },
       "wallet": {
         "title": "Conecta tu Billetera",
         "description": "¿Ya tienes MetaMask, Coinbase Wallet u otra billetera? Conéctala al instante.",
-        "wallets": ["MetaMask", "Coinbase", "Rainbow", "Ledger"]
+        "wallets": [
+          "MetaMask",
+          "Coinbase",
+          "Rainbow",
+          "Ledger"
+        ]
       },
       "behindScenes": {
         "title": "¿Qué Sucede Detrás de Escena?",

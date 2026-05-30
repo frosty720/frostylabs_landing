@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "FrostyLabs - The OS for On-Chain Agents | Build, Deploy & Automate AI Workflows",
-    "description": "The operating system for autonomous on-chain agents. Build, deploy, and automate AI workflows across 35+ blockchain networks. No-code. NFT subscriptions on Base. Join 100 Beta Founders - first month free.",
-    "keywords": "AI Web3 automation, blockchain AI agents, no-code DeFi automation, AI workflow builder, NFT automation, DAO automation, Web3 AI tools, crypto automation platform, FrostyDAO, FROST token, AI agent marketplace, on-chain agents, autonomous agents"
+    "title": "FrostyFi — Build autonomous on-chain agents",
+    "description": "The visual platform for AI agents that act on-chain. Build workflows, run them anywhere, pay per call with x402. Now in beta.",
+    "keywords": "on-chain AI agents, x402 payments, no-code AI workflows, web3 automation, agent platform, EVM, Solana"
   },
   "nav": {
     "home": "Home",
@@ -15,13 +15,11 @@
     "twitter": "Twitter"
   },
   "hero": {
-    "title": "The OS for On-Chain Agents",
-    "subtitle": "Build • Deploy • Automate • Scale",
-    "launchBadge": "🚀 Now Live on Base",
-    "description": "The operating system for autonomous AI agents. Build powerful workflows that research, trade, mint, and govern—all on-chain, all automated, no code required.",
-    "launchApp": "Launch App →",
-    "viewGithub": "View on GitHub",
-    "nftSubscription": "NFT-based subscriptions on Base. Own your access."
+    "badge": "Now in beta",
+    "title": "Build autonomous on-chain agents",
+    "description": "The visual platform for AI agents that act on-chain. Describe it, build it visually, deploy it — workflows that pay per call with x402.",
+    "launchApp": "Launch app",
+    "watchDemo": "Watch demo"
   },
   "stats": {
     "aiModels": "AI Models",

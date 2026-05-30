@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "FrostyLabs - オンチェーンエージェントのOS | 構築、デプロイ、自動化",
-    "description": "自律型オンチェーンエージェントのためのオペレーティングシステム。35以上のブロックチェーンネットワークでAIワークフローを構築、デプロイ、自動化。ノーコード。BaseでNFTサブスクリプション。100名のベータ創設者参加 - 初月無料。",
-    "keywords": "AI Web3自動化, ブロックチェーンAIエージェント, ノーコードDeFi自動化, AIワークフロービルダー, NFT自動化, DAO自動化, Web3 AIツール, 暗号自動化プラットフォーム, FrostyDAO, FROSTトークン, AIエージェントマーケットプレイス, オンチェーンエージェント, 自律型エージェント"
+    "title": "FrostyFi — Build autonomous on-chain agents",
+    "description": "The visual platform for AI agents that act on-chain. Build workflows, run them anywhere, pay per call with x402. Now in beta.",
+    "keywords": "on-chain AI agents, x402 payments, no-code AI workflows, web3 automation, agent platform, EVM, Solana"
   },
   "nav": {
     "home": "ホーム",
@@ -15,13 +15,11 @@
     "twitter": "Twitter"
   },
   "hero": {
-    "title": "オンチェーンエージェントのOS",
-    "subtitle": "構築 • デプロイ • 自動化 • スケール",
-    "launchBadge": "🚀 Baseで公開中",
-    "description": "自律型AIエージェントのためのオペレーティングシステム。リサーチ、トレード、ミント、ガバナンス—すべてオンチェーン、すべて自動化、コード不要。",
-    "launchApp": "アプリを起動 →",
-    "viewGithub": "GitHubで見る",
-    "nftSubscription": "BaseでのNFTベースのサブスクリプション。アクセス権を所有しよう。"
+    "badge": "Now in beta",
+    "title": "Build autonomous on-chain agents",
+    "description": "The visual platform for AI agents that act on-chain. Describe it, build it visually, deploy it — workflows that pay per call with x402.",
+    "launchApp": "Launch app",
+    "watchDemo": "Watch demo"
   },
   "stats": {
     "aiModels": "AIモデル",
@@ -29,7 +27,6 @@
     "automatedExecution": "自動実行",
     "possibilities": "可能性"
   },
-
   "useCases": {
     "title": "何を自動化しますか？",
     "subtitle": "ソーシャルメディアからDeFi取引まで、FrostyFlowがすべて処理します。一度構築すれば、永遠に実行できます。",
@@ -256,12 +253,24 @@
       "emailSocial": {
         "title": "メール & ソーシャルログイン",
         "description": "Google、Discord、Twitter、GitHub、またはメールでサインアップ - 他のアプリと同じように。",
-        "methods": ["Google", "Discord", "Twitter", "Email", "GitHub", "Passkey"]
+        "methods": [
+          "Google",
+          "Discord",
+          "Twitter",
+          "Email",
+          "GitHub",
+          "Passkey"
+        ]
       },
       "wallet": {
         "title": "ウォレットを接続",
         "description": "MetaMask、Coinbase Wallet、またはその他のウォレットをお持ちですか？即座に接続できます。",
-        "wallets": ["MetaMask", "Coinbase", "Rainbow", "Ledger"]
+        "wallets": [
+          "MetaMask",
+          "Coinbase",
+          "Rainbow",
+          "Ledger"
+        ]
       },
       "behindScenes": {
         "title": "舞台裏で何が起こっているのか？",

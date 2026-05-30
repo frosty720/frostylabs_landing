@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "FrostyLabs - 온체인 에이전트를 위한 OS | 구축, 배포 및 자동화",
-    "description": "자율 온체인 에이전트를 위한 운영 체제. 35개 이상의 블록체인 네트워크에서 AI 워크플로우를 구축, 배포 및 자동화하세요. 노코드. Base에서 NFT 구독. 100명 베타 창립자 참여 - 첫 달 무료.",
-    "keywords": "AI Web3 자동화, 블록체인 AI 에이전트, 노코드 DeFi 자동화, AI 워크플로우 빌더, NFT 자동화, DAO 자동화, Web3 AI 도구, 암호화폐 자동화 플랫폼, FrostyDAO, FROST 토큰, AI 에이전트 마켓플레이스, 온체인 에이전트, 자율 에이전트"
+    "title": "FrostyFi — Build autonomous on-chain agents",
+    "description": "The visual platform for AI agents that act on-chain. Build workflows, run them anywhere, pay per call with x402. Now in beta.",
+    "keywords": "on-chain AI agents, x402 payments, no-code AI workflows, web3 automation, agent platform, EVM, Solana"
   },
   "nav": {
     "home": "홈",
@@ -15,13 +15,11 @@
     "twitter": "Twitter"
   },
   "hero": {
-    "title": "온체인 에이전트를 위한 OS",
-    "subtitle": "구축 • 배포 • 자동화 • 확장",
-    "launchBadge": "🚀 Base에서 라이브",
-    "description": "자율 AI 에이전트를 위한 운영 체제. 연구, 거래, 민팅, 거버넌스를 수행하는 강력한 워크플로우를 구축하세요—모두 온체인, 모두 자동화, 코드 불필요.",
-    "launchApp": "앱 실행 →",
-    "viewGithub": "GitHub에서 보기",
-    "nftSubscription": "Base에서 NFT 기반 구독. 액세스 권한을 소유하세요."
+    "badge": "Now in beta",
+    "title": "Build autonomous on-chain agents",
+    "description": "The visual platform for AI agents that act on-chain. Describe it, build it visually, deploy it — workflows that pay per call with x402.",
+    "launchApp": "Launch app",
+    "watchDemo": "Watch demo"
   },
   "stats": {
     "aiModels": "AI 모델",
@@ -255,12 +253,24 @@
       "emailSocial": {
         "title": "이메일 및 소셜 로그인",
         "description": "Google, Discord, Twitter, GitHub 또는 이메일로 가입하세요 - 다른 앱과 마찬가지로.",
-        "methods": ["Google", "Discord", "Twitter", "Email", "GitHub", "Passkey"]
+        "methods": [
+          "Google",
+          "Discord",
+          "Twitter",
+          "Email",
+          "GitHub",
+          "Passkey"
+        ]
       },
       "wallet": {
         "title": "지갑 연결",
         "description": "MetaMask, Coinbase Wallet 또는 다른 지갑이 이미 있으신가요? 즉시 연결하세요.",
-        "wallets": ["MetaMask", "Coinbase", "Rainbow", "Ledger"]
+        "wallets": [
+          "MetaMask",
+          "Coinbase",
+          "Rainbow",
+          "Ledger"
+        ]
       },
       "behindScenes": {
         "title": "무대 뒤에서는 무슨 일이 일어나나요?",

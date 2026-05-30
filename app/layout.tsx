@@ -8,6 +8,7 @@ import { getLocale, getMessages } from "next-intl/server";
 import Script from "next/script";
 import { ThirdwebProvider } from "thirdweb/react";
 import { SITE } from "@/lib/site";
+import { LenisProvider } from "@/lib/scroll/lenis-provider";
 
 const GA_MEASUREMENT_ID = "G-X9XDDBT2WM";
 
@@ -160,7 +161,7 @@ export default async function RootLayout({
               enableSystem
               disableTransitionOnChange
             >
-              {children}
+              <LenisProvider>{children}</LenisProvider>
               <Toaster />
             </ThemeProvider>
           </ThirdwebProvider>

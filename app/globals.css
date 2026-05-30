@@ -4,53 +4,55 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  --color-sidebar-ring: var(--sidebar-ring);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar: var(--sidebar);
-  --color-chart-5: var(--chart-5);
-  --color-chart-4: var(--chart-4);
-  --color-chart-3: var(--chart-3);
-  --color-chart-2: var(--chart-2);
-  --color-chart-1: var(--chart-1);
-  --color-ring: var(--ring);
-  --color-input: var(--input);
-  --color-border: var(--border);
-  --color-destructive: var(--destructive);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-accent: var(--accent);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-muted: var(--muted);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-secondary: var(--secondary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-primary: var(--primary);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-popover: var(--popover);
-  --color-card-foreground: var(--card-foreground);
-  --color-card: var(--card);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--font-sans: var(--font-geist-sans);
+	--font-mono: var(--font-geist-mono);
+	--color-sidebar-ring: var(--sidebar-ring);
+	--color-sidebar-border: var(--sidebar-border);
+	--color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+	--color-sidebar-accent: var(--sidebar-accent);
+	--color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+	--color-sidebar-primary: var(--sidebar-primary);
+	--color-sidebar-foreground: var(--sidebar-foreground);
+	--color-sidebar: var(--sidebar);
+	--color-chart-5: var(--chart-5);
+	--color-chart-4: var(--chart-4);
+	--color-chart-3: var(--chart-3);
+	--color-chart-2: var(--chart-2);
+	--color-chart-1: var(--chart-1);
+	--color-ring: var(--ring);
+	--color-input: var(--input);
+	--color-border: var(--border);
+	--color-destructive: var(--destructive);
+	--color-accent-foreground: var(--accent-foreground);
+	--color-accent: var(--accent);
+	--color-muted-foreground: var(--muted-foreground);
+	--color-muted: var(--muted);
+	--color-secondary-foreground: var(--secondary-foreground);
+	--color-secondary: var(--secondary);
+	--color-primary-foreground: var(--primary-foreground);
+	--color-primary: var(--primary);
+	--color-popover-foreground: var(--popover-foreground);
+	--color-popover: var(--popover);
+	--color-card-foreground: var(--card-foreground);
+	--color-card: var(--card);
+	--radius-sm: calc(var(--radius) - 4px);
+	--radius-md: calc(var(--radius) - 2px);
+	--radius-lg: var(--radius);
+	--radius-xl: calc(var(--radius) + 4px);
 
-  /* FrostyLabs Ice/Snow Theme */
-  --color-frost-blue: #7dd3fc;
-  --color-ice-blue: #38bdf8;
-  --color-crystal-blue: #0ea5e9;
-  --color-glacier: #e0f2fe;
-  --color-silver: #cbd5e1;
-  --color-arctic-white: #f8fafc;
-  --color-deep-arctic: #0c1e2e;
-  --color-frozen-slate: #1e293b;
+	/* Aurora-B Theme */
+	--color-bg: #05060b;
+	--color-bg-soft: #0b0f17;
+	--color-cyan: #22d3ee;
+	--color-cyan-soft: #67e8f9;
+	--color-violet: #a78bfa;
+	--color-magenta: #f0abfc;
+	--color-ink: #f2f0ff;
+	--color-ink-dim: #aab2c5;
+	--font-display: var(--font-display);
+	--font-mono-accent: var(--font-mono-accent);
 }
 
 :root {
@@ -123,114 +125,25 @@
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-
-  /* FrostyLabs Ice/Snow Theme */
-  :root {
-    --frost-blue: #7dd3fc;
-    --ice-blue: #38bdf8;
-    --crystal-blue: #0ea5e9;
-    --glacier: #e0f2fe;
-    --silver: #cbd5e1;
-    --arctic-white: #f8fafc;
-    --deep-arctic: #0c1e2e;
-    --frozen-slate: #1e293b;
-  }
+	* {
+		@apply border-border outline-ring/50;
+	}
+	body { background: #05060b; color: #f2f0ff; font-family: var(--font-display), sans-serif; }
 }
 
 @layer utilities {
-  .gradient-text {
-    @apply bg-gradient-to-r from-[var(--frost-blue)] via-[var(--ice-blue)] to-[var(--crystal-blue)] bg-clip-text text-transparent;
-  }
+	.aurora-text { background: linear-gradient(90deg, #67e8f9, #a78bfa, #f0abfc); -webkit-background-clip: text; background-clip: text; color: transparent; }
+	.aurora-bg { background: radial-gradient(100% 80% at 80% 10%, rgba(167,139,250,.28), transparent 55%), radial-gradient(90% 70% at 10% 90%, rgba(34,211,238,.25), transparent 55%), #05060b; }
+	.grid-overlay { background-image: repeating-linear-gradient(0deg, rgba(255,255,255,.03) 0 1px, transparent 1px 28px); }
+	.mono-label { font-family: var(--font-mono-accent), monospace; letter-spacing: .04em; text-transform: uppercase; font-size: .75rem; }
 
-  .glassmorphism {
-    @apply bg-slate-900/80 backdrop-blur-md;
-  }
+	.glassmorphism {
+		@apply bg-slate-900/80 backdrop-blur-md;
+	}
 
-  .frosted-glass {
-    @apply bg-white/5 backdrop-blur-xl border border-white/10;
-  }
+	.frosted-glass {
+		@apply bg-white/5 backdrop-blur-xl border border-white/10;
+	}
 }
 
-/* Animations */
-@keyframes gradient-shift {
-  0%, 100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-}
-
-@keyframes pulse-glow {
-  0%, 100% {
-    box-shadow: 0 0 20px rgba(125, 211, 252, 0.4), 0 0 40px rgba(56, 189, 248, 0.2);
-  }
-  50% {
-    box-shadow: 0 0 30px rgba(125, 211, 252, 0.6), 0 0 60px rgba(56, 189, 248, 0.3);
-  }
-}
-
-@keyframes shimmer {
-  0% {
-    background-position: -1000px 0;
-  }
-  100% {
-    background-position: 1000px 0;
-  }
-}
-
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-}
-
-.hero-gradient-bg {
-  background: linear-gradient(135deg,
-    rgba(125, 211, 252, 0.08) 0%,
-    rgba(56, 189, 248, 0.12) 25%,
-    rgba(14, 165, 233, 0.15) 50%,
-    rgba(56, 189, 248, 0.12) 75%,
-    rgba(125, 211, 252, 0.08) 100%);
-  background-size: 400% 400%;
-  animation: gradient-shift 20s ease infinite;
-}
-
-.pulse-glow {
-  animation: pulse-glow 3s ease-in-out infinite;
-}
-
-.shimmer {
-  background: linear-gradient(90deg,
-    transparent 0%,
-    rgba(255, 255, 255, 0.1) 50%,
-    transparent 100%);
-  background-size: 200% 100%;
-  animation: shimmer 3s infinite;
-}
-
-.float-animation {
-  animation: float 6s ease-in-out infinite;
-}
-
-/* Ice crystal effect */
-.ice-crystal::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at 50% 50%,
-    rgba(125, 211, 252, 0.15) 0%,
-    transparent 70%);
-  filter: blur(40px);
-  pointer-events: none;
-}
-
+@keyframes marquee { to { transform: translateX(-50%); } }

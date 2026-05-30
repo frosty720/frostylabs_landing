@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Orbitron } from "next/font/google";
+import { Space_Grotesk, JetBrains_Mono } from 'next/font/google';
 import "./globals.css";
 import { ThemeProvider } from "@/components/layouts/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
@@ -11,11 +11,8 @@ import { SITE } from "@/lib/site";
 
 const GA_MEASUREMENT_ID = "G-X9XDDBT2WM";
 
-const orbitron = Orbitron({
-  variable: "--font-orbitron",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
-});
+const spaceGrotesk = Space_Grotesk({ variable: '--font-display', subsets: ['latin'], weight: ['400', '500', '700'] });
+const jetbrainsMono = JetBrains_Mono({ variable: '--font-mono-accent', subsets: ['latin'], weight: ['400', '500'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.domain),
@@ -154,7 +151,7 @@ export default async function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }}
         />
       </head>
-      <body className={`${orbitron.variable} antialiased`}>
+      <body className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} antialiased`}>
         <NextIntlClientProvider messages={messages}>
           <ThirdwebProvider>
             <ThemeProvider

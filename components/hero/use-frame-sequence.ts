@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 export interface Manifest { count: number; width: number; height: number; pattern: string }
 
@@ -49,7 +49,7 @@ export function useFrameSequence(manifest: Manifest) {
 		return () => { cancelled = true; };
 	}, [manifest]);
 
-	const drawFrame = (canvas: HTMLCanvasElement, i: number, scaleFactor = 0.85) => {
+	const drawFrame = useCallback((canvas: HTMLCanvasElement, i: number, scaleFactor = 0.85) => {
 		const img = frames.current[i];
 		const ctx = canvas.getContext('2d');
 		if (!img || !ctx || !img.naturalWidth) return;
@@ -57,7 +57,7 @@ export function useFrameSequence(manifest: Manifest) {
 		ctx.fillStyle = '#05060b';
 		ctx.fillRect(0, 0, canvas.width, canvas.height);
 		ctx.drawImage(img, dx, dy, dw, dh);
-	};
+	}, []);
 
 	return { ready, preloadProgress: progress, drawFrame };
 }

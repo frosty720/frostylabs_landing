@@ -115,6 +115,9 @@
   "pricing": {
     "title": "ベータ価格",
     "subtitle": "ベータに参加して最初の1ヶ月無料 + 限定ベータ创設NFTバッジを獲得。",
+    "betaLabel": "Limited-time beta offer",
+    "founderBadgeLabel": "Beta Founder Badge",
+    "founderBadgeDesc": "First 100 members get an exclusive Beta Founder NFT badge + first month free + auto-whitelist for $FROST launch.",
     "free": {
       "name": "無料",
       "price": "永久無料",

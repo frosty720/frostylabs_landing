@@ -115,6 +115,9 @@
   "pricing": {
     "title": "测试版定价",
     "subtitle": "加入我们的beta，获得第一个月免费 + 限定Beta创始NFT徽章。",
+    "betaLabel": "Limited-time beta offer",
+    "founderBadgeLabel": "Beta Founder Badge",
+    "founderBadgeDesc": "First 100 members get an exclusive Beta Founder NFT badge + first month free + auto-whitelist for $FROST launch.",
     "free": {
       "name": "免费",
       "price": "永久免费",

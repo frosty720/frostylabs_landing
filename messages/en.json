@@ -116,6 +116,9 @@
   "pricing": {
     "title": "Beta Pricing",
     "subtitle": "Join our beta and get your first month free + exclusive Beta Founder NFT badge.",
+    "betaLabel": "Limited-time beta offer",
+    "founderBadgeLabel": "Beta Founder Badge",
+    "founderBadgeDesc": "First 100 members get an exclusive Beta Founder NFT badge + first month free + auto-whitelist for $FROST launch.",
     "free": {
       "name": "Free",
       "price": "Free Forever",

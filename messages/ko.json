@@ -115,6 +115,9 @@
   "pricing": {
     "title": "베타 가격",
     "subtitle": "베타에 참여하고 첫 달 무료 + 한정 베타 창립 NFT 배지를 받으세요.",
+    "betaLabel": "Limited-time beta offer",
+    "founderBadgeLabel": "Beta Founder Badge",
+    "founderBadgeDesc": "First 100 members get an exclusive Beta Founder NFT badge + first month free + auto-whitelist for $FROST launch.",
     "free": {
       "name": "무료",
       "price": "평생 무료",

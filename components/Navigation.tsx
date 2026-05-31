@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Menu, X, Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
@@ -73,7 +74,7 @@ export function Navigation() {
 			<div className='container mx-auto px-6 py-4'>
 				<div className='flex items-center justify-between'>
 					{/* Wordmark */}
-					<a href='/' className='flex items-center gap-2.5 group'>
+					<Link href='/' className='flex items-center gap-2.5 group'>
 						<Image
 							src={SITE.logo}
 							alt={`${SITE.name} logo`}
@@ -84,7 +85,7 @@ export function Navigation() {
 						<span className='font-space-grotesk text-lg font-semibold text-white tracking-tight'>
 							{SITE.name}
 						</span>
-					</a>
+					</Link>
 
 					{/* Desktop Navigation */}
 					<div className='hidden md:flex items-center gap-6'>

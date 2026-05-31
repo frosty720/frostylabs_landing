@@ -32,14 +32,12 @@ function StatNumber({ value, decimals, suffix }: StatNumberProps) {
 	const skip = useReducedMotionOrTouch();
 	const ref = useRef<HTMLSpanElement>(null);
 	const inView = useInView(ref, { once: true });
-	const [displayed, setDisplayed] = useState<number>(skip ? value : 0);
+	const [animated, setAnimated] = useState<number>(0);
 
 	useEffect(() => {
-		if (skip) {
-			setDisplayed(value);
-			return;
-		}
-		if (!inView) return;
+		// When motion is skipped the final value is derived directly (see
+		// `displayed` below), so the effect only runs the rAF count-up.
+		if (skip || !inView) return;
 
 		let rafId: number;
 		let start: number | null = null;
@@ -48,7 +46,7 @@ function StatNumber({ value, decimals, suffix }: StatNumberProps) {
 			if (start === null) start = now;
 			const elapsed = now - start;
 			const t = Math.min(elapsed / DURATION_MS, 1);
-			setDisplayed(countUpValue(t, value, decimals));
+			setAnimated(countUpValue(t, value, decimals));
 			if (t < 1) {
 				rafId = requestAnimationFrame(tick);
 			}
@@ -58,6 +56,9 @@ function StatNumber({ value, decimals, suffix }: StatNumberProps) {
 		return () => cancelAnimationFrame(rafId);
 	}, [skip, inView, value, decimals]);
 
+	// Skip path renders the final value without ever calling setState in the
+	// effect body, which keeps the react-hooks/set-state-in-effect rule happy.
+	const displayed = skip ? value : animated;
 	const formatted =
 		decimals > 0 ? displayed.toFixed(decimals) : String(Math.round(displayed));
 

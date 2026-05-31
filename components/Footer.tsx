@@ -22,7 +22,7 @@ export function Footer() {
 							height={36}
 							className='rounded-lg'
 						/>
-						<span className='text-xl font-orbitron font-bold aurora-text'>{SITE.name}</span>
+						<span className='text-xl font-display font-bold aurora-text'>{SITE.name}</span>
 					</div>
 
 					{/* Nav links */}

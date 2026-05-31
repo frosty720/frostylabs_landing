@@ -9,6 +9,7 @@ import Script from "next/script";
 import { ThirdwebProvider } from "thirdweb/react";
 import { SITE } from "@/lib/site";
 import { LenisProvider } from "@/lib/scroll/lenis-provider";
+import { MotionConfigProvider } from "@/components/layouts/motion-config-provider";
 
 const GA_MEASUREMENT_ID = "G-X9XDDBT2WM";
 
@@ -161,7 +162,9 @@ export default async function RootLayout({
               enableSystem
               disableTransitionOnChange
             >
-              <LenisProvider>{children}</LenisProvider>
+              <MotionConfigProvider>
+                <LenisProvider>{children}</LenisProvider>
+              </MotionConfigProvider>
               <Toaster />
             </ThemeProvider>
           </ThirdwebProvider>

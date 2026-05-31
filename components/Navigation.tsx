@@ -82,7 +82,7 @@ export function Navigation() {
 							height={36}
 							className='rounded-lg'
 						/>
-						<span className='font-space-grotesk text-lg font-semibold text-white tracking-tight'>
+						<span className='font-display text-lg font-semibold text-white tracking-tight'>
 							{SITE.name}
 						</span>
 					</Link>

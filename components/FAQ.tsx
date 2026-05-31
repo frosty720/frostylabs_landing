@@ -66,7 +66,7 @@ export function FAQ() {
 							<span className='mono-label text-cyan-400'>FAQ</span>
 						</div>
 
-						<h2 className='text-5xl md:text-6xl font-orbitron font-bold mb-5'>
+						<h2 className='text-5xl md:text-6xl font-display font-bold mb-5'>
 							<span className='aurora-text'>{t('title')}</span>
 						</h2>
 						<p className='text-lg text-slate-400 max-w-xl mx-auto'>

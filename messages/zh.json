@@ -664,55 +664,33 @@
   },
   "faq": {
     "title": "常见问题",
-    "subtitle": "关于FrostyLabs您需要知道的一切",
+    "subtitle": "关于FrostyFi您需要知道的一切",
+    "stillHaveQuestions": "还有问题吗？",
+    "askOnX": "在X上问我们",
     "items": [
       {
-        "question": "什么是FrostyLabs？",
-        "answer": "FrostyLabs正在用两个旗舰产品构建AI自动化的未来：FrostyFlow—用于Web3及更多的无代码AI代理平台，以及FrostyDAO—管理生态系统的去中心化社区。为加密研究、DeFi操作、NFT铸造、DAO治理或甚至数据分析和内容创建等非区块链任务创建强大的工作流。"
+        "question": "什么是FrostyFi？",
+        "answer": "FrostyFi is a visual platform for building AI agents that act on-chain. Connect a large language model to blockchain operations, HTTP calls, or conditional logic using a drag-and-drop canvas — no smart-contract expertise required. Deploy your agent, expose it via a standard API, and let it run autonomously."
       },
       {
-        "question": "使用FrostyFlow需要编程经验吗？",
-        "answer": "不需要！FrostyFlow被设计为完全无代码。我们的可视化工作流构建器和AI驱动的自然语言界面让您可以创建复杂的自动化，无需编写一行代码。"
+        "question": "我需要编写代码吗？",
+        "answer": "No. FrostyFi's no-code visual builder lets you wire together AI models, on-chain actions, and external APIs by dragging nodes onto a canvas. Power users can drop in custom JavaScript nodes for anything the built-in library doesn't cover."
       },
       {
-        "question": "支持哪些区块链网络？",
-        "answer": "我们支持35+个网络，包括Ethereum、Polygon、Base、Arbitrum、Optimism、BSC、Avalanche等。Solana、Cosmos和Polkadot的完整多链支持将在2026年第三季度推出。"
+        "question": "支持哪些链和AI模型？",
+        "answer": "On the blockchain side, FrostyFi supports EVM-compatible networks (Ethereum, Base, Polygon, Arbitrum, Optimism, and more) as well as Solana. For AI, you can route requests through OpenAI, Anthropic, Google, Groq, and additional providers via OpenRouter — swap models per node without rebuilding your workflow."
       },
       {
-        "question": "FrostyLabs使用哪些AI模型？",
-        "answer": "我们集成了最好的AI模型，包括GPT-4、GPT-5、Claude 4.5 Sonnet、Gemini 2.0 Flash和DeepSeek。Pro用户可以访问高级模型。我们还添加了对Nebula AI的支持，这是ThirdWeb针对Web3操作优化的专有模型。"
+        "question": "支付如何运作？",
+        "answer": "Two layers: the app itself uses NFT-based subscriptions on Base (Pro and Enterprise tiers). Agent-to-agent payments use x402 — a per-request micropayment standard that settles in USDC on Base with no intermediary. Your agents can charge callers and pay other agents without any manual invoicing."
       },
       {
-        "question": "我的钱包安全吗？我需要加密货币才能开始吗？",
-        "answer": "您的安全是首要任务。我们使用ThirdWeb的应用内钱包技术和Vault SDK提供企业级安全性——您的私钥永远不会暴露或存储在我们的服务器上。轻松使用电子邮件注册并使用信用卡支付以铸造您的订阅NFT。无需加密钱包或代币即可开始！对于高级用户，我们支持MetaMask、WalletConnect和其他Web3钱包。符合SOC 2规定，定期进行安全审计。"
+        "question": "有FROST代币吗？",
+        "answer": "The FROST token is planned for 2026. It is not live today. When it launches, FROST is designed to serve as the platform's utility and governance token — staking, fee discounts, and protocol-owned liquidity. Current subscriptions are NFT-based; no token purchase is needed to use FrostyFi now."
       },
       {
-        "question": "Beta创始者计划包括什么？",
-        "answer": "Beta创始者将获得：(1) Pro层首月免费，(2) 限定Beta创始者NFT徽章，(3) $FROST代币公平发布自动白名单，(4) DAO资金多重签名资格，(5) 所有FrostyDAO产品的终身早期采用者福利。"
-      },
-      {
-        "question": "$FROST是什么，它如何运作？",
-        "answer": "$FROST是FrostyDAO的实用代币，将于2026年第二季度推出。质押$FROST以获得FTGOV（治理代币）并从DAO运营中获得收益分享。使用$FROST进行支付、市场交易和治理投票。Beta创始者自动白名单的公平发布。"
-      },
-      {
-        "question": "FrostyDAO治理如何运作？",
-        "answer": "质押$FROST以获得FTGOV代币，从而获得投票权。对资金分配、功能开发、合作伙伴关系和DAO运营进行投票。DAO控制95%的订阅收入，并使用FrostyFlow自动化资金管理和DeFi策略。"
-      },
-      {
-        "question": "FrostyFlow可以自动化DeFi交易吗？",
-        "answer": "可以！创建监控价格、在DEX上执行交换、管理流动性头寸、收获收益等的工作流。我们的AI代理可以分析市场状况并自动执行复杂的DeFi策略。"
-      },
-      {
-        "question": "FrostyFlow与Zapier或Make有何不同？",
-        "answer": "FrostyFlow结合了两者的优点：强大的原生Web3集成AND传统自动化。与Zapier或Make不同，我们提供由高级AI驱动的区块链特定工具（代币分析、DeFi操作、安全审计），可以做出自主决策。此外，您可以构建自主AI代理，而不仅仅是简单的工作流。而且是的——您也可以像其他平台一样自动化非区块链任务！"
-      },
-      {
-        "question": "有哪些定价计划可用？",
-        "answer": "免费层：每月50次AI调用，具有基本功能。Pro（$25/月）：500次AI调用、高级AI模型、50个工作流。Enterprise（$99/月）：无限工作流、2000次AI调用、多代理协调。Beta用户在任何层级都可获得首月免费。"
-      },
-      {
-        "question": "我可以构建和销售自己的AI代理吗？",
-        "answer": "可以！我们的代理市场（2026年第四季度推出）允许创作者构建、发布和货币化自定义代理和工作流模板。以$FROST赚取收益分享。DAO还为创新代理开发提供补助金。"
+        "question": "如何开始？",
+        "answer": "Sign up at app.frostyfi.io. The free tier gives you access to the visual builder and a set of AI calls per month to explore the platform. No wallet setup is required to register — connect a wallet later when you want to use on-chain features."
       }
     ]
   },

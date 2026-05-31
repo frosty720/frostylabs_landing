@@ -664,55 +664,33 @@
   },
   "faq": {
     "title": "よくある質問",
-    "subtitle": "FrostyLabsについて知っておくべきすべて",
+    "subtitle": "FrostyFiについて知っておくべきすべて",
+    "stillHaveQuestions": "まだ質問がありますか？",
+    "askOnX": "Xで質問する",
     "items": [
       {
-        "question": "FrostyLabsとは何ですか？",
-        "answer": "FrostyLabsは、2つの主力製品でAI自動化の未来を構築しています：FrostyFlow—Web3とそれ以上のためのノーコードAIエージェントプラットフォーム、およびFrostyDAO—エコシステムを管理する分散型コミュニティ。暗号リサーチ、DeFi運用、NFTミント、DAOガバナンス、またはデータ分析やコンテンツ作成などの非ブロックチェーンタスクのための強力なワークフローを作成します。"
+        "question": "FrostyFiとは何ですか？",
+        "answer": "FrostyFi is a visual platform for building AI agents that act on-chain. Connect a large language model to blockchain operations, HTTP calls, or conditional logic using a drag-and-drop canvas — no smart-contract expertise required. Deploy your agent, expose it via a standard API, and let it run autonomously."
       },
       {
-        "question": "FrostyFlowを使用するにはプログラミング経験が必要ですか？",
-        "answer": "いいえ！FrostyFlowは完全にノーコードで設計されています。ビジュアルワークフロービルダーとAI駆動の自然言語インターフェースにより、コードを1行も書かずに高度な自動化を作成できます。"
+        "question": "コードを書く必要がありますか？",
+        "answer": "No. FrostyFi's no-code visual builder lets you wire together AI models, on-chain actions, and external APIs by dragging nodes onto a canvas. Power users can drop in custom JavaScript nodes for anything the built-in library doesn't cover."
       },
       {
-        "question": "どのブロックチェーンネットワークがサポートされていますか？",
-        "answer": "Ethereum、Polygon、Base、Arbitrum、Optimism、BSC、Avalancheなど35以上のネットワークをサポートしています。Solana、Cosmos、Polkadotの完全なマルチチェーンサポートは2026年第3四半期に提供されます。"
+        "question": "どのチェーンとAIモデルがサポートされていますか？",
+        "answer": "On the blockchain side, FrostyFi supports EVM-compatible networks (Ethereum, Base, Polygon, Arbitrum, Optimism, and more) as well as Solana. For AI, you can route requests through OpenAI, Anthropic, Google, Groq, and additional providers via OpenRouter — swap models per node without rebuilding your workflow."
       },
       {
-        "question": "FrostyLabsはどのAIモデルを使用していますか？",
-        "answer": "GPT-4、GPT-5、Claude 4.5 Sonnet、Gemini 2.0 Flash、DeepSeekなど、最高のAIモデルを統合しています。Proユーザーはプレミアムモデルにアクセスできます。また、Web3操作に最適化されたThirdWebの独自モデルであるNebula AIのサポートも追加しています。"
+        "question": "支払いはどのように機能しますか？",
+        "answer": "Two layers: the app itself uses NFT-based subscriptions on Base (Pro and Enterprise tiers). Agent-to-agent payments use x402 — a per-request micropayment standard that settles in USDC on Base with no intermediary. Your agents can charge callers and pay other agents without any manual invoicing."
       },
       {
-        "question": "ウォレットは安全ですか？始めるのに暗号資産は必要ですか？",
-        "answer": "セキュリティは最優先事項です。ThirdWebのアプリ内ウォレット技術とVault SDKを使用してエンタープライズグレードのセキュリティを提供—秘密鍵は決して公開されたり、サーバーに保存されたりしません。メールで簡単にサインアップし、クレジットカードで支払ってサブスクリプションNFTをミントできます。開始するために暗号ウォレットやトークンは必要ありません！上級ユーザーには、MetaMask、WalletConnect、その他のWeb3ウォレットをサポートしています。定期的なセキュリティ監査を伴うSOC 2準拠。"
+        "question": "FROSTトークンはありますか？",
+        "answer": "The FROST token is planned for 2026. It is not live today. When it launches, FROST is designed to serve as the platform's utility and governance token — staking, fee discounts, and protocol-owned liquidity. Current subscriptions are NFT-based; no token purchase is needed to use FrostyFi now."
       },
       {
-        "question": "ベータ创設者プログラムには何が含まれますか？",
-        "answer": "ベータ创設者は以下を獲得します：(1) Proティアの初月無料、(2) 限定ベータ创設者NFTバッジ、(3) $FROSTトークンフェアローンチの自動ホワイトリスト、(4) DAO財務マルチシグの資格、(5) すべてのFrostyDAO製品でのライフタイムアーリーアダプター特典。"
-      },
-      {
-        "question": "$FROSTとは何ですか、どのように機能しますか？",
-        "answer": "$FROSTはFrostyDAOのユーティリティトークンで、2026年第2四半期にローンチされます。$FROSTをステーキングしてFTGOV（ガバナンストークン）を獲得し、DAO運用からの収益分配を受け取ります。$FROSTを支払い、マーケットプレイス取引、ガバナンス投票に使用します。ベータ创設者は自動ホワイトリストでフェアローンチ。"
-      },
-      {
-        "question": "FrostyDAOガバナンスはどのように機能しますか？",
-        "answer": "$FROSTをステーキングしてFTGOVトークンを獲得し、投票権を得ます。財務配分、機能開発、パートナーシップ、DAO運用に投票します。DAOはサブスクリプション収益の95%を管理し、FrostyFlowを使用して財務管理とDeFi戦略を自動化します。"
-      },
-      {
-        "question": "FrostyFlowはDeFi取引を自動化できますか？",
-        "answer": "はい！価格を監視し、DEXでスワップを実行し、流動性ポジションを管理し、イールドを収穫するワークフローを作成します。当社のAIエージェントは市場状況を分析し、複雑なDeFi戦略を自動的に実行できます。"
-      },
-      {
-        "question": "FrostyFlowはZapierやMakeとどう違いますか？",
-        "answer": "FrostyFlowは両方の長所を組み合わせています：強力なネイティブWeb3統合AND従来の自動化。ZapierやMakeとは異なり、高度なAIによって駆動される自律的な意思決定が可能なブロックチェーン固有のツール（トークン分析、DeFi運用、セキュリティ監査）を提供します。さらに、単純なワークフローだけでなく、自律的なAIエージェントを構築できます。そして、はい—他のプラットフォームと同様に非ブロックチェーンタスクも自動化できます！"
-      },
-      {
-        "question": "どの料金プランが利用可能ですか？",
-        "answer": "無料ティア：基本機能付き月間50 AIコール。Pro（月額$25）：500 AIコール、プレミアムAIモデル、50ワークフロー。Enterprise（月額$99）：無制限のワークフロー、2000 AIコール、マルチエージェント調整。ベータユーザーはどのティアでも初月無料を獲得します。"
-      },
-      {
-        "question": "独自のAIエージェントを構築して販売できますか？",
-        "answer": "はい！当社のエージェントマーケットプレイス（2026年第4四半期ローンチ）により、クリエイターはカスタムエージェントとワークフローテンプレートを構築、公開、収益化できます。$FROSTで収益分配を獲得します。DAOは革新的なエージェント開発のための助成金も提供します。"
+        "question": "どうすれば始められますか？",
+        "answer": "Sign up at app.frostyfi.io. The free tier gives you access to the visual builder and a set of AI calls per month to explore the platform. No wallet setup is required to register — connect a wallet later when you want to use on-chain features."
       }
     ]
   },

@@ -664,55 +664,33 @@
   },
   "faq": {
     "title": "Questions Fréquemment Posées",
-    "subtitle": "Tout ce que vous devez savoir sur FrostyLabs",
+    "subtitle": "Tout ce que vous devez savoir sur FrostyFi",
+    "stillHaveQuestions": "Vous avez encore des questions ?",
+    "askOnX": "Posez-nous la question sur X",
     "items": [
       {
-        "question": "Qu'est-ce que FrostyLabs ?",
-        "answer": "FrostyLabs construit l'avenir de l'automatisation IA avec deux produits phares : FrostyFlow—une plateforme d'agents IA sans code pour Web3 et au-delà, et FrostyDAO—une communauté décentralisée gouvernant l'écosystème. Créez des flux de travail puissants pour la recherche crypto, les opérations DeFi, le minting de NFT, la gouvernance DAO, ou même des tâches non-blockchain comme l'analyse de données et la création de contenu."
+        "question": "Qu'est-ce que FrostyFi ?",
+        "answer": "FrostyFi is a visual platform for building AI agents that act on-chain. Connect a large language model to blockchain operations, HTTP calls, or conditional logic using a drag-and-drop canvas — no smart-contract expertise required. Deploy your agent, expose it via a standard API, and let it run autonomously."
       },
       {
-        "question": "Ai-je besoin d'expérience en programmation pour utiliser FrostyFlow ?",
-        "answer": "Non ! FrostyFlow est conçu pour être entièrement sans code. Notre constructeur visuel de flux de travail et notre interface en langage naturel alimentée par IA vous permettent de créer une automatisation sophistiquée sans écrire une seule ligne de code."
+        "question": "Ai-je besoin d'écrire du code ?",
+        "answer": "No. FrostyFi's no-code visual builder lets you wire together AI models, on-chain actions, and external APIs by dragging nodes onto a canvas. Power users can drop in custom JavaScript nodes for anything the built-in library doesn't cover."
       },
       {
-        "question": "Quels réseaux blockchain sont pris en charge ?",
-        "answer": "Nous supportons plus de 35 réseaux incluant Ethereum, Polygon, Base, Arbitrum, Optimism, BSC, Avalanche et plus. Support multi-chaîne complet pour Solana, Cosmos et Polkadot arrive au T3 2026."
+        "question": "Quelles chaînes et modèles IA sont pris en charge ?",
+        "answer": "On the blockchain side, FrostyFi supports EVM-compatible networks (Ethereum, Base, Polygon, Arbitrum, Optimism, and more) as well as Solana. For AI, you can route requests through OpenAI, Anthropic, Google, Groq, and additional providers via OpenRouter — swap models per node without rebuilding your workflow."
       },
       {
-        "question": "Quels modèles IA utilise FrostyLabs ?",
-        "answer": "Nous intégrons les meilleurs modèles IA incluant GPT-4, GPT-5, Claude 4.5 Sonnet, Gemini 2.0 Flash et DeepSeek. Les utilisateurs Pro ont accès aux modèles premium. Nous ajoutons également le support pour Nebula AI, le modèle propriétaire de ThirdWeb optimisé pour les opérations Web3."
+        "question": "Comment fonctionnent les paiements ?",
+        "answer": "Two layers: the app itself uses NFT-based subscriptions on Base (Pro and Enterprise tiers). Agent-to-agent payments use x402 — a per-request micropayment standard that settles in USDC on Base with no intermediary. Your agents can charge callers and pay other agents without any manual invoicing."
       },
       {
-        "question": "Mon portefeuille est-il sécurisé ? Ai-je besoin de crypto pour commencer ?",
-        "answer": "Votre sécurité est primordiale. Nous utilisons la technologie de portefeuille intégré de ThirdWeb et Vault SDK pour une sécurité de niveau entreprise—vos clés privées ne sont jamais exposées ni stockées sur nos serveurs. Inscrivez-vous facilement avec email et payez par carte bancaire pour minter votre NFT d'abonnement. Pas besoin de portefeuille crypto ni de jetons pour commencer ! Pour les utilisateurs avancés, nous supportons MetaMask, WalletConnect et autres portefeuilles Web3. Conformité SOC 2 avec audits de sécurité réguliers."
+        "question": "Existe-t-il un token FROST ?",
+        "answer": "The FROST token is planned for 2026. It is not live today. When it launches, FROST is designed to serve as the platform's utility and governance token — staking, fee discounts, and protocol-owned liquidity. Current subscriptions are NFT-based; no token purchase is needed to use FrostyFi now."
       },
       {
-        "question": "Qu'inclut le programme Fondateur Beta ?",
-        "answer": "Les Fondateurs Beta obtiennent : (1) Premier mois gratuit sur niveau Pro, (2) Badge NFT Fondateur Beta exclusif, (3) Auto-liste blanche pour le lancement équitable du jeton $FROST, (4) Éligibilité pour multisig de trésorerie DAO, (5) Avantages adopteur précoce à vie sur tous les produits FrostyDAO."
-      },
-      {
-        "question": "Qu'est-ce que $FROST et comment fonctionne-t-il ?",
-        "answer": "$FROST est le jeton utilitaire de FrostyDAO, lancement T2 2026. Stakez $FROST pour gagner FTGOV (jetons de gouvernance) et recevoir un partage des revenus des opérations DAO. Utilisez $FROST pour paiements, transactions sur marketplace et vote de gouvernance. Lancement équitable avec Fondateurs Beta auto-liste blanche."
-      },
-      {
-        "question": "Comment fonctionne la gouvernance FrostyDAO ?",
-        "answer": "Stakez $FROST pour gagner des jetons FTGOV, qui vous donnent un pouvoir de vote. Votez sur l'allocation de trésorerie, le développement de fonctionnalités, les partenariats et les opérations DAO. Le DAO contrôle 95% des revenus d'abonnement et utilise FrostyFlow pour automatiser la gestion de trésorerie et stratégies DeFi."
-      },
-      {
-        "question": "FrostyFlow peut-il automatiser le trading DeFi ?",
-        "answer": "Oui ! Créez des flux de travail qui surveillent les prix, exécutent des échanges sur DEX, gèrent les positions de liquidité, récoltent des rendements et plus. Nos agents IA peuvent analyser les conditions du marché et exécuter automatiquement des stratégies DeFi complexes."
-      },
-      {
-        "question": "Comment FrostyFlow est-il différent de Zapier ou Make ?",
-        "answer": "FrostyFlow combine le meilleur des deux mondes : intégrations natives Web3 puissantes ET automatisation traditionnelle. Contrairement à Zapier ou Make, nous offrons des outils spécifiques blockchain (analyse de jetons, opérations DeFi, audits de sécurité) alimentés par IA avancée qui peut prendre des décisions autonomes. De plus, vous pouvez construire des agents IA autonomes, pas seulement des flux de travail simples. Et oui—vous pouvez aussi automatiser des tâches non-blockchain comme n'importe quelle autre plateforme !"
-      },
-      {
-        "question": "Quels plans tarifaires sont disponibles ?",
-        "answer": "Niveau Gratuit : 50 appels IA/mois avec fonctionnalités de base. Pro (25$/mois) : 500 appels IA, modèles IA premium, 50 flux de travail. Enterprise (99$/mois) : Flux de travail illimités, 2000 appels IA, coordination multi-agents. Les utilisateurs beta obtiennent le premier mois gratuit sur n'importe quel niveau."
-      },
-      {
-        "question": "Puis-je construire et vendre mes propres agents IA ?",
-        "answer": "Oui ! Notre Marketplace d'Agents (lancement T4 2026) permet aux créateurs de construire, publier et monétiser des agents personnalisés et modèles de flux de travail. Gagnez un partage des revenus en $FROST. Le DAO offre également des subventions pour le développement innovant d'agents."
+        "question": "Comment démarrer ?",
+        "answer": "Sign up at app.frostyfi.io. The free tier gives you access to the visual builder and a set of AI calls per month to explore the platform. No wallet setup is required to register — connect a wallet later when you want to use on-chain features."
       }
     ]
   },

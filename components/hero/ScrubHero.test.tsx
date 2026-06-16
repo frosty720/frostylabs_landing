@@ -11,9 +11,11 @@ import { ScrubHero } from './ScrubHero';
 
 describe('ScrubHero', () => {
 	beforeEach(() => mockMatchMedia({ '(max-width: 767px), (pointer: coarse)': true }));
-	it('renders the poster image and headline, no canvas, on touch/mobile', () => {
+	it('renders the hero clip (with poster) and headline, no canvas', () => {
 		render(<ScrubHero />);
-		expect(screen.getByRole('img', { name: /frostyfi/i })).toBeInTheDocument();
+		const video = document.querySelector('video');
+		expect(video).not.toBeNull();
+		expect(video).toHaveAttribute('poster');
 		expect(screen.queryByTestId('hero-canvas')).toBeNull();
 		expect(screen.getByText(/on-chain agents/i)).toBeInTheDocument();
 	});

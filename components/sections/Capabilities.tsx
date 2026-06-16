@@ -1,6 +1,17 @@
 'use client';
 import { motion, type Variants } from 'framer-motion';
-import { Boxes, CalendarClock, Network, Plug, Rocket, Workflow } from 'lucide-react';
+import {
+	Activity,
+	Boxes,
+	CalendarClock,
+	Cpu,
+	Network,
+	Plug,
+	Rocket,
+	ShieldCheck,
+	Sparkles,
+	Workflow,
+} from 'lucide-react';
 import { useReducedMotionOrTouch } from '@/lib/scroll/use-reduced-motion-or-touch';
 
 const EASE_OUT: [number, number, number, number] = [0.16, 1, 0.3, 1];
@@ -15,16 +26,22 @@ interface Tile {
 
 const TILES: Tile[] = [
 	{
+		icon: Cpu,
+		title: '100+ AI models',
+		body: 'Route any prompt to GPT, Claude, Gemini, Llama and more — swap models with one click.',
+		span: 'md:col-span-2 md:row-span-1',
+	},
+	{
 		icon: Network,
 		title: 'MCP servers',
 		body: 'Connect external tools and data through the Model Context Protocol.',
-		span: 'md:col-span-3 md:row-span-1',
+		span: 'md:col-span-2 md:row-span-1',
 	},
 	{
 		icon: Boxes,
 		title: 'A2A protocol',
 		body: 'Agents talk to other agents over the open agent-to-agent standard.',
-		span: 'md:col-span-3 md:row-span-1',
+		span: 'md:col-span-2 md:row-span-1',
 	},
 	{
 		icon: Rocket,
@@ -40,8 +57,26 @@ const TILES: Tile[] = [
 	},
 	{
 		icon: Plug,
-		title: 'Integrations',
-		body: 'LLMs, HTTP, EVM, and Solana nodes wired together on one canvas.',
+		title: 'Trading & DeFi nodes',
+		body: 'Uniswap, SushiSwap, PancakeSwap, Hyperliquid and Jupiter — swaps, perps and tokenized stocks on one canvas.',
+		span: 'md:col-span-2 md:row-span-1',
+	},
+	{
+		icon: Sparkles,
+		title: 'Media & messaging',
+		body: 'Generate images, video and voice, and reach users over SMS and WhatsApp — straight from a node.',
+		span: 'md:col-span-2 md:row-span-1',
+	},
+	{
+		icon: ShieldCheck,
+		title: 'Vault-secured signing',
+		body: 'Agents sign on-chain through thirdweb Vault — keys stay encrypted and never touch the workflow.',
+		span: 'md:col-span-2 md:row-span-1',
+	},
+	{
+		icon: Activity,
+		title: 'Live run monitoring',
+		body: 'Watch every run node-by-node — logs, timing, and alerts the moment something fails.',
 		span: 'md:col-span-2 md:row-span-1',
 	},
 ];

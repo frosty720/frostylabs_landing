@@ -7,7 +7,7 @@ import { useTranslations } from 'next-intl';
 import Script from 'next/script';
 import { SITE } from '@/lib/site';
 
-const FAQ_COUNT = 6;
+const FAQ_COUNT = 8;
 
 export function FAQ() {
 	const t = useTranslations('faq');

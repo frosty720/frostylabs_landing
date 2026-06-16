@@ -18,9 +18,9 @@ const jetbrainsMono = JetBrains_Mono({ variable: '--font-mono-accent', subsets: 
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.domain),
-  title: 'FrostyFi — Build autonomous on-chain agents',
-  description: 'The visual platform for AI agents that act on-chain. Build workflows, run them anywhere, pay per call with x402. Now in beta.',
-  keywords: ['on-chain AI agents', 'x402 payments', 'no-code AI workflows', 'web3 automation', 'agent platform', 'EVM', 'Solana'],
+  title: 'FrostyFi — Build x402 & ERC-8004 AI agents, no-code',
+  description: 'Build, deploy and monetize AI agents — no code. Pay per call with x402, carry a verifiable ERC-8004 on-chain identity, and act across EVM, Solana and Base.',
+  keywords: ['x402', 'x402 payments', 'x402 agents', 'ERC-8004', 'ERC-8004 agents', 'trustless agents', 'on-chain AI agents', 'AI agent identity', 'agent-to-agent payments', 'A2A protocol', 'no-code AI agents', 'AI workflow automation', 'EVM', 'Solana', 'Base'],
   authors: [{ name: 'FrostyFi' }],
   creator: 'FrostyFi',
   publisher: 'FrostyFi',
@@ -31,14 +31,14 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: SITE.domain,
     siteName: 'FrostyFi',
-    title: 'FrostyFi — Build autonomous on-chain agents',
-    description: 'The visual platform for AI agents that act on-chain. Build workflows, run them anywhere, pay per call with x402. Now in beta.',
+    title: 'FrostyFi — Build x402 & ERC-8004 AI agents, no-code',
+    description: 'Build, deploy and monetize AI agents — no code. Pay per call with x402, carry a verifiable ERC-8004 on-chain identity, and act across EVM, Solana and Base.',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'FrostyFi - Visual platform for autonomous on-chain agents',
+        alt: 'FrostyFi — no-code platform for x402-paid, ERC-8004 AI agents',
       }
     ],
   },
@@ -48,8 +48,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@FrostyLabsAi',
     creator: '@FrostyLabsAi',
-    title: 'FrostyFi — Build autonomous on-chain agents',
-    description: 'The visual platform for AI agents that act on-chain. Build workflows, run them anywhere, pay per call with x402. Now in beta.',
+    title: 'FrostyFi — Build x402 & ERC-8004 AI agents, no-code',
+    description: 'Build, deploy and monetize AI agents — no code. Pay per call with x402, carry a verifiable ERC-8004 on-chain identity, and act across EVM, Solana and Base.',
     images: ['/twitter-image.png'],
   },
 
@@ -109,7 +109,8 @@ const softwareSchema = {
     "EVM + Solana on-chain actions",
     "Agent-to-agent (A2A) protocol",
     "Secure key management with thirdweb Vault",
-    "NFT-based subscription access"
+    "ERC-8004 on-chain agent identity",
+    "USDC subscriptions on Base"
   ]
 };
 

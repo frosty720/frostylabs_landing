@@ -1,6 +1,6 @@
 'use client';
 import { motion, type Variants } from 'framer-motion';
-import { Coins, Fingerprint, Network, Snowflake } from 'lucide-react';
+import { Coins, Fingerprint, Network } from 'lucide-react';
 
 const EASE_OUT: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
@@ -21,8 +21,8 @@ const PILLARS: Pillar[] = [
 	{
 		icon: Network,
 		title: 'On-chain execution',
-		body: 'Agents transact across EVM and Solana — swaps, transfers, and contract calls run from inside the workflow, signed and settled where the assets live.',
-		tag: 'EVM + Solana',
+		body: 'Agents trade across Uniswap, SushiSwap, PancakeSwap, Hyperliquid and Jupiter — swaps, perps, even tokenized stocks — run from inside the workflow, signed and settled where the assets live.',
+		tag: 'EVM · Solana · Hyperliquid',
 	},
 	{
 		icon: Fingerprint,
@@ -95,39 +95,105 @@ export function Web3Native() {
 							);
 						})}
 					</motion.div>
-				</motion.div>
 
-				{/* SECONDARY — future FROST teaser, visually distinct */}
-				<motion.div
-					initial={{ opacity: 0, y: 28 }}
-					whileInView={{ opacity: 1, y: 0 }}
-					viewport={{ once: true, margin: '-15%' }}
-					transition={{ duration: 0.6, ease: EASE_OUT }}
-					className='relative mt-6 overflow-hidden rounded-2xl border border-dashed border-[#a78bfa]/30 bg-gradient-to-br from-[#a78bfa]/[0.06] to-transparent p-8 md:p-10'
-				>
-					<div className='flex flex-col gap-6 md:flex-row md:items-start md:justify-between'>
-						<div className='max-w-2xl'>
-							<div className='flex items-center gap-3'>
-								<span className='flex h-10 w-10 items-center justify-center rounded-lg border border-[#a78bfa]/30 bg-[#a78bfa]/[0.08] text-[#a78bfa]'>
-									<Snowflake className='h-5 w-5' strokeWidth={1.75} />
-								</span>
-								<span className='mono-label inline-flex items-center rounded-full border border-[#a78bfa]/40 bg-[#a78bfa]/10 px-3 py-1 text-[#c4b5fd]'>
-									Roadmap · Coming
-								</span>
-							</div>
-							<h3 className='mt-5 text-2xl font-semibold text-white'>
-								The FROST token — <span className='aurora-text'>launching 2026</span>
-							</h3>
-							<p className='mt-3 text-[#aab2c5]'>
-								FROST is planned for 2026. Once live, it will coordinate the network&apos;s
-								economics — aligning agents, builders, and operators around shared
-								incentives. It is not live yet, and nothing on FrostyFi requires it today.
-							</p>
+					{/* PROOF — real on-chain artifacts, click through and verify */}
+					<motion.div variants={item} className='mt-20'>
+						<div className='flex items-center gap-3'>
+							<span className='mono-label whitespace-nowrap text-[#67e8f9]'>
+								Proof, on-chain
+							</span>
+							<span className='h-px flex-1 bg-white/10' />
 						</div>
-						<span className='mono-label shrink-0 self-start rounded-md border border-white/10 bg-white/[0.03] px-3 py-1.5 text-[#aab2c5]'>
-							Planned · 2026
-						</span>
-					</div>
+						<h3 className='mt-4 max-w-2xl text-2xl font-medium text-white md:text-3xl'>
+							x402 and ERC-8004, <span className='aurora-text'>live on Base.</span>
+						</h3>
+						<p className='mt-2 max-w-xl text-sm text-[#aab2c5]'>
+							A FrostyFi agent registered on the public ERC-8004 identity registry, and a
+							real x402 micropayment settled in USDC on Base. Both on-chain right now —
+							click through and verify.
+						</p>
+
+						<div className='mt-8 grid grid-cols-1 gap-5 md:grid-cols-2'>
+							{/* ERC-8004 identity + reputation — motion clip */}
+							<a
+								href='https://8004scan.io/agents/base/54630'
+								target='_blank'
+								rel='noreferrer'
+								className='group block overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] transition-all duration-300 hover:-translate-y-1 hover:border-white/25'
+							>
+								<div className='flex items-center gap-2 border-b border-white/10 bg-white/[0.03] px-4 py-3'>
+									<span className='h-3 w-3 rounded-full bg-[#ff5f57]' />
+									<span className='h-3 w-3 rounded-full bg-[#febc2e]' />
+									<span className='h-3 w-3 rounded-full bg-[#28c840]' />
+									<span className='mono-label ml-3 truncate text-[#aab2c5]'>
+										8004scan.io/agents/base/54630
+									</span>
+								</div>
+								<div className='relative aspect-[4/3] w-full overflow-hidden bg-[#0a0b12]'>
+									<video
+										src='/recordings/onchain-proof.mp4'
+										poster='/recordings/onchain-proof.poster.jpg'
+										autoPlay
+										loop
+										muted
+										playsInline
+										className='absolute inset-0 h-full w-full object-cover object-top'
+									/>
+								</div>
+								<div className='flex items-center justify-between gap-3 px-5 py-4'>
+									<div>
+										<p className='text-sm font-medium text-white'>
+											ERC-8004 identity &amp; reputation
+										</p>
+										<p className='mt-0.5 text-xs text-[#aab2c5]'>
+											Agent #54630 · ★ 5.0/5.0 · 100/100 on Base
+										</p>
+									</div>
+									<span className='mono-label shrink-0 text-[#67e8f9] transition-colors group-hover:text-white'>
+										8004scan ↗
+									</span>
+								</div>
+							</a>
+
+							{/* x402 USDC settlement — Basescan receipt */}
+							<a
+								href='https://basescan.org/tx/0x56fd9afced94edc5e5dbbc40e6593f39849e2410cabbb72761401b54446c2f98'
+								target='_blank'
+								rel='noreferrer'
+								className='group block overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] transition-all duration-300 hover:-translate-y-1 hover:border-white/25'
+							>
+								<div className='flex items-center gap-2 border-b border-white/10 bg-white/[0.03] px-4 py-3'>
+									<span className='h-3 w-3 rounded-full bg-[#ff5f57]' />
+									<span className='h-3 w-3 rounded-full bg-[#febc2e]' />
+									<span className='h-3 w-3 rounded-full bg-[#28c840]' />
+									<span className='mono-label ml-3 truncate text-[#aab2c5]'>
+										basescan.org/tx/0x56fd9a…2f98
+									</span>
+								</div>
+								<div className='relative aspect-[4/3] w-full overflow-hidden bg-[#0a0b12]'>
+									{/* eslint-disable-next-line @next/next/no-img-element */}
+									<img
+										src='/screenshots/proof-x402.png'
+										alt='A real x402 micropayment settled in USDC on Base mainnet'
+										className='absolute inset-0 h-full w-full object-cover object-top'
+									/>
+								</div>
+								<div className='flex items-center justify-between gap-3 px-5 py-4'>
+									<div>
+										<p className='text-sm font-medium text-white'>
+											x402 payment, settled on-chain
+										</p>
+										<p className='mt-0.5 text-xs text-[#aab2c5]'>
+											0.01 USDC · pay-per-call · Base mainnet
+										</p>
+									</div>
+									<span className='mono-label shrink-0 text-[#67e8f9] transition-colors group-hover:text-white'>
+										Basescan ↗
+									</span>
+								</div>
+							</a>
+						</div>
+					</motion.div>
 				</motion.div>
 			</div>
 		</section>

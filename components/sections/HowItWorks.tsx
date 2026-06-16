@@ -18,20 +18,28 @@ const STEPS: Step[] = [
 	{
 		n: '01',
 		title: 'Describe it',
-		body: 'Tell FrostyFi what you want in plain language. It drafts the workflow for you — nodes, connections, and all.',
-		media: { type: 'video', src: '/recordings/researchflow.mp4', poster: '/recordings/researchflow.poster.webp' },
+		body: "Tell FrostyFi what you want in plain language — like “scan for cross-DEX arbitrage and alert me” — and Frosty Architect drafts the whole workflow.",
+		media: { type: 'image', src: '/screenshots/heroV1Describe.png' },
 	},
 	{
 		n: '02',
 		title: 'Build visually',
-		body: 'Drag, connect, and tune nodes on the canvas: LLMs, HTTP calls, conditions, and on-chain actions.',
-		media: { type: 'image', src: '/frames/hero/poster.webp' },
+		body: 'Drag, connect, and tune nodes on the canvas: LLMs, DEX swaps, Hyperliquid trades, media, messaging, and conditions.',
+		media: {
+			type: 'video',
+			src: '/recordings/demo-research.mp4',
+			poster: '/recordings/demo-research.poster.jpg',
+		},
 	},
 	{
 		n: '03',
 		title: 'Deploy on-chain',
-		body: 'Ship it as an agent. It runs on a schedule, a webhook, or gets paid per call with x402.',
-		media: { type: 'image', src: '/recordings/sendusdc.poster.webp' },
+		body: 'Ship it as an agent. It quotes live on-chain, decides, and acts — alerts, swaps, payments — on a schedule, a webhook, or paid per call with x402.',
+		media: {
+			type: 'video',
+			src: '/recordings/demo-evm.mp4',
+			poster: '/recordings/demo-evm.poster.jpg',
+		},
 	},
 ];
 

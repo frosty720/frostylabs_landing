@@ -4,7 +4,6 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Check, Sparkles } from 'lucide-react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { SITE } from '@/lib/site';
 
@@ -15,9 +14,9 @@ type Tier = {
 };
 
 const tiers: Tier[] = [
-	{ key: 'free', featureCount: 4 },
-	{ key: 'pro', featureCount: 7, popular: true },
-	{ key: 'enterprise', featureCount: 7 },
+	{ key: 'free', featureCount: 5 },
+	{ key: 'pro', featureCount: 8, popular: true },
+	{ key: 'enterprise', featureCount: 8 },
 ];
 
 export function Pricing() {
@@ -49,27 +48,6 @@ export function Pricing() {
 						<span className='aurora-text'>{t('title')}</span>
 					</h2>
 					<p className='mx-auto mt-4 max-w-2xl text-[#aab2c5]'>{t('subtitle')}</p>
-				</motion.div>
-
-				{/* Beta-founder banner */}
-				<motion.div
-					initial={{ opacity: 0, y: 16 }}
-					whileInView={{ opacity: 1, y: 0 }}
-					viewport={{ once: true }}
-					transition={{ duration: 0.5, delay: 0.1 }}
-					className='mx-auto mb-12 flex max-w-3xl items-center gap-4 rounded-2xl border border-[#67e8f9]/20 bg-[#22d3ee]/5 px-6 py-4'
-				>
-					<Image
-						src='/frosty_beta_founder_badge.png'
-						alt='Beta Founder Badge'
-						width={56}
-						height={56}
-						className='shrink-0 rounded-xl'
-					/>
-					<div>
-						<p className='mono-label text-[#67e8f9]'>{t('founderBadgeLabel')}</p>
-						<p className='mt-0.5 text-sm text-[#aab2c5]'>{t('founderBadgeDesc')}</p>
-					</div>
 				</motion.div>
 
 				{/* Tier cards */}

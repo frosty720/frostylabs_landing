@@ -13,8 +13,8 @@ interface Chip {
 const CHIPS: Chip[] = [
 	{
 		icon: Network,
-		title: 'EVM + Solana',
-		body: 'Agents run across both ecosystems — no separate tooling per chain.',
+		title: 'EVM, Solana & Hyperliquid',
+		body: 'Swap on every major DEX, trade perps and tokenized stocks — no separate tooling per chain.',
 	},
 	{
 		icon: Coins,
@@ -55,16 +55,12 @@ export function OnchainProof() {
 						<span className='h-3 w-3 rounded-full bg-[#ff5f57]' />
 						<span className='h-3 w-3 rounded-full bg-[#febc2e]' />
 						<span className='h-3 w-3 rounded-full bg-[#28c840]' />
-						<span className='mono-label ml-3 text-[#aab2c5]'>send-usdc.agent</span>
+						<span className='mono-label ml-3 text-[#aab2c5]'>arb-watcher.agent</span>
 					</div>
-					<video
-						src='/recordings/sendusdc.mp4'
-						poster='/recordings/sendusdc.poster.webp'
-						muted
-						playsInline
-						loop
-						autoPlay
-						preload='none'
+					{/* eslint-disable-next-line @next/next/no-img-element */}
+					<img
+						src='/screenshots/heroV1Findings.png'
+						alt='FrostyFi agent finding a live cross-DEX arbitrage on-chain'
 						className='block w-full'
 					/>
 				</motion.div>
@@ -87,7 +83,8 @@ export function OnchainProof() {
 					</motion.h2>
 					<motion.p variants={item} className='mt-4 max-w-md text-[#aab2c5]'>
 						It does not just suggest the next step — it takes it. The demo on the left is a
-						FrostyFi agent moving real USDC, signed and settled on-chain.
+						FrostyFi agent scanning Uniswap, SushiSwap and Hyperliquid and catching a live
+						cross-DEX spread on-chain.
 					</motion.p>
 
 					<div className='mt-8 space-y-3'>

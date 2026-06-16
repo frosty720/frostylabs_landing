@@ -1,10 +1,10 @@
 export const SITE = {
-	name: 'FrostyFi',
-	domain: 'https://frostyfi.io',
-	appUrl: 'https://app.frostyfi.io',
+	name: 'FrostyLabs',
+	domain: 'https://frostylabs.ai',
+	appUrl: 'https://flow.frostylabs.ai',
 	github: 'https://github.com/FrostyLabsAi',
 	twitter: 'https://x.com/FrostyLabsAi',
-	docs: 'https://docs.frostyfi.io',
+	docs: 'https://docs.frostylabs.ai',
 	logo: '/resources/frostylogo.png', // swap when new FrostyFi logo lands
 	studio: 'FrostyLabs',
 } as const;

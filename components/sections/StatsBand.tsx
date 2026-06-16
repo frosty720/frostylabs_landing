@@ -14,9 +14,9 @@ interface StatDef {
 // Capability counts pulled from the product's existing site claims.
 // These are NOT live usage metrics — confirm/adjust here when ready.
 const STATS: StatDef[] = [
-	{ value: 20, decimals: 0, suffix: '+', label: 'AI models' },
+	{ value: 100, decimals: 0, suffix: '+', label: 'AI models' },
 	{ value: 35, decimals: 0, suffix: '+', label: 'Blockchain networks' },
-	{ value: 15, decimals: 0, suffix: '+', label: 'On-chain operations' },
+	{ value: 80, decimals: 0, suffix: '+', label: 'On-chain operations' },
 	{ value: 100, decimals: 0, suffix: '%', label: 'No-code' },
 ];
 

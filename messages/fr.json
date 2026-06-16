@@ -1,764 +1,774 @@
 {
-  "metadata": {
-    "title": "FrostyFi — Build autonomous on-chain agents",
-    "description": "The visual platform for AI agents that act on-chain. Build workflows, run them anywhere, pay per call with x402. Now in beta.",
-    "keywords": "on-chain AI agents, x402 payments, no-code AI workflows, web3 automation, agent platform, EVM, Solana"
-  },
-  "nav": {
-    "home": "Accueil",
-    "useCases": "Cas d'Usage",
-    "features": "Fonctionnalités",
-    "pricing": "Tarifs",
-    "about": "À Propos",
-    "product": "Product",
-    "capabilities": "Capabilities",
-    "docs": "Docs",
-    "launchApp": "Lancer l'App",
-    "github": "GitHub",
-    "twitter": "Twitter"
-  },
-  "hero": {
-    "badge": "Now in beta",
-    "title": "Build autonomous on-chain agents",
-    "description": "The visual platform for AI agents that act on-chain. Describe it, build it visually, deploy it — workflows that pay per call with x402.",
-    "launchApp": "Launch app",
-    "watchDemo": "Watch demo"
-  },
-  "stats": {
-    "aiModels": "Modèles IA",
-    "blockchainNetworks": "Réseaux Blockchain",
-    "automatedExecution": "Exécution Automatisée",
-    "possibilities": "Possibilités"
-  },
-  "useCases": {
-    "title": "Que Allez-vous Automatiser ?",
-    "subtitle": "Des réseaux sociaux au trading DeFi, FrostyFlow gère tout. Construisez une fois, exécutez pour toujours.",
-    "cta": "Ce n'est que le début. Que allez-vous construire ?",
-    "ctaButton": "Commencer à Construire →",
-    "cards": {
-      "socialMedia": {
-        "badge": "MARKETING",
-        "title": "Automatisation des Réseaux Sociaux",
-        "subtitle": "Création de contenu → Planification → Publication multi-plateforme",
-        "features": [
-          "GPT-5 génère des posts engageants à partir de sujets tendance",
-          "Claude 4 crée des variations spécifiques à chaque plateforme",
-          "L'automatisation du navigateur publie sur Twitter, LinkedIn, Instagram",
-          "Suivi analytique et optimisation des performances"
-        ],
-        "benefit": "Économisez plus de 20 heures/semaine"
-      },
-      "defiTrading": {
-        "badge": "WEB3",
-        "title": "Automatisation du Trading DeFi",
-        "subtitle": "Surveiller → Analyser → Exécuter → Notifier",
-        "features": [
-          "Surveillez les prix des jetons sur les DEX en temps réel",
-          "L'IA analyse les tendances du marché et identifie les opportunités",
-          "Exécutez des échanges via le coffre-fort sécurisé thirdweb (35+ réseaux)",
-          "Notifications instantanées sur les transactions et les changements de portefeuille"
-        ],
-        "benefit": "Trading automatisé 24/7",
-        "subtext": "Propulsé par l'infrastructure thirdweb"
-      },
-      "evmContract": {
-        "badge": "BLOCKCHAIN",
-        "title": "Automatisation des Contrats EVM",
-        "subtitle": "Déployer → Interagir → Surveiller → Gérer",
-        "features": [
-          "Déployez des contrats intelligents sur plus de 35 chaînes EVM",
-          "Appels de contrats automatisés avec le SDK thirdweb",
-          "Surveillez les événements et déclenchez des flux de travail automatiquement",
-          "Optimisation du gaz et gestion des transactions"
-        ],
-        "benefit": "Plus de 35 réseaux blockchain",
-        "subtext": "Construit sur le SDK thirdweb v5"
-      },
-      "customerSupport": {
-        "badge": "AFFAIRES",
-        "title": "Support Client IA",
-        "subtitle": "Recevoir → Classifier → Répondre → Escalader",
-        "features": [
-          "Recevez des demandes par email, chat, réseaux sociaux",
-          "L'IA classifie l'urgence et route vers le bon département",
-          "Générez des réponses personnalisées avec la recherche RAG",
-          "Escalade automatique des problèmes complexes vers des agents humains"
-        ],
-        "benefit": "Réduisez le temps de réponse de 90%"
-      },
-      "ecommerce": {
-        "badge": "E-COMMERCE",
-        "title": "Automatisation du Commerce en Ligne",
-        "subtitle": "Recherche de produits → Mise en ligne → Marketing → Exécution",
-        "features": [
-          "L'IA recherche les produits tendance et les concurrents",
-          "Générez des descriptions de produits optimisées pour le SEO",
-          "Mise à jour automatique de l'inventaire et des prix sur les plateformes",
-          "Envoyez des emails marketing personnalisés et des suivis"
-        ],
-        "benefit": "Évoluez sans embaucher"
-      },
-      "contentCreation": {
-        "badge": "CONTENU",
-        "title": "Pipeline de Création de Contenu",
-        "subtitle": "Rechercher → Écrire → Éditer → Publier → Promouvoir",
-        "features": [
-          "L'agent de recherche rassemble des données du web et des bases de données",
-          "L'agent rédacteur crée des articles de blog, des articles, des scripts",
-          "L'agent éditeur affine le ton, la grammaire, l'optimisation SEO",
-          "Publication automatique sur CMS et promotion sur les réseaux sociaux"
-        ],
-        "benefit": "Production de contenu x10"
-      }
-    }
-  },
-  "pricing": {
-    "title": "Tarification Bêta",
-    "subtitle": "Rejoignez notre bêta et obtenez votre premier mois gratuit + badge NFT de Fondateur Bêta exclusif.",
-    "betaLabel": "Limited-time beta offer",
-    "founderBadgeLabel": "Beta Founder Badge",
-    "founderBadgeDesc": "First 100 members get an exclusive Beta Founder NFT badge + first month free + auto-whitelist for $FROST launch.",
-    "free": {
-      "name": "Gratuit",
-      "price": "Gratuit pour Toujours",
-      "description": "Parfait pour commencer",
-      "emoji": "🆓",
-      "cta": "Commencer",
-      "features": [
-        "Modèles IA OpenRouter",
-        "5 Flux de Travail Basiques",
-        "50 Appels IA/Mois",
-        "Support Communautaire",
-        "Analytique de Base"
-      ]
-    },
-    "pro": {
-      "name": "Pro",
-      "price": "25 $/mois",
-      "description": "Pour les professionnels construisant des flux de travail avancés",
-      "emoji": "⚡",
-      "badge": "LE PLUS POPULAIRE",
-      "cta": "Obtenir Pro →",
-      "features": [
-        "10 Projets",
-        "50 Flux de Travail",
-        "500 Appels IA/Mois",
-        "Modèles IA Premium (GPT-5, Claude 4.5)",
-        "Téléchargement de Documents & RAG",
-        "Flux de Travail Planifiés",
-        "Support Prioritaire"
-      ]
-    },
-    "enterprise": {
-      "name": "Entreprise",
-      "price": "99 $/mois",
-      "description": "Pour les équipes et l'automatisation avancée",
-      "emoji": "🏢",
-      "cta": "Obtenir Entreprise →",
-      "features": [
-        "Projets Illimités",
-        "Flux de Travail Illimités",
-        "2000 Appels IA/Mois",
-        "Coordination Multi-Agents",
-        "Planification Avancée",
-        "Surveillance des Flux de Travail",
-        "Intégrations Personnalisées"
-      ]
-    }
-  },
-  "features": {
-    "title": "Fonctionnalités Puissantes",
-    "subtitle": "Tout ce dont vous avez besoin pour construire, déployer et faire évoluer des flux de travail d'automatisation IA.",
-    "cta": "Explorer Toutes les Fonctionnalités",
-    "cards": {
-      "multiModel": {
-        "title": "IA Multi-Modèle",
-        "description": "Connectez GPT-5, Claude, Nebula et plus de 20 modèles IA. Routez intelligemment en fonction du coût, de la vitesse et de la qualité."
-      },
-      "blockchain": {
-        "title": "Coffre-fort Blockchain",
-        "description": "Plus de 15 opérations blockchain propulsées par thirdweb avec la sécurité AWS Nitro Enclave."
-      },
-      "workflow": {
-        "title": "Automatisation des Flux de Travail",
-        "description": "Constructeur visuel de flux de travail avec planification cron, déclencheurs webhook et logique conditionnelle."
-      },
-      "analytics": {
-        "title": "Analytique en Temps Réel",
-        "description": "Surveillance complète avec suivi des coûts, métriques de performance et insights d'optimisation."
-      },
-      "security": {
-        "title": "Sécurité d'Entreprise",
-        "description": "Chiffrement de bout en bout, enclaves sécurisées et conformité aux normes SOC 2 Type II."
-      },
-      "nft": {
-        "title": "Abonnements NFT",
-        "description": "Possédez vos droits d'accès sous forme de NFT. Modèle d'abonnement transférable, échangeable et pérenne."
-      }
-    }
-  },
-  "featuresPage": {
-    "hero": {
-      "badge": "⚡ Fonctionnalités Puissantes",
-      "title": "Tout ce dont Vous Avez Besoin pour",
-      "titleGradient": "Automatiser N'importe Quoi",
-      "description": "Des flux de travail alimentés par l'IA aux opérations blockchain, FrostyLabs vous donne les outils pour construire, automatiser et faire évoluer votre entreprise avec une technologie de pointe.",
-      "stats": {
-        "aiModels": "Modèles IA",
-        "blockchainNetworks": "Réseaux Blockchain",
-        "blockchainOperations": "Opérations Blockchain",
-        "possibilities": "Possibilités"
-      }
-    },
-    "blockchain": {
-      "title": "Opérations de Coffre-fort Blockchain",
-      "subtitle": "Exécutez des opérations blockchain sécurisées sur plusieurs chaînes avec la protection AWS Nitro Enclave.",
-      "selectOperation": "Sélectionnez une Opération",
-      "selectedPrefix": "Sélectionné :",
-      "securityNote": "Toutes les opérations sont sécurisées par le SDK thirdweb Vault avec la protection AWS Nitro Enclaves.",
-      "clickPrompt": "Cliquez sur n'importe quelle opération blockchain ci-dessus pour voir les informations détaillées et les fonctionnalités de sécurité.",
-      "operations": {
-        "transfer": {
-          "title": "Transfert de Jetons",
-          "description": "Transferts de jetons sécurisés sur plusieurs chaînes avec optimisation du gaz"
-        },
-        "swap": {
-          "title": "Échange de Jetons",
-          "description": "Échange de jetons automatisé avec le meilleur routage de prix via des agrégateurs DEX"
-        },
-        "stake": {
-          "title": "Staking",
-          "description": "Staking automatisé avec optimisation du rendement et composition des récompenses"
-        },
-        "bridge": {
-          "title": "Pont d'Actifs",
-          "description": "Pont d'actifs inter-chaînes avec vérification de sécurité"
-        },
-        "mint": {
-          "title": "Création de NFT",
-          "description": "Création massive de NFT avec gestion des métadonnées et stockage IPFS"
-        },
-        "deploy": {
-          "title": "Contrats Intelligents",
-          "description": "Déploiement et interaction automatisés de contrats intelligents"
-        },
-        "governance": {
-          "title": "Gouvernance",
-          "description": "Vote automatisé dans les DAO et participation à la gouvernance"
-        },
-        "yield": {
-          "title": "Yield Farming",
-          "description": "Yield farming automatisé avec gestion des risques"
-        }
-      }
-    },
-    "signup": {
-      "title": "Inscrivez-vous en Quelques Secondes",
-      "subtitle": "Aucune connaissance en crypto requise. Inscrivez-vous avec un email, une connexion sociale ou votre portefeuille existant - nous gérons la complexité.",
-      "chooseMethod": "Choisissez Votre Méthode d'Inscription",
-      "emailSocial": {
-        "title": "Email & Connexion Sociale",
-        "description": "Inscrivez-vous avec Google, Discord, Twitter, GitHub ou par email - comme n'importe quelle autre application.",
-        "methods": [
-          "Google",
-          "Discord",
-          "Twitter",
-          "Email",
-          "GitHub",
-          "Passkey"
-        ]
-      },
-      "wallet": {
-        "title": "Connectez Votre Portefeuille",
-        "description": "Vous avez déjà MetaMask, Coinbase Wallet ou un autre portefeuille ? Connectez-le instantanément.",
-        "wallets": [
-          "MetaMask",
-          "Coinbase",
-          "Rainbow",
-          "Ledger"
-        ]
-      },
-      "behindScenes": {
-        "title": "Que se Passe-t-il en Coulisses ?",
-        "steps": [
-          {
-            "title": "Portefeuille Intégré Créé Automatiquement",
-            "description": "Lorsque vous vous inscrivez, thirdweb crée automatiquement un portefeuille blockchain sécurisé pour vous - aucune configuration requise."
-          },
-          {
-            "title": "Pas de Clés Privées à Gérer",
-            "description": "Votre portefeuille est sécurisé par votre méthode de connexion (email, Google, etc.). Pas de phrases secrètes à noter ou à perdre."
-          },
-          {
-            "title": "Prêt à Utiliser les Fonctionnalités Blockchain",
-            "description": "Achetez des abonnements NFT, exécutez des flux de travail blockchain et interagissez avec des contrats intelligents - le tout sans complexité crypto."
-          },
-          {
-            "title": "Sécurité de Niveau Entreprise",
-            "description": "Propulsé par l'infrastructure de thirdweb avec AWS Nitro Enclaves - vos clés ne sont jamais exposées."
-          }
-        ]
-      },
-      "bestPart": {
-        "title": "La Meilleure Partie ?",
-        "description": "Vous bénéficiez de tous les avantages de la blockchain (abonnements NFT, flux de travail sécurisés, support multi-chaînes) sans avoir besoin de comprendre comment cela fonctionne. Inscrivez-vous simplement et commencez à automatiser !"
-      }
-    },
-    "security": {
-      "title": "Gestion Sécurisée des Portefeuilles Blockchain",
-      "subtitle": "Vos flux de travail peuvent créer et gérer des portefeuilles blockchain avec une sécurité de niveau entreprise propulsée par le SDK thirdweb Vault et AWS Nitro Enclaves.",
-      "vault": {
-        "title": "Qu'est-ce que thirdweb Vault ?",
-        "description": "thirdweb Vault est un système de gestion de clés sécurisé qui permet à vos flux de travail de créer et de contrôler des portefeuilles blockchain pour des opérations automatisées - comme un robot qui peut signer des transactions en votre nom.",
-        "features": [
-          {
-            "title": "Créer des Portefeuilles dans les Flux de Travail",
-            "description": "Vos flux de travail d'automatisation peuvent créer des portefeuilles blockchain dédiés pour des tâches spécifiques (bots de trading, création de NFT, etc.)"
-          },
-          {
-            "title": "Signer des Transactions Automatiquement",
-            "description": "Les flux de travail peuvent signer des transactions blockchain, des messages et des appels de contrats intelligents sans approbation manuelle"
-          },
-          {
-            "title": "Support Multi-Chaînes",
-            "description": "Fonctionne sur tous les plus de 35 réseaux blockchain pris en charge - Ethereum, Polygon, Base, Arbitrum, et plus encore"
-          },
-          {
-            "title": "Vous Restez aux Commandes",
-            "description": "Vous seul pouvez accéder et gérer les portefeuilles de vos flux de travail - ils sont liés à votre compte"
-          }
-        ]
-      },
-      "useCases": {
-        "title": "Cas d'Usage pour les Portefeuilles Vault",
-        "items": [
-          "Bots de trading DeFi automatisés",
-          "Création et distribution de NFT",
-          "Déploiement de contrats intelligents",
-          "Opérations multi-signatures",
-          "Transferts de jetons et paiements"
-        ]
-      },
-      "architecture": {
-        "title": "Comment les Portefeuilles Vault sont-ils Sécurisés ?",
-        "nitro": {
-          "title": "AWS Nitro Enclaves",
-          "description": "Les clés privées sont stockées dans AWS Nitro Enclaves - des environnements isolés et protégés par matériel auxquels même les administrateurs AWS ne peuvent pas accéder.",
-          "features": [
-            "Isolation cryptographique au niveau du CPU",
-            "Pas d'accès réseau depuis l'enclave",
-            "Attestation cryptographique de l'intégrité du code"
-          ]
-        },
-        "encryption": {
-          "title": "Chiffrement de Bout en Bout",
-          "description": "Toute la communication avec les portefeuilles vault utilise le chiffrement xChaCha20-Poly1305 avec confidentialité persistante parfaite.",
-          "features": [
-            "Les clés privées ne quittent jamais l'enclave",
-            "Chiffré au repos et en transit",
-            "Architecture à connaissance nulle"
-          ]
-        }
-      }
-    }
-  },
-  "aboutPage": {
-    "hero": {
-      "badge": "🚀 Lancement Décembre 2025",
-      "title": "Construire le Futur de",
-      "titleGradient": "L'Automatisation IA",
-      "description": "FrostyLabs a pour mission de démocratiser l'automatisation de l'IA et de rendre la technologie blockchain accessible à tous. Nous construisons les outils qui propulseront la prochaine génération de flux de travail automatisés.",
-      "stats": {
-        "aiModels": "Modèles IA",
-        "blockchainNetworks": "Réseaux Blockchain",
-        "launchDate": "Date de Lancement"
-      }
-    },
-    "mission": {
-      "title": "Notre Mission",
-      "paragraph1": "Nous croyons que l'automatisation de l'IA doit être accessible, sécurisée et véritablement décentralisée. Notre mission est de démocratiser l'automatisation des flux de travail IA en combinant la puissance de plusieurs modèles IA avec les avantages de sécurité et de propriété de la technologie blockchain.",
-      "paragraph2": "Grâce aux abonnements basés sur les NFT, nous créons un nouveau paradigme où les utilisateurs possèdent réellement leurs droits d'accès, peuvent les échanger librement et bénéficier de la valeur qu'ils créent dans l'écosystème.",
-      "goals": [
-        "Démocratiser l'accès à l'automatisation de l'IA",
-        "Garantir une sécurité et une confidentialité maximales",
-        "Construire une infrastructure véritablement décentralisée"
-      ],
-      "vision": {
-        "title": "Notre Vision",
-        "description": "Un monde où l'automatisation de l'IA est aussi accessible et échangeable que n'importe quel actif numérique, où les utilisateurs contrôlent leur propre destin et où la puissance de l'intelligence artificielle est exploitée par tous, pas seulement par les grandes entreprises."
-      }
-    },
-    "techStack": {
-      "title": "Stack Technologique",
-      "subtitle": "Construit avec des technologies de pointe pour une performance, une sécurité et une évolutivité maximales.",
-      "stacks": {
-        "backend": {
-          "title": "Infrastructure Backend",
-          "items": {
-            "framework": "Next.js 15",
-            "runtime": "Node.js 20+",
-            "database": "PostgreSQL",
-            "auth": "Web3 Auth",
-            "orm": "Drizzle"
-          }
-        },
-        "blockchain": {
-          "title": "Infrastructure Blockchain",
-          "items": {
-            "sdk": "thirdweb v5",
-            "vault": "thirdweb Vault",
-            "networks": "35+ Chaînes EVM",
-            "security": "AWS Nitro",
-            "nftStandards": "ERC-721/1155"
-          }
-        },
-        "aiModels": {
-          "title": "Modèles IA",
-          "items": {
-            "openai": "GPT-5, GPT-4.1",
-            "anthropic": "Claude 4",
-            "google": "Gemini 2.x",
-            "xai": "Grok-3",
-            "total": "20+ Modèles"
-          }
-        },
-        "devops": {
-          "title": "DevOps",
-          "items": {
-            "container": "Docker",
-            "orchestration": "Kubernetes",
-            "cicd": "GitHub Actions",
-            "monitoring": "Prometheus",
-            "cloud": "AWS/GCP"
-          }
-        },
-        "frontend": {
-          "title": "Frontend",
-          "items": {
-            "framework": "React 19",
-            "styling": "Tailwind CSS",
-            "uiLibrary": "shadcn/ui",
-            "workflowUI": "React Flow",
-            "animations": "Framer Motion"
-          }
-        },
-        "security": {
-          "title": "Sécurité",
-          "items": {
-            "walletAuth": "thirdweb",
-            "encryption": "AES-256",
-            "keyStorage": "AWS Nitro",
-            "compliance": "SOC 2, ISO",
-            "privacy": "GDPR"
-          }
-        }
-      },
-      "labels": {
-        "framework": "Framework",
-        "runtime": "Runtime",
-        "database": "Base de Données",
-        "auth": "Auth",
-        "orm": "ORM",
-        "sdk": "SDK",
-        "vault": "Vault",
-        "networks": "Réseaux",
-        "security": "Sécurité",
-        "nftStandards": "Standards NFT",
-        "openai": "OpenAI",
-        "anthropic": "Anthropic",
-        "google": "Google AI",
-        "xai": "xAI",
-        "total": "Total Modèles",
-        "container": "Conteneur",
-        "orchestration": "Orchestration",
-        "cicd": "CI/CD",
-        "monitoring": "Surveillance",
-        "cloud": "Cloud",
-        "styling": "Stylisme",
-        "uiLibrary": "Bibliothèque UI",
-        "workflowUI": "UI de Flux de Travail",
-        "animations": "Animations",
-        "walletAuth": "Auth Portefeuille",
-        "encryption": "Chiffrement",
-        "keyStorage": "Stockage de Clés",
-        "compliance": "Conformité",
-        "privacy": "Confidentialité"
-      }
-    },
-    "roadmap": {
-      "title": "Feuille de Route",
-      "subtitle": "Notre voyage pour révolutionner l'automatisation IA et l'intégration blockchain.",
-      "quarters": {
-        "q4_2025": {
-          "quarter": "T4 2025",
-          "title": "Lancement Public et Croissance Initiale",
-          "status": "EN COURS",
-          "items": [
-            {
-              "icon": "✓",
-              "text": "Page d'atterrissage et site marketing"
-            },
-            {
-              "icon": "✓",
-              "text": "Déploiement en production et surveillance"
-            },
-            {
-              "icon": "🚧",
-              "text": "Lancement de la bêta ouverte (Novembre/Décembre 2025)"
-            },
-            {
-              "icon": "🚧",
-              "text": "Programme Fondateur Beta (100 Membres Fondateurs)"
-            },
-            {
-              "icon": "🚧",
-              "text": "Construction de la communauté et intégration des utilisateurs"
-            },
-            {
-              "icon": "📋",
-              "text": "Intégration des retours utilisateurs et itération"
-            }
-          ]
-        },
-        "q1_2026": {
-          "quarter": "T1 2026",
-          "title": "Plateforme d'Agents IA et Fonctionnalités Avancées",
-          "status": "PLANIFIÉ",
-          "items": [
-            {
-              "icon": "🤖",
-              "text": "Frosty Agent : Constructeur d'Agents IA et d'Applications - Créez des agents IA personnalisés et de petites applications IA",
-              "bold": true
-            },
-            {
-              "icon": "⚡",
-              "text": "Frosty Agent : Création de Flux de Travail en Langage Naturel - Générez des flux de travail à partir de descriptions utilisateur",
-              "bold": true
-            },
-            {
-              "icon": "🧠",
-              "text": "Intégration du modèle IA Nebula - Modèle IA avancé pour des performances améliorées",
-              "bold": true
-            },
-            {
-              "icon": "📋",
-              "text": "Recherche RAG et recherche documentaire sémantique (niveau Pro)"
-            },
-            {
-              "icon": "📋",
-              "text": "Fonctionnalités avancées de l'écosystème d'agents"
-            },
-            {
-              "icon": "📋",
-              "text": "Place de marché de flux de travail et bibliothèque de modèles"
-            }
-          ]
-        },
-        "q2_2026": {
-          "quarter": "T2 2026",
-          "title": "FrostyDAO et Lancement de Jeton",
-          "status": "PLANIFIÉ",
-          "items": [
-            {
-              "icon": "🔥",
-              "text": "Lancement équitable du jeton $FROST - Fondateurs Beta auto-liste blanche",
-              "bold": true
-            },
-            {
-              "icon": "🔥",
-              "text": "Jeton de gouvernance FTGOV (gagné en stakant $FROST)",
-              "bold": true
-            },
-            {
-              "icon": "📋",
-              "text": "Récompenses de staking : Gagnez FTGOV + partage des revenus des opérations DAO"
-            },
-            {
-              "icon": "📋",
-              "text": "Liquidité Propriété du Protocole (POL) - DAO possède 95% des revenus d'abonnement"
-            },
-            {
-              "icon": "📋",
-              "text": "Gouvernance on-chain : Votez sur l'allocation de trésorerie et le développement de fonctionnalités"
-            },
-            {
-              "icon": "📋",
-              "text": "Sélection multisig de Fondateurs Beta pour gestion de trésorerie DAO"
-            }
-          ]
-        },
-        "q3_2026": {
-          "quarter": "T3 2026",
-          "title": "Échelle de Plateforme et Expansion Multi-Chaîne",
-          "status": "PLANIFIÉ",
-          "items": [
-            {
-              "icon": "🌐",
-              "text": "Expansion multi-chaîne : Support Solana, Cosmos, Polkadot",
-              "bold": true
-            },
-            {
-              "icon": "🔗",
-              "text": "Adaptateurs d'intégration Zapier et Make.com",
-              "bold": true
-            },
-            {
-              "icon": "📱",
-              "text": "Lancement application mobile (iOS et Android)"
-            },
-            {
-              "icon": "🏢",
-              "text": "Fonctionnalités entreprise : SSO, gestion d'équipe, journaux d'audit"
-            },
-            {
-              "icon": "📊",
-              "text": "Analytiques avancées et suivi de performance des flux de travail"
-            },
-            {
-              "icon": "🎯",
-              "text": "Jalon de 10,000+ utilisateurs actifs"
-            }
-          ]
-        },
-        "q4_2026": {
-          "quarter": "T4 2026",
-          "title": "Marketplace IA et Économie des Créateurs",
-          "status": "PLANIFIÉ",
-          "items": [
-            {
-              "icon": "🛒",
-              "text": "Lancement Marketplace d'Agents et Flux de Travail",
-              "bold": true
-            },
-            {
-              "icon": "💰",
-              "text": "Partage des revenus pour créateurs de modèles (payé en $FROST)",
-              "bold": true
-            },
-            {
-              "icon": "📚",
-              "text": "Bibliothèque de modèles communautaire : 1,000+ flux de travail pré-construits"
-            },
-            {
-              "icon": "🤖",
-              "text": "Orchestration et collaboration multi-agents avancées"
-            },
-            {
-              "icon": "🎓",
-              "text": "Programme de certification créateurs et ressources éducatives"
-            },
-            {
-              "icon": "🌟",
-              "text": "Subventions financées par DAO pour développement innovant d'agents"
-            }
-          ]
-        }
-      },
-      "community": {
-        "title": "Rejoignez Notre Communauté",
-        "description": "Connectez-vous avec des développeurs, des passionnés d'IA et des pionniers de la blockchain qui construisent l'avenir de l'automatisation.",
-        "github": "GitHub",
-        "twitter": "Twitter"
-      }
-    }
-  },
-  "faq": {
-    "title": "Questions Fréquemment Posées",
-    "subtitle": "Tout ce que vous devez savoir sur FrostyFi",
-    "stillHaveQuestions": "Vous avez encore des questions ?",
-    "askOnX": "Posez-nous la question sur X",
-    "items": [
-      {
-        "question": "Qu'est-ce que FrostyFi ?",
-        "answer": "FrostyFi is a visual platform for building AI agents that act on-chain. Connect a large language model to blockchain operations, HTTP calls, or conditional logic using a drag-and-drop canvas — no smart-contract expertise required. Deploy your agent, expose it via a standard API, and let it run autonomously."
-      },
-      {
-        "question": "Ai-je besoin d'écrire du code ?",
-        "answer": "No. FrostyFi's no-code visual builder lets you wire together AI models, on-chain actions, and external APIs by dragging nodes onto a canvas. Power users can drop in custom JavaScript nodes for anything the built-in library doesn't cover."
-      },
-      {
-        "question": "Quelles chaînes et modèles IA sont pris en charge ?",
-        "answer": "On the blockchain side, FrostyFi supports EVM-compatible networks (Ethereum, Base, Polygon, Arbitrum, Optimism, and more) as well as Solana. For AI, you can route requests through OpenAI, Anthropic, Google, Groq, and additional providers via OpenRouter — swap models per node without rebuilding your workflow."
-      },
-      {
-        "question": "Comment fonctionnent les paiements ?",
-        "answer": "Two layers: the app itself uses NFT-based subscriptions on Base (Pro and Enterprise tiers). Agent-to-agent payments use x402 — a per-request micropayment standard that settles in USDC on Base with no intermediary. Your agents can charge callers and pay other agents without any manual invoicing."
-      },
-      {
-        "question": "Existe-t-il un token FROST ?",
-        "answer": "The FROST token is planned for 2026. It is not live today. When it launches, FROST is designed to serve as the platform's utility and governance token — staking, fee discounts, and protocol-owned liquidity. Current subscriptions are NFT-based; no token purchase is needed to use FrostyFi now."
-      },
-      {
-        "question": "Comment démarrer ?",
-        "answer": "Sign up at app.frostyfi.io. The free tier gives you access to the visual builder and a set of AI calls per month to explore the platform. No wallet setup is required to register — connect a wallet later when you want to use on-chain features."
-      }
-    ]
-  },
-  "videoDemo": {
-    "title": "Analysez n'importe quel jeton en 30 secondes"
-  },
-  "poweredBy": {
-    "badge": "Propulsé Par",
-    "titlePrefix": "Propulsé par les Meilleurs",
-    "titleHighlight": "Modèles IA",
-    "description": "Nous intégrons avec les principaux fournisseurs IA pour vous offrir les capacités d'automatisation les plus puissantes.",
-    "moreModels": "+ plus via OpenRouter"
-  },
-  "security": {
-    "badge": "Sécurité d'entreprise",
-    "title": "Votre sécurité est notre priorité",
-    "descriptionPrefix": "Propulsé par",
-    "descriptionHighlight": "thirdweb Vault",
-    "descriptionSuffix": ", la solution de gestion de clés sécurisée leader du secteur",
-    "cta": "En savoir plus sur notre sécurité",
-    "features": {
-      "bankGrade": {
-        "title": "Sécurité de niveau bancaire",
-        "description": "Vos clés chiffrées avec AWS Nitro Enclaves"
-      },
-      "nonCustodial": {
-        "title": "Non custodial",
-        "description": "Vous contrôlez toujours vos actifs"
-      },
-      "infrastructure": {
-        "title": "Infrastructure sécurisée",
-        "description": "Chiffrement de niveau militaire au repos et en transit"
-      },
-      "privacy": {
-        "title": "Confidentialité d'abord",
-        "description": "Architecture à connaissance nulle"
-      }
-    }
-  },
-  "timeline": {
-    "badge": "Calendrier de lancement",
-    "title": "Soyez parmi les premiers",
-    "descriptionPrefix": "Rejoignez notre programme bêta et obtenez",
-    "descriptionHighlight": "des avantages exclusifs de membre fondateur",
-    "status": {
-      "inProgress": "En cours",
-      "planned": "Prévu"
-    },
-    "milestones": {
-      "beta": {
-        "title": "Lancement de la bêta publique",
-        "items": [
-          "Premier mois gratuit (niveau Pro)",
-          "Badge NFT de Fondateur Bêta",
-          "Avantages d'adopteur précoce"
-        ]
-      },
-      "launch": {
-        "title": "Lancement complet de la plateforme",
-        "items": [
-          "Lancement de la marketplace",
-          "Fonctionnalités avancées",
-          "Support entreprise"
-        ]
-      }
-    },
-    "betaDate": "Décembre 2025",
-    "betaDescription": "Lancement de la bêta publique avec des avantages exclusifs",
-    "viewRoadmap": "Voir la feuille de route complète"
-  }
+	"metadata": {
+		"title": "FrostyFi — Build autonomous on-chain agents",
+		"description": "The visual platform for AI agents that act on-chain. Build workflows, run them anywhere, pay per call with x402. Now in beta.",
+		"keywords": "on-chain AI agents, x402 payments, no-code AI workflows, web3 automation, agent platform, EVM, Solana"
+	},
+	"nav": {
+		"home": "Accueil",
+		"useCases": "Cas d'Usage",
+		"features": "Fonctionnalités",
+		"pricing": "Tarifs",
+		"about": "À Propos",
+		"product": "Product",
+		"capabilities": "Capabilities",
+		"docs": "Docs",
+		"launchApp": "FrostyFi App",
+		"github": "GitHub",
+		"twitter": "Twitter"
+	},
+	"hero": {
+		"badge": "Now in beta",
+		"title": "Build autonomous on-chain agents",
+		"description": "The visual platform for AI agents that act on-chain. Describe it, build it visually, deploy it — workflows that pay per call with x402.",
+		"launchApp": "FrostyFi App",
+		"watchDemo": "Watch demo"
+	},
+	"stats": {
+		"aiModels": "Modèles IA",
+		"blockchainNetworks": "Réseaux Blockchain",
+		"automatedExecution": "Exécution Automatisée",
+		"possibilities": "Possibilités"
+	},
+	"useCases": {
+		"title": "Que Allez-vous Automatiser ?",
+		"subtitle": "Des réseaux sociaux au trading DeFi, FrostyFlow gère tout. Construisez une fois, exécutez pour toujours.",
+		"cta": "Ce n'est que le début. Que allez-vous construire ?",
+		"ctaButton": "Commencer à Construire →",
+		"cards": {
+			"socialMedia": {
+				"badge": "MARKETING",
+				"title": "Automatisation des Réseaux Sociaux",
+				"subtitle": "Création de contenu → Planification → Publication multi-plateforme",
+				"features": [
+					"GPT-5 génère des posts engageants à partir de sujets tendance",
+					"Claude 4 crée des variations spécifiques à chaque plateforme",
+					"L'automatisation du navigateur publie sur Twitter, LinkedIn, Instagram",
+					"Suivi analytique et optimisation des performances"
+				],
+				"benefit": "Économisez plus de 20 heures/semaine"
+			},
+			"defiTrading": {
+				"badge": "WEB3",
+				"title": "Automatisation du Trading DeFi",
+				"subtitle": "Surveiller → Analyser → Exécuter → Notifier",
+				"features": [
+					"Surveillez les prix des jetons sur les DEX en temps réel",
+					"L'IA analyse les tendances du marché et identifie les opportunités",
+					"Exécutez des échanges via le coffre-fort sécurisé thirdweb (35+ réseaux)",
+					"Notifications instantanées sur les transactions et les changements de portefeuille"
+				],
+				"benefit": "Trading automatisé 24/7",
+				"subtext": "Propulsé par l'infrastructure thirdweb"
+			},
+			"evmContract": {
+				"badge": "BLOCKCHAIN",
+				"title": "Automatisation des Contrats EVM",
+				"subtitle": "Déployer → Interagir → Surveiller → Gérer",
+				"features": [
+					"Déployez des contrats intelligents sur plus de 35 chaînes EVM",
+					"Appels de contrats automatisés avec le SDK thirdweb",
+					"Surveillez les événements et déclenchez des flux de travail automatiquement",
+					"Optimisation du gaz et gestion des transactions"
+				],
+				"benefit": "Plus de 35 réseaux blockchain",
+				"subtext": "Construit sur le SDK thirdweb v5"
+			},
+			"customerSupport": {
+				"badge": "AFFAIRES",
+				"title": "Support Client IA",
+				"subtitle": "Recevoir → Classifier → Répondre → Escalader",
+				"features": [
+					"Recevez des demandes par email, chat, réseaux sociaux",
+					"L'IA classifie l'urgence et route vers le bon département",
+					"Générez des réponses personnalisées avec la recherche RAG",
+					"Escalade automatique des problèmes complexes vers des agents humains"
+				],
+				"benefit": "Réduisez le temps de réponse de 90%"
+			},
+			"ecommerce": {
+				"badge": "E-COMMERCE",
+				"title": "Automatisation du Commerce en Ligne",
+				"subtitle": "Recherche de produits → Mise en ligne → Marketing → Exécution",
+				"features": [
+					"L'IA recherche les produits tendance et les concurrents",
+					"Générez des descriptions de produits optimisées pour le SEO",
+					"Mise à jour automatique de l'inventaire et des prix sur les plateformes",
+					"Envoyez des emails marketing personnalisés et des suivis"
+				],
+				"benefit": "Évoluez sans embaucher"
+			},
+			"contentCreation": {
+				"badge": "CONTENU",
+				"title": "Pipeline de Création de Contenu",
+				"subtitle": "Rechercher → Écrire → Éditer → Publier → Promouvoir",
+				"features": [
+					"L'agent de recherche rassemble des données du web et des bases de données",
+					"L'agent rédacteur crée des articles de blog, des articles, des scripts",
+					"L'agent éditeur affine le ton, la grammaire, l'optimisation SEO",
+					"Publication automatique sur CMS et promotion sur les réseaux sociaux"
+				],
+				"benefit": "Production de contenu x10"
+			}
+		}
+	},
+	"pricing": {
+		"title": "Tarification Bêta",
+		"subtitle": "Commencez à automatiser le Web3 dès aujourd'hui !",
+		"betaLabel": "Limited-time beta offer",
+		"founderBadgeLabel": "Beta Founder Badge",
+		"founderBadgeDesc": "First 100 members get an exclusive Beta Founder NFT badge + first month free + auto-whitelist for $PERMA launch.",
+		"free": {
+			"name": "Gratuit",
+			"price": "Gratuit pour Toujours",
+			"description": "Parfait pour commencer",
+			"emoji": "🆓",
+			"cta": "Commencer",
+			"features": [
+				"50 messages/mois sur les modèles gratuits",
+				"Assistants et agents illimités",
+				"5 workflows enregistrés",
+				"Skills, serveurs MCP et modèles",
+				"Exécution de code JavaScript"
+			]
+		},
+		"pro": {
+			"name": "Pro",
+			"price": "25 $/mois",
+			"description": "Pour les professionnels construisant des flux de travail avancés",
+			"emoji": "⚡",
+			"badge": "LE PLUS POPULAIRE",
+			"cta": "Obtenir Pro →",
+			"features": [
+				"Modèles gratuits et rapides illimités",
+				"≈400–4 700 messages premium/mois",
+				"15+ modèles top via OpenRouter (Opus, GPT-5…)",
+				"Assistants et agents illimités",
+				"50 workflows enregistrés",
+				"Génération d'image, vidéo et voix",
+				"Frosty Engine (planifié et déployé)",
+				"Exécution de code Python et JavaScript"
+			]
+		},
+		"enterprise": {
+			"name": "Entreprise",
+			"price": "99 $/mois",
+			"description": "Pour les équipes et l'automatisation avancée",
+			"emoji": "🏢",
+			"cta": "Obtenir Entreprise →",
+			"features": [
+				"Modèles gratuits et rapides illimités",
+				"≈1 500–18 000 messages premium/mois",
+				"15+ modèles top via OpenRouter (Opus, GPT-5…)",
+				"Assistants, agents et workflows illimités",
+				"Sous-domaines d'agent personnalisés illimités",
+				"Génération d'image, vidéo et voix",
+				"Frosty Engine (exécutions illimitées)",
+				"Support prioritaire · accès anticipé"
+			]
+		}
+	},
+	"features": {
+		"title": "Fonctionnalités Puissantes",
+		"subtitle": "Tout ce dont vous avez besoin pour construire, déployer et faire évoluer des flux de travail d'automatisation IA.",
+		"cta": "Explorer Toutes les Fonctionnalités",
+		"cards": {
+			"multiModel": {
+				"title": "IA Multi-Modèle",
+				"description": "Connectez GPT-5, Claude, Nebula et plus de 20 modèles IA. Routez intelligemment en fonction du coût, de la vitesse et de la qualité."
+			},
+			"blockchain": {
+				"title": "Coffre-fort Blockchain",
+				"description": "Plus de 15 opérations blockchain propulsées par thirdweb avec la sécurité AWS Nitro Enclave."
+			},
+			"workflow": {
+				"title": "Automatisation des Flux de Travail",
+				"description": "Constructeur visuel de flux de travail avec planification cron, déclencheurs webhook et logique conditionnelle."
+			},
+			"analytics": {
+				"title": "Analytique en Temps Réel",
+				"description": "Surveillance complète avec suivi des coûts, métriques de performance et insights d'optimisation."
+			},
+			"security": {
+				"title": "Sécurité d'Entreprise",
+				"description": "Chiffrement de bout en bout, enclaves sécurisées et conformité aux normes SOC 2 Type II."
+			},
+			"nft": {
+				"title": "Abonnements NFT",
+				"description": "Possédez vos droits d'accès sous forme de NFT. Modèle d'abonnement transférable, échangeable et pérenne."
+			}
+		}
+	},
+	"featuresPage": {
+		"hero": {
+			"badge": "⚡ Fonctionnalités Puissantes",
+			"title": "Tout ce dont Vous Avez Besoin pour",
+			"titleGradient": "Automatiser N'importe Quoi",
+			"description": "Des flux de travail alimentés par l'IA aux opérations blockchain, FrostyLabs vous donne les outils pour construire, automatiser et faire évoluer votre entreprise avec une technologie de pointe.",
+			"stats": {
+				"aiModels": "Modèles IA",
+				"blockchainNetworks": "Réseaux Blockchain",
+				"blockchainOperations": "Opérations Blockchain",
+				"possibilities": "Possibilités"
+			}
+		},
+		"blockchain": {
+			"title": "Opérations de Coffre-fort Blockchain",
+			"subtitle": "Exécutez des opérations blockchain sécurisées sur plusieurs chaînes avec la protection AWS Nitro Enclave.",
+			"selectOperation": "Sélectionnez une Opération",
+			"selectedPrefix": "Sélectionné :",
+			"securityNote": "Toutes les opérations sont sécurisées par le SDK thirdweb Vault avec la protection AWS Nitro Enclaves.",
+			"clickPrompt": "Cliquez sur n'importe quelle opération blockchain ci-dessus pour voir les informations détaillées et les fonctionnalités de sécurité.",
+			"operations": {
+				"transfer": {
+					"title": "Transfert de Jetons",
+					"description": "Transferts de jetons sécurisés sur plusieurs chaînes avec optimisation du gaz"
+				},
+				"swap": {
+					"title": "Échange de Jetons",
+					"description": "Échange de jetons automatisé avec le meilleur routage de prix via des agrégateurs DEX"
+				},
+				"stake": {
+					"title": "Staking",
+					"description": "Staking automatisé avec optimisation du rendement et composition des récompenses"
+				},
+				"bridge": {
+					"title": "Pont d'Actifs",
+					"description": "Pont d'actifs inter-chaînes avec vérification de sécurité"
+				},
+				"mint": {
+					"title": "Création de NFT",
+					"description": "Création massive de NFT avec gestion des métadonnées et stockage IPFS"
+				},
+				"deploy": {
+					"title": "Contrats Intelligents",
+					"description": "Déploiement et interaction automatisés de contrats intelligents"
+				},
+				"governance": {
+					"title": "Gouvernance",
+					"description": "Vote automatisé dans les DAO et participation à la gouvernance"
+				},
+				"yield": {
+					"title": "Yield Farming",
+					"description": "Yield farming automatisé avec gestion des risques"
+				}
+			}
+		},
+		"signup": {
+			"title": "Inscrivez-vous en Quelques Secondes",
+			"subtitle": "Aucune connaissance en crypto requise. Inscrivez-vous avec un email, une connexion sociale ou votre portefeuille existant - nous gérons la complexité.",
+			"chooseMethod": "Choisissez Votre Méthode d'Inscription",
+			"emailSocial": {
+				"title": "Email & Connexion Sociale",
+				"description": "Inscrivez-vous avec Google, Discord, Twitter, GitHub ou par email - comme n'importe quelle autre application.",
+				"methods": [
+					"Google",
+					"Discord",
+					"Twitter",
+					"Email",
+					"GitHub",
+					"Passkey"
+				]
+			},
+			"wallet": {
+				"title": "Connectez Votre Portefeuille",
+				"description": "Vous avez déjà MetaMask, Coinbase Wallet ou un autre portefeuille ? Connectez-le instantanément.",
+				"wallets": [
+					"MetaMask",
+					"Coinbase",
+					"Rainbow",
+					"Ledger"
+				]
+			},
+			"behindScenes": {
+				"title": "Que se Passe-t-il en Coulisses ?",
+				"steps": [
+					{
+						"title": "Portefeuille Intégré Créé Automatiquement",
+						"description": "Lorsque vous vous inscrivez, thirdweb crée automatiquement un portefeuille blockchain sécurisé pour vous - aucune configuration requise."
+					},
+					{
+						"title": "Pas de Clés Privées à Gérer",
+						"description": "Votre portefeuille est sécurisé par votre méthode de connexion (email, Google, etc.). Pas de phrases secrètes à noter ou à perdre."
+					},
+					{
+						"title": "Prêt à Utiliser les Fonctionnalités Blockchain",
+						"description": "Payez avec un abonnement USDC, exécutez des flux de travail blockchain et interagissez avec des contrats intelligents - le tout sans complexité crypto."
+					},
+					{
+						"title": "Sécurité de Niveau Entreprise",
+						"description": "Propulsé par l'infrastructure de thirdweb avec AWS Nitro Enclaves - vos clés ne sont jamais exposées."
+					}
+				]
+			},
+			"bestPart": {
+				"title": "La Meilleure Partie ?",
+				"description": "Vous bénéficiez de tous les avantages de la blockchain (abonnements USDC, flux de travail sécurisés, support multi-chaînes) sans avoir besoin de comprendre comment cela fonctionne. Inscrivez-vous simplement et commencez à automatiser !"
+			}
+		},
+		"security": {
+			"title": "Gestion Sécurisée des Portefeuilles Blockchain",
+			"subtitle": "Vos flux de travail peuvent créer et gérer des portefeuilles blockchain avec une sécurité de niveau entreprise propulsée par le SDK thirdweb Vault et AWS Nitro Enclaves.",
+			"vault": {
+				"title": "Qu'est-ce que thirdweb Vault ?",
+				"description": "thirdweb Vault est un système de gestion de clés sécurisé qui permet à vos flux de travail de créer et de contrôler des portefeuilles blockchain pour des opérations automatisées - comme un robot qui peut signer des transactions en votre nom.",
+				"features": [
+					{
+						"title": "Créer des Portefeuilles dans les Flux de Travail",
+						"description": "Vos flux de travail d'automatisation peuvent créer des portefeuilles blockchain dédiés pour des tâches spécifiques (bots de trading, création de NFT, etc.)"
+					},
+					{
+						"title": "Signer des Transactions Automatiquement",
+						"description": "Les flux de travail peuvent signer des transactions blockchain, des messages et des appels de contrats intelligents sans approbation manuelle"
+					},
+					{
+						"title": "Support Multi-Chaînes",
+						"description": "Fonctionne sur tous les plus de 35 réseaux blockchain pris en charge - Ethereum, Polygon, Base, Arbitrum, et plus encore"
+					},
+					{
+						"title": "Vous Restez aux Commandes",
+						"description": "Vous seul pouvez accéder et gérer les portefeuilles de vos flux de travail - ils sont liés à votre compte"
+					}
+				]
+			},
+			"useCases": {
+				"title": "Cas d'Usage pour les Portefeuilles Vault",
+				"items": [
+					"Bots de trading DeFi automatisés",
+					"Création et distribution de NFT",
+					"Déploiement de contrats intelligents",
+					"Opérations multi-signatures",
+					"Transferts de jetons et paiements"
+				]
+			},
+			"architecture": {
+				"title": "Comment les Portefeuilles Vault sont-ils Sécurisés ?",
+				"nitro": {
+					"title": "AWS Nitro Enclaves",
+					"description": "Les clés privées sont stockées dans AWS Nitro Enclaves - des environnements isolés et protégés par matériel auxquels même les administrateurs AWS ne peuvent pas accéder.",
+					"features": [
+						"Isolation cryptographique au niveau du CPU",
+						"Pas d'accès réseau depuis l'enclave",
+						"Attestation cryptographique de l'intégrité du code"
+					]
+				},
+				"encryption": {
+					"title": "Chiffrement de Bout en Bout",
+					"description": "Toute la communication avec les portefeuilles vault utilise le chiffrement xChaCha20-Poly1305 avec confidentialité persistante parfaite.",
+					"features": [
+						"Les clés privées ne quittent jamais l'enclave",
+						"Chiffré au repos et en transit",
+						"Architecture à connaissance nulle"
+					]
+				}
+			}
+		}
+	},
+	"aboutPage": {
+		"hero": {
+			"badge": "🚀 Lancement Décembre 2025",
+			"title": "Construire le Futur de",
+			"titleGradient": "L'Automatisation IA",
+			"description": "FrostyLabs a pour mission de démocratiser l'automatisation de l'IA et de rendre la technologie blockchain accessible à tous. Nous construisons les outils qui propulseront la prochaine génération de flux de travail automatisés.",
+			"stats": {
+				"aiModels": "Modèles IA",
+				"blockchainNetworks": "Réseaux Blockchain",
+				"launchDate": "Date de Lancement"
+			}
+		},
+		"mission": {
+			"title": "Notre Mission",
+			"paragraph1": "Nous croyons que l'automatisation de l'IA doit être accessible, sécurisée et véritablement décentralisée. Notre mission est de démocratiser l'automatisation des flux de travail IA en combinant la puissance de plusieurs modèles IA avec les avantages de sécurité et de propriété de la technologie blockchain.",
+			"paragraph2": "Grâce à de simples abonnements USDC et à des protocoles d'agents ouverts comme x402 et ERC-8004, nous construisons une plateforme où chacun peut créer, déployer et monétiser des agents on-chain — et capturer la valeur qu'ils génèrent dans l'écosystème.",
+			"goals": [
+				"Démocratiser l'accès à l'automatisation de l'IA",
+				"Garantir une sécurité et une confidentialité maximales",
+				"Construire une infrastructure véritablement décentralisée"
+			],
+			"vision": {
+				"title": "Notre Vision",
+				"description": "Un monde où l'automatisation de l'IA est aussi accessible et échangeable que n'importe quel actif numérique, où les utilisateurs contrôlent leur propre destin et où la puissance de l'intelligence artificielle est exploitée par tous, pas seulement par les grandes entreprises."
+			}
+		},
+		"techStack": {
+			"title": "Stack Technologique",
+			"subtitle": "Construit avec des technologies de pointe pour une performance, une sécurité et une évolutivité maximales.",
+			"stacks": {
+				"backend": {
+					"title": "Infrastructure Backend",
+					"items": {
+						"framework": "Next.js 15",
+						"runtime": "Node.js 20+",
+						"database": "PostgreSQL",
+						"auth": "Web3 Auth",
+						"orm": "Drizzle"
+					}
+				},
+				"blockchain": {
+					"title": "Infrastructure Blockchain",
+					"items": {
+						"sdk": "thirdweb v5",
+						"vault": "thirdweb Vault",
+						"networks": "35+ Chaînes EVM",
+						"security": "AWS Nitro",
+						"nftStandards": "ERC-721/1155"
+					}
+				},
+				"aiModels": {
+					"title": "Modèles IA",
+					"items": {
+						"openai": "GPT-5, GPT-4.1",
+						"anthropic": "Claude 4",
+						"google": "Gemini 2.x",
+						"xai": "Grok-3",
+						"total": "20+ Modèles"
+					}
+				},
+				"devops": {
+					"title": "DevOps",
+					"items": {
+						"container": "Docker",
+						"orchestration": "Kubernetes",
+						"cicd": "GitHub Actions",
+						"monitoring": "Prometheus",
+						"cloud": "AWS/GCP"
+					}
+				},
+				"frontend": {
+					"title": "Frontend",
+					"items": {
+						"framework": "React 19",
+						"styling": "Tailwind CSS",
+						"uiLibrary": "shadcn/ui",
+						"workflowUI": "React Flow",
+						"animations": "Framer Motion"
+					}
+				},
+				"security": {
+					"title": "Sécurité",
+					"items": {
+						"walletAuth": "thirdweb",
+						"encryption": "AES-256",
+						"keyStorage": "AWS Nitro",
+						"compliance": "SOC 2, ISO",
+						"privacy": "GDPR"
+					}
+				}
+			},
+			"labels": {
+				"framework": "Framework",
+				"runtime": "Runtime",
+				"database": "Base de Données",
+				"auth": "Auth",
+				"orm": "ORM",
+				"sdk": "SDK",
+				"vault": "Vault",
+				"networks": "Réseaux",
+				"security": "Sécurité",
+				"nftStandards": "Standards NFT",
+				"openai": "OpenAI",
+				"anthropic": "Anthropic",
+				"google": "Google AI",
+				"xai": "xAI",
+				"total": "Total Modèles",
+				"container": "Conteneur",
+				"orchestration": "Orchestration",
+				"cicd": "CI/CD",
+				"monitoring": "Surveillance",
+				"cloud": "Cloud",
+				"styling": "Stylisme",
+				"uiLibrary": "Bibliothèque UI",
+				"workflowUI": "UI de Flux de Travail",
+				"animations": "Animations",
+				"walletAuth": "Auth Portefeuille",
+				"encryption": "Chiffrement",
+				"keyStorage": "Stockage de Clés",
+				"compliance": "Conformité",
+				"privacy": "Confidentialité"
+			}
+		},
+		"roadmap": {
+			"title": "Feuille de Route",
+			"subtitle": "Notre voyage pour révolutionner l'automatisation IA et l'intégration blockchain.",
+			"quarters": {
+				"q4_2025": {
+					"quarter": "T4 2025",
+					"title": "Lancement Public et Croissance Initiale",
+					"status": "EN COURS",
+					"items": [
+						{
+							"icon": "✓",
+							"text": "Page d'atterrissage et site marketing"
+						},
+						{
+							"icon": "✓",
+							"text": "Déploiement en production et surveillance"
+						},
+						{
+							"icon": "🚧",
+							"text": "Lancement de la bêta ouverte (Novembre/Décembre 2025)"
+						},
+						{
+							"icon": "🚧",
+							"text": "Programme Fondateur Beta (100 Membres Fondateurs)"
+						},
+						{
+							"icon": "🚧",
+							"text": "Construction de la communauté et intégration des utilisateurs"
+						},
+						{
+							"icon": "📋",
+							"text": "Intégration des retours utilisateurs et itération"
+						}
+					]
+				},
+				"q1_2026": {
+					"quarter": "T1 2026",
+					"title": "Plateforme d'Agents IA et Fonctionnalités Avancées",
+					"status": "PLANIFIÉ",
+					"items": [
+						{
+							"icon": "🤖",
+							"text": "Frosty Agent : Constructeur d'Agents IA et d'Applications - Créez des agents IA personnalisés et de petites applications IA",
+							"bold": true
+						},
+						{
+							"icon": "⚡",
+							"text": "Frosty Agent : Création de Flux de Travail en Langage Naturel - Générez des flux de travail à partir de descriptions utilisateur",
+							"bold": true
+						},
+						{
+							"icon": "🧠",
+							"text": "Intégration du modèle IA Nebula - Modèle IA avancé pour des performances améliorées",
+							"bold": true
+						},
+						{
+							"icon": "📋",
+							"text": "Recherche RAG et recherche documentaire sémantique (niveau Pro)"
+						},
+						{
+							"icon": "📋",
+							"text": "Fonctionnalités avancées de l'écosystème d'agents"
+						},
+						{
+							"icon": "📋",
+							"text": "Place de marché de flux de travail et bibliothèque de modèles"
+						}
+					]
+				},
+				"q2_2026": {
+					"quarter": "T2 2026",
+					"title": "FrostyDAO et Lancement de Jeton",
+					"status": "PLANIFIÉ",
+					"items": [
+						{
+							"icon": "🔥",
+							"text": "Lancement équitable du jeton $PERMA - Fondateurs Beta auto-liste blanche",
+							"bold": true
+						},
+						{
+							"icon": "🔥",
+							"text": "Jeton de gouvernance POLAR (gagné en stakant $PERMA)",
+							"bold": true
+						},
+						{
+							"icon": "📋",
+							"text": "Récompenses de staking : Gagnez POLAR + partage des revenus des opérations DAO"
+						},
+						{
+							"icon": "📋",
+							"text": "Liquidité Propriété du Protocole (POL) - DAO possède 95% des revenus d'abonnement"
+						},
+						{
+							"icon": "📋",
+							"text": "Gouvernance on-chain : Votez sur l'allocation de trésorerie et le développement de fonctionnalités"
+						},
+						{
+							"icon": "📋",
+							"text": "Sélection multisig de Fondateurs Beta pour gestion de trésorerie DAO"
+						}
+					]
+				},
+				"q3_2026": {
+					"quarter": "T3 2026",
+					"title": "Échelle de Plateforme et Expansion Multi-Chaîne",
+					"status": "PLANIFIÉ",
+					"items": [
+						{
+							"icon": "🌐",
+							"text": "Expansion multi-chaîne : Support Solana, Cosmos, Polkadot",
+							"bold": true
+						},
+						{
+							"icon": "🔗",
+							"text": "Adaptateurs d'intégration Zapier et Make.com",
+							"bold": true
+						},
+						{
+							"icon": "📱",
+							"text": "Lancement application mobile (iOS et Android)"
+						},
+						{
+							"icon": "🏢",
+							"text": "Fonctionnalités entreprise : SSO, gestion d'équipe, journaux d'audit"
+						},
+						{
+							"icon": "📊",
+							"text": "Analytiques avancées et suivi de performance des flux de travail"
+						},
+						{
+							"icon": "🎯",
+							"text": "Jalon de 10,000+ utilisateurs actifs"
+						}
+					]
+				},
+				"q4_2026": {
+					"quarter": "T4 2026",
+					"title": "Marketplace IA et Économie des Créateurs",
+					"status": "PLANIFIÉ",
+					"items": [
+						{
+							"icon": "🛒",
+							"text": "Lancement Marketplace d'Agents et Flux de Travail",
+							"bold": true
+						},
+						{
+							"icon": "💰",
+							"text": "Partage des revenus pour créateurs de modèles (payé en $PERMA)",
+							"bold": true
+						},
+						{
+							"icon": "📚",
+							"text": "Bibliothèque de modèles communautaire : 1,000+ flux de travail pré-construits"
+						},
+						{
+							"icon": "🤖",
+							"text": "Orchestration et collaboration multi-agents avancées"
+						},
+						{
+							"icon": "🎓",
+							"text": "Programme de certification créateurs et ressources éducatives"
+						},
+						{
+							"icon": "🌟",
+							"text": "Subventions financées par DAO pour développement innovant d'agents"
+						}
+					]
+				}
+			},
+			"community": {
+				"title": "Rejoignez Notre Communauté",
+				"description": "Connectez-vous avec des développeurs, des passionnés d'IA et des pionniers de la blockchain qui construisent l'avenir de l'automatisation.",
+				"github": "GitHub",
+				"twitter": "Twitter"
+			}
+		}
+	},
+	"faq": {
+		"title": "Questions Fréquemment Posées",
+		"subtitle": "Tout ce que vous devez savoir sur FrostyFi",
+		"stillHaveQuestions": "Vous avez encore des questions ?",
+		"askOnX": "Posez-nous la question sur X",
+		"items": [
+			{
+				"question": "Qu'est-ce que FrostyFi ?",
+				"answer": "FrostyFi is a visual platform for building AI agents that act on-chain. Connect a large language model to blockchain operations, HTTP calls, or conditional logic using a drag-and-drop canvas — no smart-contract expertise required. Deploy your agent, expose it via a standard API, and let it run autonomously."
+			},
+			{
+				"question": "Ai-je besoin d'écrire du code ?",
+				"answer": "No. FrostyFi's no-code visual builder lets you wire together AI models, on-chain actions, and external APIs by dragging nodes onto a canvas. Power users can drop in custom JavaScript nodes for anything the built-in library doesn't cover."
+			},
+			{
+				"question": "Quelles chaînes et modèles IA sont pris en charge ?",
+				"answer": "On the blockchain side, FrostyFi supports EVM-compatible networks (Ethereum, Base, Polygon, Arbitrum, Optimism, and more) as well as Solana. For AI, you can route requests through OpenAI, Anthropic, Google, Groq, and additional providers via OpenRouter — swap models per node without rebuilding your workflow."
+			},
+			{
+				"question": "Comment fonctionnent les paiements ?",
+				"answer": "Two layers: the app itself runs on simple USDC subscriptions on Base (Pro and Enterprise tiers) — pay in stablecoin, no NFT and no token required. Agent-to-agent payments use x402 — a per-request micropayment standard that settles in USDC on Base with no intermediary. Your agents can charge callers and pay other agents without any manual invoicing."
+			},
+			{
+				"question": "Qu'est-ce que x402 ?",
+				"answer": "x402 est un standard ouvert qui utilise la réponse HTTP 402 « Payment Required » pour permettre à un client de payer une requête et de la relancer instantanément — sans comptes, clés API ni abonnements. Sur FrostyFi, vos agents peuvent facturer à l'appel en USDC sur Base et payer d'autres agents de la même manière, de sorte qu'une API ou un agent est payé dès qu'il est utilisé."
+			},
+			{
+				"question": "Qu'est-ce que l'ERC-8004 ?",
+				"answer": "L'ERC-8004 est un standard Ethereum pour les « agents sans confiance » : il donne à chaque agent une identité et une réputation on-chain portables via des registres publics, afin que les contreparties puissent vérifier qui elles paient et à qui elles font confiance. FrostyFi peut enregistrer votre agent sur le registre ERC-8004 en un clic, de sorte qu'il porte une identité vérifiable qui vit on-chain."
+			},
+			{
+				"question": "Existe-t-il un token Permafrost ?",
+				"answer": "The Permafrost ($PERMA) token is planned for 2026. It is not live today. When it launches, Permafrost is designed to serve as the platform's utility and governance token — staking, fee discounts, and protocol-owned liquidity. Les abonnements actuels sont de simples paiements en USDC sur Base — aucun NFT ni achat de token n'est nécessaire pour utiliser FrostyFi aujourd'hui."
+			},
+			{
+				"question": "Comment démarrer ?",
+				"answer": "Sign up at flow.frostylabs.ai. The free tier gives you access to the visual builder and a set of AI calls per month to explore the platform. No wallet setup is required to register — connect a wallet later when you want to use on-chain features."
+			}
+		]
+	},
+	"videoDemo": {
+		"title": "Analysez n'importe quel jeton en 30 secondes"
+	},
+	"poweredBy": {
+		"badge": "Propulsé Par",
+		"titlePrefix": "Propulsé par les Meilleurs",
+		"titleHighlight": "Modèles IA",
+		"description": "Nous intégrons avec les principaux fournisseurs IA pour vous offrir les capacités d'automatisation les plus puissantes.",
+		"moreModels": "+ plus via OpenRouter"
+	},
+	"security": {
+		"badge": "Sécurité d'entreprise",
+		"title": "Votre sécurité est notre priorité",
+		"descriptionPrefix": "Propulsé par",
+		"descriptionHighlight": "thirdweb Vault",
+		"descriptionSuffix": ", la solution de gestion de clés sécurisée leader du secteur",
+		"cta": "En savoir plus sur notre sécurité",
+		"features": {
+			"bankGrade": {
+				"title": "Sécurité de niveau bancaire",
+				"description": "Vos clés chiffrées avec AWS Nitro Enclaves"
+			},
+			"nonCustodial": {
+				"title": "Non custodial",
+				"description": "Vous contrôlez toujours vos actifs"
+			},
+			"infrastructure": {
+				"title": "Infrastructure sécurisée",
+				"description": "Chiffrement de niveau militaire au repos et en transit"
+			},
+			"privacy": {
+				"title": "Confidentialité d'abord",
+				"description": "Architecture à connaissance nulle"
+			}
+		}
+	},
+	"timeline": {
+		"badge": "Calendrier de lancement",
+		"title": "Soyez parmi les premiers",
+		"descriptionPrefix": "Rejoignez notre programme bêta et obtenez",
+		"descriptionHighlight": "des avantages exclusifs de membre fondateur",
+		"status": {
+			"inProgress": "En cours",
+			"planned": "Prévu"
+		},
+		"milestones": {
+			"beta": {
+				"title": "Lancement de la bêta publique",
+				"items": [
+					"Premier mois gratuit (niveau Pro)",
+					"Badge NFT de Fondateur Bêta",
+					"Avantages d'adopteur précoce"
+				]
+			},
+			"launch": {
+				"title": "Lancement complet de la plateforme",
+				"items": [
+					"Lancement de la marketplace",
+					"Fonctionnalités avancées",
+					"Support entreprise"
+				]
+			}
+		},
+		"betaDate": "Décembre 2025",
+		"betaDescription": "Lancement de la bêta publique avec des avantages exclusifs",
+		"viewRoadmap": "Voir la feuille de route complète"
+	}
 }

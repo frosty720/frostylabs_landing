@@ -568,12 +568,12 @@
 						},
 						{
 							"icon": "🔥",
-							"text": "POLAR 거버넌스 토큰 ($PERMA 스테이킹으로 획득)",
+							"text": "POLAR 거버넌스 토큰 ($PERMA 잠금으로 획득)",
 							"bold": true
 						},
 						{
 							"icon": "📋",
-							"text": "스테이킹 보상: POLAR 획득 + DAO 운영 수익 배분"
+							"text": "잠금 보상: POLAR 획득 + DAO 운영 수익 배분"
 						},
 						{
 							"icon": "📋",
@@ -696,7 +696,7 @@
 			},
 			{
 				"question": "Permafrost 토큰이 있나요?",
-				"answer": "The Permafrost ($PERMA) token is planned for 2026. It is not live today. When it launches, Permafrost is designed to serve as the platform's utility and governance token — staking, fee discounts, and protocol-owned liquidity. 현재 구독은 Base에서의 간단한 USDC 결제입니다 — 지금 FrostyFi를 사용하는 데 NFT나 토큰 구매가 필요하지 않습니다."
+				"answer": "The Permafrost ($PERMA) token is planned for 2026. It is not live today. When it launches, Permafrost is designed to serve as the platform's utility and governance token — locking, fee discounts, and protocol-owned liquidity. 현재 구독은 Base에서의 간단한 USDC 결제입니다 — 지금 FrostyFi를 사용하는 데 NFT나 토큰 구매가 필요하지 않습니다."
 			},
 			{
 				"question": "어떻게 시작하나요?",

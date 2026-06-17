@@ -568,12 +568,12 @@
 						},
 						{
 							"icon": "🔥",
-							"text": "Jeton de gouvernance POLAR (gagné en stakant $PERMA)",
+							"text": "Jeton de gouvernance POLAR (gagné en verrouillant $PERMA)",
 							"bold": true
 						},
 						{
 							"icon": "📋",
-							"text": "Récompenses de staking : Gagnez POLAR + partage des revenus des opérations DAO"
+							"text": "Récompenses de verrouillage : Gagnez POLAR + partage des revenus des opérations DAO"
 						},
 						{
 							"icon": "📋",
@@ -696,7 +696,7 @@
 			},
 			{
 				"question": "Existe-t-il un token Permafrost ?",
-				"answer": "The Permafrost ($PERMA) token is planned for 2026. It is not live today. When it launches, Permafrost is designed to serve as the platform's utility and governance token — staking, fee discounts, and protocol-owned liquidity. Les abonnements actuels sont de simples paiements en USDC sur Base — aucun NFT ni achat de token n'est nécessaire pour utiliser FrostyFi aujourd'hui."
+				"answer": "The Permafrost ($PERMA) token is planned for 2026. It is not live today. When it launches, Permafrost is designed to serve as the platform's utility and governance token — locking, fee discounts, and protocol-owned liquidity. Les abonnements actuels sont de simples paiements en USDC sur Base — aucun NFT ni achat de token n'est nécessaire pour utiliser FrostyFi aujourd'hui."
 			},
 			{
 				"question": "Comment démarrer ?",

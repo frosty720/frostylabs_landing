@@ -16,13 +16,13 @@ interface Pillar {
 const PILLARS: Pillar[] = [
 	{
 		icon: Flame,
-		title: '$FROST — fair launch',
+		title: '$PERMA — fair launch',
 		body: 'A fair launch on Base — no VC allocation. Beta Founders are auto-whitelisted.',
 	},
 	{
 		icon: Vote,
-		title: 'FTGOV governance',
-		body: 'Earn FTGOV by staking $FROST — that’s your voting weight in the DAO.',
+		title: 'POLAR governance',
+		body: 'Earn POLAR by locking $PERMA — that’s your voting weight in the DAO.',
 	},
 	{
 		icon: Landmark,
@@ -31,8 +31,8 @@ const PILLARS: Pillar[] = [
 	},
 	{
 		icon: Coins,
-		title: 'Staking rewards',
-		body: 'Stake $FROST for FTGOV plus a share of revenue from DAO operations.',
+		title: 'Locking rewards',
+		body: 'Lock $PERMA for POLAR plus a share of revenue from DAO operations.',
 	},
 	{
 		icon: Lock,
@@ -71,7 +71,7 @@ export function FrostyDao() {
 					viewport={{ once: true, margin: '-15%' }}
 				>
 					<motion.span variants={item} className='mono-label block text-[#c4b5fd]'>
-						FrostyDAO · $FROST · Planned
+						FrostyDAO · $PERMA · Planned
 					</motion.span>
 					<motion.h2
 						variants={item}

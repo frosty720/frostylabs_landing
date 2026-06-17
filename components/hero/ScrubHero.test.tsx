@@ -17,6 +17,6 @@ describe('ScrubHero', () => {
 		expect(video).not.toBeNull();
 		expect(video).toHaveAttribute('poster');
 		expect(screen.queryByTestId('hero-canvas')).toBeNull();
-		expect(screen.getByText(/on-chain agents/i)).toBeInTheDocument();
+		expect(screen.getByText(/get paid/i)).toBeInTheDocument();
 	});
 });

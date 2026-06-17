@@ -1,7 +1,26 @@
 'use client';
 import { useReducedMotionOrTouch } from '@/lib/scroll/use-reduced-motion-or-touch';
 
-const ITEMS = ['EVM', 'Base', 'Solana', 'x402', 'MCP', 'A2A', 'OpenRouter', 'Ollama'];
+const ITEMS = [
+	'EVM',
+	'Base',
+	'Solana',
+	'Ethereum',
+	'x402',
+	'ERC-8004',
+	'A2A',
+	'MCP',
+	'OpenRouter',
+	'Ollama',
+	'Uniswap',
+	'SushiSwap',
+	'PancakeSwap',
+	'Jupiter',
+	'Hyperliquid',
+	'thirdweb',
+	'Twilio',
+	'USDC',
+];
 
 export function TrustStrip() {
 	const skip = useReducedMotionOrTouch();
@@ -14,7 +33,7 @@ export function TrustStrip() {
 	);
 	return (
 		<section aria-label='Runs on' className='overflow-hidden border-y border-white/5 py-5'>
-			<div className={skip ? 'flex flex-wrap justify-center gap-y-3' : 'flex w-max animate-[marquee_28s_linear_infinite]'}>
+			<div className={skip ? 'flex flex-wrap justify-center gap-y-3' : 'flex w-max animate-[marquee_22s_linear_infinite]'}>
 				{track}
 				{!skip && track}
 			</div>

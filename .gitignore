@@ -13,6 +13,11 @@
 # testing
 /coverage
 
+# playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
 # next.js
 /.next/
 /out/
@@ -39,3 +44,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Brainstorm visual companion
+.superpowers/
+
+# Generated media (rebuild with `pnpm media`)
+public/frames/hero/frame_*.webp
+public/recordings/researchflow.mp4
+public/recordings/sendusdc.mp4
+public/recordings/tokenann.mp4
+public/recordings/ambient_network.mp4
+
+# ElevenLabs source clips (raw, not tracked)
+ElevenLabs_video_*.mp4

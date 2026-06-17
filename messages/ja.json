@@ -1,771 +1,774 @@
 {
-  "metadata": {
-    "title": "FrostyLabs - オンチェーンエージェントのOS | 構築、デプロイ、自動化",
-    "description": "自律型オンチェーンエージェントのためのオペレーティングシステム。35以上のブロックチェーンネットワークでAIワークフローを構築、デプロイ、自動化。ノーコード。BaseでNFTサブスクリプション。100名のベータ創設者参加 - 初月無料。",
-    "keywords": "AI Web3自動化, ブロックチェーンAIエージェント, ノーコードDeFi自動化, AIワークフロービルダー, NFT自動化, DAO自動化, Web3 AIツール, 暗号自動化プラットフォーム, FrostyDAO, FROSTトークン, AIエージェントマーケットプレイス, オンチェーンエージェント, 自律型エージェント"
-  },
-  "nav": {
-    "home": "ホーム",
-    "useCases": "ユースケース",
-    "features": "機能",
-    "pricing": "価格",
-    "about": "概要",
-    "launchApp": "アプリを起動",
-    "github": "GitHub",
-    "twitter": "Twitter"
-  },
-  "hero": {
-    "title": "オンチェーンエージェントのOS",
-    "subtitle": "構築 • デプロイ • 自動化 • スケール",
-    "launchBadge": "🚀 Baseで公開中",
-    "description": "自律型AIエージェントのためのオペレーティングシステム。リサーチ、トレード、ミント、ガバナンス—すべてオンチェーン、すべて自動化、コード不要。",
-    "launchApp": "アプリを起動 →",
-    "viewGithub": "GitHubで見る",
-    "nftSubscription": "BaseでのNFTベースのサブスクリプション。アクセス権を所有しよう。"
-  },
-  "stats": {
-    "aiModels": "AIモデル",
-    "blockchainNetworks": "ブロックチェーンネットワーク",
-    "automatedExecution": "自動実行",
-    "possibilities": "可能性"
-  },
-
-  "useCases": {
-    "title": "何を自動化しますか？",
-    "subtitle": "ソーシャルメディアからDeFi取引まで、FrostyFlowがすべて処理します。一度構築すれば、永遠に実行できます。",
-    "cta": "これらはほんの始まりに過ぎません。あなたは何を作りますか？",
-    "ctaButton": "今すぐ始める →",
-    "cards": {
-      "socialMedia": {
-        "badge": "マーケティング",
-        "title": "ソーシャルメディア自動化",
-        "subtitle": "コンテンツ作成 → スケジューリング → マルチプラットフォーム投稿",
-        "features": [
-          "GPT-5がトレンドトピックから魅力的な投稿を生成",
-          "Claude 4がプラットフォーム固有のバリエーションを作成",
-          "ブラウザ自動化がTwitter、LinkedIn、Instagramに投稿",
-          "分析追跡とパフォーマンス最適化"
-        ],
-        "benefit": "週20時間以上節約"
-      },
-      "defiTrading": {
-        "badge": "WEB3",
-        "title": "DeFi取引自動化",
-        "subtitle": "監視 → 分析 → 実行 → 通知",
-        "features": [
-          "DEX全体のトークン価格をリアルタイムで監視",
-          "AIが市場トレンドを分析し、機会を特定",
-          "安全なthirdwebボールト（35以上のネットワーク）を介してスワップを実行",
-          "取引とポートフォリオの変更に関する即時通知"
-        ],
-        "benefit": "24時間365日の自動取引",
-        "subtext": "thirdwebインフラストラクチャによる支援"
-      },
-      "evmContract": {
-        "badge": "ブロックチェーン",
-        "title": "EVMコントラクト自動化",
-        "subtitle": "デプロイ → インタラクト → 監視 → 管理",
-        "features": [
-          "35以上のEVMチェーンにスマートコントラクトをデプロイ",
-          "thirdweb SDKによる自動コントラクト呼び出し",
-          "イベントを監視し、ワークフローを自動的にトリガー",
-          "ガス最適化とトランザクション管理"
-        ],
-        "benefit": "35以上のブロックチェーンネットワーク",
-        "subtext": "thirdweb v5 SDK上に構築"
-      },
-      "customerSupport": {
-        "badge": "ビジネス",
-        "title": "AIカスタマーサポート",
-        "subtitle": "受信 → 分類 → 応答 → エスカレーション",
-        "features": [
-          "メール、チャット、ソーシャルメディアからの問い合わせを受信",
-          "AIが緊急度を分類し、適切な部署にルーティング",
-          "RAG検索でパーソナライズされた応答を生成",
-          "複雑な問題を人間のエージェントに自動エスカレーション"
-        ],
-        "benefit": "応答時間を90%短縮"
-      },
-      "ecommerce": {
-        "badge": "Eコマース",
-        "title": "オンラインビジネス自動化",
-        "subtitle": "製品リサーチ → 出品 → マーケティング → 履行",
-        "features": [
-          "AIがトレンド製品と競合他社をリサーチ",
-          "SEO最適化された製品説明を生成",
-          "プラットフォーム全体の在庫と価格を自動更新",
-          "パーソナライズされたマーケティングメールとフォローアップを送信"
-        ],
-        "benefit": "雇用せずに拡大"
-      },
-      "contentCreation": {
-        "badge": "コンテンツ",
-        "title": "コンテンツ作成パイプライン",
-        "subtitle": "リサーチ → 執筆 → 編集 → 公開 → プロモーション",
-        "features": [
-          "リサーチエージェントがWebとデータベースからデータを収集",
-          "ライターエージェントがブログ記事、記事、スクリプトを作成",
-          "エディターエージェントがトーン、文法、SEO最適化を洗練",
-          "CMSに自動公開し、ソーシャルメディアでプロモーション"
-        ],
-        "benefit": "コンテンツ出力を10倍に"
-      }
-    }
-  },
-  "pricing": {
-    "title": "ベータ価格",
-    "subtitle": "ベータに参加して最初の1ヶ月無料 + 限定ベータ创設NFTバッジを獲得。",
-    "free": {
-      "name": "無料",
-      "price": "永久無料",
-      "description": "始めるのに最適",
-      "emoji": "🆓",
-      "cta": "始める",
-      "features": [
-        "OpenRouter AIモデル",
-        "5つの基本ワークフロー",
-        "月間50 AIコール",
-        "コミュニティサポート",
-        "基本分析"
-      ]
-    },
-    "pro": {
-      "name": "プロ",
-      "price": "月額$25",
-      "description": "高度なワークフローを構築するプロフェッショナル向け",
-      "emoji": "⚡",
-      "badge": "人気No.1",
-      "cta": "プロを取得 →",
-      "features": [
-        "10 プロジェクト",
-        "50 ワークフロー",
-        "500 AIコール/月",
-        "プレミアムAIモデル (GPT-5, Claude 4.5)",
-        "ドキュメントアップロード & RAG",
-        "スケジュールされたワークフロー",
-        "優先サポート"
-      ]
-    },
-    "enterprise": {
-      "name": "エンタープライズ",
-      "price": "$99/月",
-      "description": "チームおよび高度な自動化向け",
-      "emoji": "🏢",
-      "cta": "エンタープライズを取得 →",
-      "features": [
-        "無制限のプロジェクト",
-        "無制限のワークフロー",
-        "月間2000 AIコール",
-        "マルチエージェント調整",
-        "高度なスケジューリング",
-        "ワークフロー監視",
-        "カスタム統合"
-      ]
-    }
-  },
-  "features": {
-    "title": "強力な機能",
-    "subtitle": "AI自動化ワークフローを構築、展開、拡張するために必要なすべて。",
-    "cta": "すべての機能を探索",
-    "cards": {
-      "multiModel": {
-        "title": "マルチモデルAI",
-        "description": "GPT-5、Claude、Nebula、その他20以上のAIモデルを接続。コスト、速度、品質に基づいてインテリジェントにルーティング。"
-      },
-      "blockchain": {
-        "title": "ブロックチェーンボールト",
-        "description": "AWS Nitro Enclaveセキュリティを備えたthirdwebによる15以上のブロックチェーン操作。"
-      },
-      "workflow": {
-        "title": "ワークフロー自動化",
-        "description": "cronスケジューリング、Webhookトリガー、条件付きロジックを備えたビジュアルワークフロービルダー。"
-      },
-      "analytics": {
-        "title": "リアルタイム分析",
-        "description": "コスト追跡、パフォーマンスメトリクス、最適化インサイトを備えた包括的な監視。"
-      },
-      "security": {
-        "title": "エンタープライズセキュリティ",
-        "description": "エンドツーエンドの暗号化、セキュアエンクレーブ、SOC 2 Type II標準への準拠。"
-      },
-      "nft": {
-        "title": "NFTサブスクリプション",
-        "description": "アクセス権をNFTとして所有。譲渡可能、取引可能、将来性のあるサブスクリプションモデル。"
-      }
-    }
-  },
-  "featuresPage": {
-    "hero": {
-      "badge": "⚡ 強力な機能",
-      "title": "自動化に必要な",
-      "titleGradient": "すべて",
-      "description": "AI駆動のワークフローからブロックチェーン操作まで、FrostyLabsは最先端の技術でビジネスを構築、自動化、拡張するためのツールを提供します。",
-      "stats": {
-        "aiModels": "AIモデル",
-        "blockchainNetworks": "ブロックチェーンネットワーク",
-        "blockchainOperations": "ブロックチェーン操作",
-        "possibilities": "可能性"
-      }
-    },
-    "blockchain": {
-      "title": "ブロックチェーンボールト操作",
-      "subtitle": "AWS Nitro Enclave保護を備えた複数のチェーンで安全なブロックチェーン操作を実行します。",
-      "selectOperation": "操作を選択",
-      "selectedPrefix": "選択中:",
-      "securityNote": "すべての操作は、AWS Nitro Enclaves保護を備えたthirdweb Vault SDKによって保護されています。",
-      "clickPrompt": "上記のブロックチェーン操作をクリックして、詳細情報とセキュリティ機能を確認してください。",
-      "operations": {
-        "transfer": {
-          "title": "トークン転送",
-          "description": "ガス最適化を備えた複数チェーンでの安全なトークン転送"
-        },
-        "swap": {
-          "title": "トークンスワップ",
-          "description": "DEXアグリゲーターを介した最良価格ルーティングによる自動トークンスワップ"
-        },
-        "stake": {
-          "title": "ステーキング",
-          "description": "利回り最適化と報酬の複利運用を備えた自動ステーキング"
-        },
-        "bridge": {
-          "title": "資産ブリッジ",
-          "description": "セキュリティ検証を備えたクロスチェーン資産ブリッジ"
-        },
-        "mint": {
-          "title": "NFTミント",
-          "description": "メタデータ管理とIPFSストレージを備えた一括NFTミント"
-        },
-        "deploy": {
-          "title": "スマートコントラクト",
-          "description": "自動化されたスマートコントラクトのデプロイとインタラクション"
-        },
-        "governance": {
-          "title": "ガバナンス",
-          "description": "自動化されたDAO投票とガバナンス参加"
-        },
-        "yield": {
-          "title": "イールドファーミング",
-          "description": "リスク管理を備えた自動イールドファーミング"
-        }
-      }
-    },
-    "signup": {
-      "title": "数秒でサインアップ",
-      "subtitle": "暗号資産の知識は不要です。メール、ソーシャルログイン、または既存のウォレットでサインアップしてください - 複雑な処理は私たちが担当します。",
-      "chooseMethod": "サインアップ方法を選択",
-      "emailSocial": {
-        "title": "メール & ソーシャルログイン",
-        "description": "Google、Discord、Twitter、GitHub、またはメールでサインアップ - 他のアプリと同じように。",
-        "methods": ["Google", "Discord", "Twitter", "Email", "GitHub", "Passkey"]
-      },
-      "wallet": {
-        "title": "ウォレットを接続",
-        "description": "MetaMask、Coinbase Wallet、またはその他のウォレットをお持ちですか？即座に接続できます。",
-        "wallets": ["MetaMask", "Coinbase", "Rainbow", "Ledger"]
-      },
-      "behindScenes": {
-        "title": "舞台裏で何が起こっているのか？",
-        "steps": [
-          {
-            "title": "アプリ内ウォレットが自動的に作成されます",
-            "description": "サインアップすると、thirdwebが自動的に安全なブロックチェーンウォレットを作成します - 設定は不要です。"
-          },
-          {
-            "title": "管理する秘密鍵はありません",
-            "description": "ウォレットはログイン方法（メール、Googleなど）によって保護されています。書き留めたり紛失したりするシードフレーズはありません。"
-          },
-          {
-            "title": "ブロックチェーン機能を使用する準備完了",
-            "description": "NFTサブスクリプションの購入、ブロックチェーンワークフローの実行、スマートコントラクトとの対話 - すべて暗号資産の複雑さなしで。"
-          },
-          {
-            "title": "エンタープライズグレードのセキュリティ",
-            "description": "AWS Nitro Enclavesを備えたthirdwebのインフラストラクチャによって強化されています - 鍵が公開されることはありません。"
-          }
-        ]
-      },
-      "bestPart": {
-        "title": "一番の利点は？",
-        "description": "ブロックチェーンのすべての利点（NFTサブスクリプション、安全なワークフロー、マルチチェーンサポート）を、仕組みを理解する必要なく得られます。サインアップして自動化を開始するだけです！"
-      }
-    },
-    "security": {
-      "title": "安全なブロックチェーンウォレット管理",
-      "subtitle": "ワークフローは、thirdweb Vault SDKとAWS Nitro Enclavesによって強化されたエンタープライズグレードのセキュリティでブロックチェーンウォレットを作成および管理できます。",
-      "vault": {
-        "title": "thirdweb Vaultとは？",
-        "description": "thirdweb Vaultは、ワークフローが自動操作のためにブロックチェーンウォレットを作成および制御できるようにする安全な鍵管理システムです - あなたの代わりにトランザクションに署名できるロボットのようなものです。",
-        "features": [
-          {
-            "title": "ワークフローでウォレットを作成",
-            "description": "自動化ワークフローは、特定のタスク（取引ボット、NFTミントなど）専用のブロックチェーンウォレットを作成できます"
-          },
-          {
-            "title": "トランザクションに自動的に署名",
-            "description": "ワークフローは、手動承認なしでブロックチェーントランザクション、メッセージ、スマートコントラクト呼び出しに署名できます"
-          },
-          {
-            "title": "マルチチェーンサポート",
-            "description": "Ethereum、Polygon、Base、Arbitrumなど、35以上のサポートされているすべてのブロックチェーンネットワークで動作します"
-          },
-          {
-            "title": "あなたがコントロール",
-            "description": "ワークフローウォレットにアクセスして管理できるのはあなただけです - それらはあなたのアカウントに紐付けられています"
-          }
-        ]
-      },
-      "useCases": {
-        "title": "Vaultウォレットのユースケース",
-        "items": [
-          "自動化されたDeFi取引ボット",
-          "NFTミントと配布",
-          "スマートコントラクトのデプロイ",
-          "マルチシグ操作",
-          "トークン転送と支払い"
-        ]
-      },
-      "architecture": {
-        "title": "Vaultウォレットはどのように保護されていますか？",
-        "nitro": {
-          "title": "AWS Nitro Enclaves",
-          "description": "秘密鍵はAWS Nitro Enclavesに保存されます - AWS管理者でさえアクセスできない、隔離されたハードウェア保護環境です。",
-          "features": [
-            "CPUレベルの暗号化隔離",
-            "エンクレーブからのネットワークアクセスなし",
-            "コード整合性の暗号化構成証明"
-          ]
-        },
-        "encryption": {
-          "title": "エンドツーエンド暗号化",
-          "description": "Vaultウォレットとのすべての通信は、完全な前方秘匿性を持つxChaCha20-Poly1305暗号化を使用します。",
-          "features": [
-            "秘密鍵はエンクレーブを決して離れません",
-            "保存時および転送時に暗号化",
-            "ゼロ知識アーキテクチャ"
-          ]
-        }
-      }
-    }
-  },
-  "aboutPage": {
-    "hero": {
-      "badge": "🚀 2025年12月ローンチ",
-      "title": "未来を構築する",
-      "titleGradient": "AI自動化",
-      "description": "FrostyLabsは、AI自動化を民主化し、ブロックチェーン技術を誰にでもアクセス可能にするという使命を担っています。私たちは、次世代の自動化ワークフローを強化するツールを構築しています。",
-      "stats": {
-        "aiModels": "AIモデル",
-        "blockchainNetworks": "ブロックチェーンネットワーク",
-        "launchDate": "ローンチ日"
-      }
-    },
-    "mission": {
-      "title": "私たちの使命",
-      "paragraph1": "私たちは、AI自動化はアクセス可能で、安全で、真に分散化されるべきだと信じています。私たちの使命は、複数のAIモデルの力とブロックチェーン技術のセキュリティと所有権の利点を組み合わせることで、AIワークフロー自動化を民主化することです。",
-      "paragraph2": "NFTベースのサブスクリプションを通じて、ユーザーがアクセス権を真に所有し、自由に取引し、エコシステムで生み出す価値から利益を得ることができる新しいパラダイムを作成しています。",
-      "goals": [
-        "AI自動化へのアクセスを民主化",
-        "最大限のセキュリティとプライバシーを確保",
-        "真に分散化されたインフラストラクチャを構築"
-      ],
-      "vision": {
-        "title": "私たちのビジョン",
-        "description": "AI自動化がデジタル資産と同じくらいアクセス可能で取引可能であり、ユーザーが自分の運命をコントロールし、人工知能の力が大企業だけでなくすべての人によって活用される世界。"
-      }
-    },
-    "techStack": {
-      "title": "技術スタック",
-      "subtitle": "最高のパフォーマンス、セキュリティ、スケーラビリティを実現するために最先端の技術で構築されています。",
-      "stacks": {
-        "backend": {
-          "title": "バックエンドインフラストラクチャ",
-          "items": {
-            "framework": "Next.js 15",
-            "runtime": "Node.js 20+",
-            "database": "PostgreSQL",
-            "auth": "Web3 Auth",
-            "orm": "Drizzle"
-          }
-        },
-        "blockchain": {
-          "title": "ブロックチェーンインフラストラクチャ",
-          "items": {
-            "sdk": "thirdweb v5",
-            "vault": "thirdweb Vault",
-            "networks": "35+ EVMチェーン",
-            "security": "AWS Nitro",
-            "nftStandards": "ERC-721/1155"
-          }
-        },
-        "aiModels": {
-          "title": "AIモデル",
-          "items": {
-            "openai": "GPT-5, GPT-4.1",
-            "anthropic": "Claude 4",
-            "google": "Gemini 2.x",
-            "xai": "Grok-3",
-            "total": "20+ モデル"
-          }
-        },
-        "devops": {
-          "title": "DevOps",
-          "items": {
-            "container": "Docker",
-            "orchestration": "Kubernetes",
-            "cicd": "GitHub Actions",
-            "monitoring": "Prometheus",
-            "cloud": "AWS/GCP"
-          }
-        },
-        "frontend": {
-          "title": "フロントエンド",
-          "items": {
-            "framework": "React 19",
-            "styling": "Tailwind CSS",
-            "uiLibrary": "shadcn/ui",
-            "workflowUI": "React Flow",
-            "animations": "Framer Motion"
-          }
-        },
-        "security": {
-          "title": "セキュリティ",
-          "items": {
-            "walletAuth": "thirdweb",
-            "encryption": "AES-256",
-            "keyStorage": "AWS Nitro",
-            "compliance": "SOC 2, ISO",
-            "privacy": "GDPR"
-          }
-        }
-      },
-      "labels": {
-        "framework": "フレームワーク",
-        "runtime": "ランタイム",
-        "database": "データベース",
-        "auth": "認証",
-        "orm": "ORM",
-        "sdk": "SDK",
-        "vault": "ボールト",
-        "networks": "ネットワーク",
-        "security": "セキュリティ",
-        "nftStandards": "NFT標準",
-        "openai": "OpenAI",
-        "anthropic": "Anthropic",
-        "google": "Google AI",
-        "xai": "xAI",
-        "total": "合計モデル",
-        "container": "コンテナ",
-        "orchestration": "オーケストレーション",
-        "cicd": "CI/CD",
-        "monitoring": "モニタリング",
-        "cloud": "クラウド",
-        "styling": "スタイリング",
-        "uiLibrary": "UIライブラリ",
-        "workflowUI": "ワークフローUI",
-        "animations": "アニメーション",
-        "walletAuth": "ウォレット認証",
-        "encryption": "暗号化",
-        "keyStorage": "鍵ストレージ",
-        "compliance": "コンプライアンス",
-        "privacy": "プライバシー"
-      }
-    },
-    "roadmap": {
-      "title": "ロードマップ",
-      "subtitle": "AI自動化とブロックチェーン統合を革新するための私たちの旅。",
-      "quarters": {
-        "q4_2025": {
-          "quarter": "2025年第4四半期",
-          "title": "公開ローンチと初期成長",
-          "status": "進行中",
-          "items": [
-            {
-              "icon": "✓",
-              "text": "ランディングページ＆マーケティングサイト"
-            },
-            {
-              "icon": "✓",
-              "text": "本番デプロイ＆モニタリング"
-            },
-            {
-              "icon": "🚧",
-              "text": "オープンベータローンチ（2025年11月/12月）"
-            },
-            {
-              "icon": "🚧",
-              "text": "ベータ创設者プログラム（100名の创設メンバー）"
-            },
-            {
-              "icon": "🚧",
-              "text": "コミュニティ構築とユーザーオンボーディング"
-            },
-            {
-              "icon": "📋",
-              "text": "ユーザーフィードバックの統合と反復"
-            }
-          ]
-        },
-        "q1_2026": {
-          "quarter": "2026年第1四半期",
-          "title": "AIエージェントプラットフォームと高度な機能",
-          "status": "計画中",
-          "items": [
-            {
-              "icon": "🤖",
-              "text": "Frosty Agent: AIエージェント＆アプリケーションビルダー - カスタムAIエージェントと小規模AIアプリケーションを作成",
-              "bold": true
-            },
-            {
-              "icon": "⚡",
-              "text": "Frosty Agent: 自然言語ワークフロー作成 - ユーザーの説明からワークフローを生成",
-              "bold": true
-            },
-            {
-              "icon": "🧠",
-              "text": "Nebula AIモデル統合 - パフォーマンス向上のための高度なAIモデル",
-              "bold": true
-            },
-            {
-              "icon": "📋",
-              "text": "RAG検索＆セマンティックドキュメント検索（Pro層）"
-            },
-            {
-              "icon": "📋",
-              "text": "高度なエージェントエコシステム機能"
-            },
-            {
-              "icon": "📋",
-              "text": "ワークフローマーケットプレイス＆テンプレートライブラリ"
-            }
-          ]
-        },
-        "q2_2026": {
-          "quarter": "2026年第2四半期",
-          "title": "FrostyDAOとトークンローンチ",
-          "status": "計画中",
-          "items": [
-            {
-              "icon": "🔥",
-              "text": "$FROSTトークンフェアローンチ - ベータ创設者自動ホワイトリスト",
-              "bold": true
-            },
-            {
-              "icon": "🔥",
-              "text": "FTGOVガバナンストークン（$FROSTステーキングで獲得）",
-              "bold": true
-            },
-            {
-              "icon": "📋",
-              "text": "ステーキング報酬：FTGOVを獲得 + DAO運用からの収益分配"
-            },
-            {
-              "icon": "📋",
-              "text": "プロトコル所有流動性（POL） - DAOがサブスクリプション収益の95%を所有"
-            },
-            {
-              "icon": "📋",
-              "text": "オンチェーンガバナンス：財務配分と機能開発に投票"
-            },
-            {
-              "icon": "📋",
-              "text": "DAO財務管理のためのベータ创設者マルチシグ選出"
-            }
-          ]
-        },
-        "q3_2026": {
-          "quarter": "2026年第3四半期",
-          "title": "プラットフォームスケールとマルチチェーン拡張",
-          "status": "計画中",
-          "items": [
-            {
-              "icon": "🌐",
-              "text": "マルチチェーン拡張：Solana、Cosmos、Polkadotサポート",
-              "bold": true
-            },
-            {
-              "icon": "🔗",
-              "text": "ZapierとMake.com統合アダプター",
-              "bold": true
-            },
-            {
-              "icon": "📱",
-              "text": "モバイルアプリローンチ（iOSおよびAndroid）"
-            },
-            {
-              "icon": "🏢",
-              "text": "エンタープライズ機能：SSO、チーム管理、監査ログ"
-            },
-            {
-              "icon": "📊",
-              "text": "高度な分析とワークフローパフォーマンス追跡"
-            },
-            {
-              "icon": "🎯",
-              "text": "10,000+アクティブユーザーのマイルストーン"
-            }
-          ]
-        },
-        "q4_2026": {
-          "quarter": "2026年第4四半期",
-          "title": "AIマーケットプレイスとクリエイターエコノミー",
-          "status": "計画中",
-          "items": [
-            {
-              "icon": "🛒",
-              "text": "エージェントとワークフローマーケットプレイスローンチ",
-              "bold": true
-            },
-            {
-              "icon": "💰",
-              "text": "テンプレート作成者向け収益分配（$FROSTで支払い）",
-              "bold": true
-            },
-            {
-              "icon": "📚",
-              "text": "コミュニティテンプレートライブラリ：1,000+の事前構築ワークフロー"
-            },
-            {
-              "icon": "🤖",
-              "text": "高度なマルチエージェントオーケストレーションとコラボレーション"
-            },
-            {
-              "icon": "🎓",
-              "text": "クリエイター認定プログラムと教育リソース"
-            },
-            {
-              "icon": "🌟",
-              "text": "DAO資金援助による革新的なエージェント開発のための助成金"
-            }
-          ]
-        }
-      },
-      "community": {
-        "title": "コミュニティに参加",
-        "description": "自動化の未来を構築する開発者、AI愛好家、ブロックチェーンのパイオニアとつながりましょう。",
-        "github": "GitHub",
-        "twitter": "Twitter"
-      }
-    }
-  },
-  "faq": {
-    "title": "よくある質問",
-    "subtitle": "FrostyLabsについて知っておくべきすべて",
-    "items": [
-      {
-        "question": "FrostyLabsとは何ですか？",
-        "answer": "FrostyLabsは、2つの主力製品でAI自動化の未来を構築しています：FrostyFlow—Web3とそれ以上のためのノーコードAIエージェントプラットフォーム、およびFrostyDAO—エコシステムを管理する分散型コミュニティ。暗号リサーチ、DeFi運用、NFTミント、DAOガバナンス、またはデータ分析やコンテンツ作成などの非ブロックチェーンタスクのための強力なワークフローを作成します。"
-      },
-      {
-        "question": "FrostyFlowを使用するにはプログラミング経験が必要ですか？",
-        "answer": "いいえ！FrostyFlowは完全にノーコードで設計されています。ビジュアルワークフロービルダーとAI駆動の自然言語インターフェースにより、コードを1行も書かずに高度な自動化を作成できます。"
-      },
-      {
-        "question": "どのブロックチェーンネットワークがサポートされていますか？",
-        "answer": "Ethereum、Polygon、Base、Arbitrum、Optimism、BSC、Avalancheなど35以上のネットワークをサポートしています。Solana、Cosmos、Polkadotの完全なマルチチェーンサポートは2026年第3四半期に提供されます。"
-      },
-      {
-        "question": "FrostyLabsはどのAIモデルを使用していますか？",
-        "answer": "GPT-4、GPT-5、Claude 4.5 Sonnet、Gemini 2.0 Flash、DeepSeekなど、最高のAIモデルを統合しています。Proユーザーはプレミアムモデルにアクセスできます。また、Web3操作に最適化されたThirdWebの独自モデルであるNebula AIのサポートも追加しています。"
-      },
-      {
-        "question": "ウォレットは安全ですか？始めるのに暗号資産は必要ですか？",
-        "answer": "セキュリティは最優先事項です。ThirdWebのアプリ内ウォレット技術とVault SDKを使用してエンタープライズグレードのセキュリティを提供—秘密鍵は決して公開されたり、サーバーに保存されたりしません。メールで簡単にサインアップし、クレジットカードで支払ってサブスクリプションNFTをミントできます。開始するために暗号ウォレットやトークンは必要ありません！上級ユーザーには、MetaMask、WalletConnect、その他のWeb3ウォレットをサポートしています。定期的なセキュリティ監査を伴うSOC 2準拠。"
-      },
-      {
-        "question": "ベータ创設者プログラムには何が含まれますか？",
-        "answer": "ベータ创設者は以下を獲得します：(1) Proティアの初月無料、(2) 限定ベータ创設者NFTバッジ、(3) $FROSTトークンフェアローンチの自動ホワイトリスト、(4) DAO財務マルチシグの資格、(5) すべてのFrostyDAO製品でのライフタイムアーリーアダプター特典。"
-      },
-      {
-        "question": "$FROSTとは何ですか、どのように機能しますか？",
-        "answer": "$FROSTはFrostyDAOのユーティリティトークンで、2026年第2四半期にローンチされます。$FROSTをステーキングしてFTGOV（ガバナンストークン）を獲得し、DAO運用からの収益分配を受け取ります。$FROSTを支払い、マーケットプレイス取引、ガバナンス投票に使用します。ベータ创設者は自動ホワイトリストでフェアローンチ。"
-      },
-      {
-        "question": "FrostyDAOガバナンスはどのように機能しますか？",
-        "answer": "$FROSTをステーキングしてFTGOVトークンを獲得し、投票権を得ます。財務配分、機能開発、パートナーシップ、DAO運用に投票します。DAOはサブスクリプション収益の95%を管理し、FrostyFlowを使用して財務管理とDeFi戦略を自動化します。"
-      },
-      {
-        "question": "FrostyFlowはDeFi取引を自動化できますか？",
-        "answer": "はい！価格を監視し、DEXでスワップを実行し、流動性ポジションを管理し、イールドを収穫するワークフローを作成します。当社のAIエージェントは市場状況を分析し、複雑なDeFi戦略を自動的に実行できます。"
-      },
-      {
-        "question": "FrostyFlowはZapierやMakeとどう違いますか？",
-        "answer": "FrostyFlowは両方の長所を組み合わせています：強力なネイティブWeb3統合AND従来の自動化。ZapierやMakeとは異なり、高度なAIによって駆動される自律的な意思決定が可能なブロックチェーン固有のツール（トークン分析、DeFi運用、セキュリティ監査）を提供します。さらに、単純なワークフローだけでなく、自律的なAIエージェントを構築できます。そして、はい—他のプラットフォームと同様に非ブロックチェーンタスクも自動化できます！"
-      },
-      {
-        "question": "どの料金プランが利用可能ですか？",
-        "answer": "無料ティア：基本機能付き月間50 AIコール。Pro（月額$25）：500 AIコール、プレミアムAIモデル、50ワークフロー。Enterprise（月額$99）：無制限のワークフロー、2000 AIコール、マルチエージェント調整。ベータユーザーはどのティアでも初月無料を獲得します。"
-      },
-      {
-        "question": "独自のAIエージェントを構築して販売できますか？",
-        "answer": "はい！当社のエージェントマーケットプレイス（2026年第4四半期ローンチ）により、クリエイターはカスタムエージェントとワークフローテンプレートを構築、公開、収益化できます。$FROSTで収益分配を獲得します。DAOは革新的なエージェント開発のための助成金も提供します。"
-      }
-    ]
-  },
-  "videoDemo": {
-    "title": "30秒でトークンを分析"
-  },
-  "poweredBy": {
-    "badge": "提供元",
-    "titlePrefix": "最高の",
-    "titleHighlight": "AIモデル",
-    "description": "最も強力な自動化機能を提供するために、主要なAIプロバイダーと統合しています。",
-    "moreModels": "+ OpenRouter経由でさらに"
-  },
-  "security": {
-    "badge": "エンタープライズセキュリティ",
-    "title": "あなたのセキュリティが私たちの優先事項",
-    "descriptionPrefix": "業界をリードする安全なキー管理ソリューション、",
-    "descriptionHighlight": "thirdweb Vault",
-    "descriptionSuffix": "によって実現",
-    "cta": "セキュリティについて詳しく学ぶ",
-    "features": {
-      "bankGrade": {
-        "title": "銀行レベルのセキュリティ",
-        "description": "AWS Nitro Enclavesで暗号化されたキー"
-      },
-      "nonCustodial": {
-        "title": "非カストディアル",
-        "description": "常に資産を管理できます"
-      },
-      "infrastructure": {
-        "title": "安全なインフラストラクチャ",
-        "description": "保存時および転送時の軍事レベルの暗号化"
-      },
-      "privacy": {
-        "title": "プライバシーファースト",
-        "description": "ゼロ知識アーキテクチャ"
-      }
-    }
-  },
-  "timeline": {
-    "badge": "ローンチタイムライン",
-    "title": "最初のユーザーになろう",
-    "descriptionPrefix": "ベータプログラムに参加して",
-    "descriptionHighlight": "限定创設メンバー特典",
-    "status": {
-      "inProgress": "進行中",
-      "planned": "予定"
-    },
-    "milestones": {
-      "beta": {
-        "title": "パブリックベータローンチ",
-        "items": [
-          "初月1ヶ月無料（Proティア）",
-          "ベータ创設NFTバッジ",
-          "アーリーアダプター特典"
-        ]
-      },
-      "launch": {
-        "title": "完全プラットフォームローンチ",
-        "items": [
-          "マーケットプレイスローンチ",
-          "高度な機能",
-          "エンタープライズサポート"
-        ]
-      }
-    },
-    "betaDate": "2025年12月",
-    "betaDescription": "限定特典付きパブリックベータローンチ",
-    "viewRoadmap": "完全なロードマップを見る"
-  }
+	"metadata": {
+		"title": "FrostyFi — Build autonomous on-chain agents",
+		"description": "The visual platform for AI agents that act on-chain. Build workflows, run them anywhere, pay per call with x402. Now in beta.",
+		"keywords": "on-chain AI agents, x402 payments, no-code AI workflows, web3 automation, agent platform, EVM, Solana"
+	},
+	"nav": {
+		"home": "ホーム",
+		"useCases": "ユースケース",
+		"features": "機能",
+		"pricing": "価格",
+		"about": "概要",
+		"product": "Product",
+		"capabilities": "Capabilities",
+		"docs": "Docs",
+		"launchApp": "FrostyFi App",
+		"github": "GitHub",
+		"twitter": "Twitter"
+	},
+	"hero": {
+		"badge": "Now in beta",
+		"title": "Build autonomous on-chain agents",
+		"description": "The visual platform for AI agents that act on-chain. Describe it, build it visually, deploy it — workflows that pay per call with x402.",
+		"launchApp": "FrostyFi App",
+		"watchDemo": "Watch demo"
+	},
+	"stats": {
+		"aiModels": "AIモデル",
+		"blockchainNetworks": "ブロックチェーンネットワーク",
+		"automatedExecution": "自動実行",
+		"possibilities": "可能性"
+	},
+	"useCases": {
+		"title": "何を自動化しますか？",
+		"subtitle": "ソーシャルメディアからDeFi取引まで、FrostyFlowがすべて処理します。一度構築すれば、永遠に実行できます。",
+		"cta": "これらはほんの始まりに過ぎません。あなたは何を作りますか？",
+		"ctaButton": "今すぐ始める →",
+		"cards": {
+			"socialMedia": {
+				"badge": "マーケティング",
+				"title": "ソーシャルメディア自動化",
+				"subtitle": "コンテンツ作成 → スケジューリング → マルチプラットフォーム投稿",
+				"features": [
+					"GPT-5がトレンドトピックから魅力的な投稿を生成",
+					"Claude 4がプラットフォーム固有のバリエーションを作成",
+					"ブラウザ自動化がTwitter、LinkedIn、Instagramに投稿",
+					"分析追跡とパフォーマンス最適化"
+				],
+				"benefit": "週20時間以上節約"
+			},
+			"defiTrading": {
+				"badge": "WEB3",
+				"title": "DeFi取引自動化",
+				"subtitle": "監視 → 分析 → 実行 → 通知",
+				"features": [
+					"DEX全体のトークン価格をリアルタイムで監視",
+					"AIが市場トレンドを分析し、機会を特定",
+					"安全なthirdwebボールト（35以上のネットワーク）を介してスワップを実行",
+					"取引とポートフォリオの変更に関する即時通知"
+				],
+				"benefit": "24時間365日の自動取引",
+				"subtext": "thirdwebインフラストラクチャによる支援"
+			},
+			"evmContract": {
+				"badge": "ブロックチェーン",
+				"title": "EVMコントラクト自動化",
+				"subtitle": "デプロイ → インタラクト → 監視 → 管理",
+				"features": [
+					"35以上のEVMチェーンにスマートコントラクトをデプロイ",
+					"thirdweb SDKによる自動コントラクト呼び出し",
+					"イベントを監視し、ワークフローを自動的にトリガー",
+					"ガス最適化とトランザクション管理"
+				],
+				"benefit": "35以上のブロックチェーンネットワーク",
+				"subtext": "thirdweb v5 SDK上に構築"
+			},
+			"customerSupport": {
+				"badge": "ビジネス",
+				"title": "AIカスタマーサポート",
+				"subtitle": "受信 → 分類 → 応答 → エスカレーション",
+				"features": [
+					"メール、チャット、ソーシャルメディアからの問い合わせを受信",
+					"AIが緊急度を分類し、適切な部署にルーティング",
+					"RAG検索でパーソナライズされた応答を生成",
+					"複雑な問題を人間のエージェントに自動エスカレーション"
+				],
+				"benefit": "応答時間を90%短縮"
+			},
+			"ecommerce": {
+				"badge": "Eコマース",
+				"title": "オンラインビジネス自動化",
+				"subtitle": "製品リサーチ → 出品 → マーケティング → 履行",
+				"features": [
+					"AIがトレンド製品と競合他社をリサーチ",
+					"SEO最適化された製品説明を生成",
+					"プラットフォーム全体の在庫と価格を自動更新",
+					"パーソナライズされたマーケティングメールとフォローアップを送信"
+				],
+				"benefit": "雇用せずに拡大"
+			},
+			"contentCreation": {
+				"badge": "コンテンツ",
+				"title": "コンテンツ作成パイプライン",
+				"subtitle": "リサーチ → 執筆 → 編集 → 公開 → プロモーション",
+				"features": [
+					"リサーチエージェントがWebとデータベースからデータを収集",
+					"ライターエージェントがブログ記事、記事、スクリプトを作成",
+					"エディターエージェントがトーン、文法、SEO最適化を洗練",
+					"CMSに自動公開し、ソーシャルメディアでプロモーション"
+				],
+				"benefit": "コンテンツ出力を10倍に"
+			}
+		}
+	},
+	"pricing": {
+		"title": "ベータ価格",
+		"subtitle": "今すぐWeb3の自動化を始めましょう！",
+		"betaLabel": "Limited-time beta offer",
+		"founderBadgeLabel": "Beta Founder Badge",
+		"founderBadgeDesc": "First 100 members get an exclusive Beta Founder NFT badge + first month free + auto-whitelist for $PERMA launch.",
+		"free": {
+			"name": "無料",
+			"price": "永久無料",
+			"description": "始めるのに最適",
+			"emoji": "🆓",
+			"cta": "始める",
+			"features": [
+				"無料モデルで月50メッセージ",
+				"アシスタントとエージェント無制限",
+				"保存ワークフロー5件",
+				"Skills、MCPサーバー、テンプレート",
+				"JavaScriptコード実行"
+			]
+		},
+		"pro": {
+			"name": "プロ",
+			"price": "月額$25",
+			"description": "高度なワークフローを構築するプロフェッショナル向け",
+			"emoji": "⚡",
+			"badge": "人気No.1",
+			"cta": "プロを取得 →",
+			"features": [
+				"無料・高速モデル無制限",
+				"プレミアムメッセージ 月約400〜4,700件",
+				"OpenRouter経由のトップモデル15以上（Opus、GPT-5…）",
+				"アシスタントとエージェント無制限",
+				"保存ワークフロー50件",
+				"画像・動画・音声の生成",
+				"Frosty Engine（スケジュール＆デプロイ）",
+				"PythonとJavaScriptのコード実行"
+			]
+		},
+		"enterprise": {
+			"name": "エンタープライズ",
+			"price": "$99/月",
+			"description": "チームおよび高度な自動化向け",
+			"emoji": "🏢",
+			"cta": "エンタープライズを取得 →",
+			"features": [
+				"無料・高速モデル無制限",
+				"プレミアムメッセージ 月約1,500〜18,000件",
+				"OpenRouter経由のトップモデル15以上（Opus、GPT-5…）",
+				"アシスタント・エージェント・ワークフロー無制限",
+				"カスタムエージェントサブドメイン無制限",
+				"画像・動画・音声の生成",
+				"Frosty Engine（実行無制限）",
+				"優先サポート・早期アクセス"
+			]
+		}
+	},
+	"features": {
+		"title": "強力な機能",
+		"subtitle": "AI自動化ワークフローを構築、展開、拡張するために必要なすべて。",
+		"cta": "すべての機能を探索",
+		"cards": {
+			"multiModel": {
+				"title": "マルチモデルAI",
+				"description": "GPT-5、Claude、Nebula、その他20以上のAIモデルを接続。コスト、速度、品質に基づいてインテリジェントにルーティング。"
+			},
+			"blockchain": {
+				"title": "ブロックチェーンボールト",
+				"description": "AWS Nitro Enclaveセキュリティを備えたthirdwebによる15以上のブロックチェーン操作。"
+			},
+			"workflow": {
+				"title": "ワークフロー自動化",
+				"description": "cronスケジューリング、Webhookトリガー、条件付きロジックを備えたビジュアルワークフロービルダー。"
+			},
+			"analytics": {
+				"title": "リアルタイム分析",
+				"description": "コスト追跡、パフォーマンスメトリクス、最適化インサイトを備えた包括的な監視。"
+			},
+			"security": {
+				"title": "エンタープライズセキュリティ",
+				"description": "エンドツーエンドの暗号化、セキュアエンクレーブ、SOC 2 Type II標準への準拠。"
+			},
+			"nft": {
+				"title": "NFTサブスクリプション",
+				"description": "アクセス権をNFTとして所有。譲渡可能、取引可能、将来性のあるサブスクリプションモデル。"
+			}
+		}
+	},
+	"featuresPage": {
+		"hero": {
+			"badge": "⚡ 強力な機能",
+			"title": "自動化に必要な",
+			"titleGradient": "すべて",
+			"description": "AI駆動のワークフローからブロックチェーン操作まで、FrostyLabsは最先端の技術でビジネスを構築、自動化、拡張するためのツールを提供します。",
+			"stats": {
+				"aiModels": "AIモデル",
+				"blockchainNetworks": "ブロックチェーンネットワーク",
+				"blockchainOperations": "ブロックチェーン操作",
+				"possibilities": "可能性"
+			}
+		},
+		"blockchain": {
+			"title": "ブロックチェーンボールト操作",
+			"subtitle": "AWS Nitro Enclave保護を備えた複数のチェーンで安全なブロックチェーン操作を実行します。",
+			"selectOperation": "操作を選択",
+			"selectedPrefix": "選択中:",
+			"securityNote": "すべての操作は、AWS Nitro Enclaves保護を備えたthirdweb Vault SDKによって保護されています。",
+			"clickPrompt": "上記のブロックチェーン操作をクリックして、詳細情報とセキュリティ機能を確認してください。",
+			"operations": {
+				"transfer": {
+					"title": "トークン転送",
+					"description": "ガス最適化を備えた複数チェーンでの安全なトークン転送"
+				},
+				"swap": {
+					"title": "トークンスワップ",
+					"description": "DEXアグリゲーターを介した最良価格ルーティングによる自動トークンスワップ"
+				},
+				"stake": {
+					"title": "ステーキング",
+					"description": "利回り最適化と報酬の複利運用を備えた自動ステーキング"
+				},
+				"bridge": {
+					"title": "資産ブリッジ",
+					"description": "セキュリティ検証を備えたクロスチェーン資産ブリッジ"
+				},
+				"mint": {
+					"title": "NFTミント",
+					"description": "メタデータ管理とIPFSストレージを備えた一括NFTミント"
+				},
+				"deploy": {
+					"title": "スマートコントラクト",
+					"description": "自動化されたスマートコントラクトのデプロイとインタラクション"
+				},
+				"governance": {
+					"title": "ガバナンス",
+					"description": "自動化されたDAO投票とガバナンス参加"
+				},
+				"yield": {
+					"title": "イールドファーミング",
+					"description": "リスク管理を備えた自動イールドファーミング"
+				}
+			}
+		},
+		"signup": {
+			"title": "数秒でサインアップ",
+			"subtitle": "暗号資産の知識は不要です。メール、ソーシャルログイン、または既存のウォレットでサインアップしてください - 複雑な処理は私たちが担当します。",
+			"chooseMethod": "サインアップ方法を選択",
+			"emailSocial": {
+				"title": "メール & ソーシャルログイン",
+				"description": "Google、Discord、Twitter、GitHub、またはメールでサインアップ - 他のアプリと同じように。",
+				"methods": [
+					"Google",
+					"Discord",
+					"Twitter",
+					"Email",
+					"GitHub",
+					"Passkey"
+				]
+			},
+			"wallet": {
+				"title": "ウォレットを接続",
+				"description": "MetaMask、Coinbase Wallet、またはその他のウォレットをお持ちですか？即座に接続できます。",
+				"wallets": [
+					"MetaMask",
+					"Coinbase",
+					"Rainbow",
+					"Ledger"
+				]
+			},
+			"behindScenes": {
+				"title": "舞台裏で何が起こっているのか？",
+				"steps": [
+					{
+						"title": "アプリ内ウォレットが自動的に作成されます",
+						"description": "サインアップすると、thirdwebが自動的に安全なブロックチェーンウォレットを作成します - 設定は不要です。"
+					},
+					{
+						"title": "管理する秘密鍵はありません",
+						"description": "ウォレットはログイン方法（メール、Googleなど）によって保護されています。書き留めたり紛失したりするシードフレーズはありません。"
+					},
+					{
+						"title": "ブロックチェーン機能を使用する準備完了",
+						"description": "USDCサブスクリプションでの支払い、ブロックチェーンワークフローの実行、スマートコントラクトとの対話 - すべて暗号資産の複雑さなしで。"
+					},
+					{
+						"title": "エンタープライズグレードのセキュリティ",
+						"description": "AWS Nitro Enclavesを備えたthirdwebのインフラストラクチャによって強化されています - 鍵が公開されることはありません。"
+					}
+				]
+			},
+			"bestPart": {
+				"title": "一番の利点は？",
+				"description": "ブロックチェーンのすべての利点（USDCサブスクリプション、安全なワークフロー、マルチチェーンサポート）を、仕組みを理解する必要なく得られます。サインアップして自動化を開始するだけです！"
+			}
+		},
+		"security": {
+			"title": "安全なブロックチェーンウォレット管理",
+			"subtitle": "ワークフローは、thirdweb Vault SDKとAWS Nitro Enclavesによって強化されたエンタープライズグレードのセキュリティでブロックチェーンウォレットを作成および管理できます。",
+			"vault": {
+				"title": "thirdweb Vaultとは？",
+				"description": "thirdweb Vaultは、ワークフローが自動操作のためにブロックチェーンウォレットを作成および制御できるようにする安全な鍵管理システムです - あなたの代わりにトランザクションに署名できるロボットのようなものです。",
+				"features": [
+					{
+						"title": "ワークフローでウォレットを作成",
+						"description": "自動化ワークフローは、特定のタスク（取引ボット、NFTミントなど）専用のブロックチェーンウォレットを作成できます"
+					},
+					{
+						"title": "トランザクションに自動的に署名",
+						"description": "ワークフローは、手動承認なしでブロックチェーントランザクション、メッセージ、スマートコントラクト呼び出しに署名できます"
+					},
+					{
+						"title": "マルチチェーンサポート",
+						"description": "Ethereum、Polygon、Base、Arbitrumなど、35以上のサポートされているすべてのブロックチェーンネットワークで動作します"
+					},
+					{
+						"title": "あなたがコントロール",
+						"description": "ワークフローウォレットにアクセスして管理できるのはあなただけです - それらはあなたのアカウントに紐付けられています"
+					}
+				]
+			},
+			"useCases": {
+				"title": "Vaultウォレットのユースケース",
+				"items": [
+					"自動化されたDeFi取引ボット",
+					"NFTミントと配布",
+					"スマートコントラクトのデプロイ",
+					"マルチシグ操作",
+					"トークン転送と支払い"
+				]
+			},
+			"architecture": {
+				"title": "Vaultウォレットはどのように保護されていますか？",
+				"nitro": {
+					"title": "AWS Nitro Enclaves",
+					"description": "秘密鍵はAWS Nitro Enclavesに保存されます - AWS管理者でさえアクセスできない、隔離されたハードウェア保護環境です。",
+					"features": [
+						"CPUレベルの暗号化隔離",
+						"エンクレーブからのネットワークアクセスなし",
+						"コード整合性の暗号化構成証明"
+					]
+				},
+				"encryption": {
+					"title": "エンドツーエンド暗号化",
+					"description": "Vaultウォレットとのすべての通信は、完全な前方秘匿性を持つxChaCha20-Poly1305暗号化を使用します。",
+					"features": [
+						"秘密鍵はエンクレーブを決して離れません",
+						"保存時および転送時に暗号化",
+						"ゼロ知識アーキテクチャ"
+					]
+				}
+			}
+		}
+	},
+	"aboutPage": {
+		"hero": {
+			"badge": "🚀 2025年12月ローンチ",
+			"title": "未来を構築する",
+			"titleGradient": "AI自動化",
+			"description": "FrostyLabsは、AI自動化を民主化し、ブロックチェーン技術を誰にでもアクセス可能にするという使命を担っています。私たちは、次世代の自動化ワークフローを強化するツールを構築しています。",
+			"stats": {
+				"aiModels": "AIモデル",
+				"blockchainNetworks": "ブロックチェーンネットワーク",
+				"launchDate": "ローンチ日"
+			}
+		},
+		"mission": {
+			"title": "私たちの使命",
+			"paragraph1": "私たちは、AI自動化はアクセス可能で、安全で、真に分散化されるべきだと信じています。私たちの使命は、複数のAIモデルの力とブロックチェーン技術のセキュリティと所有権の利点を組み合わせることで、AIワークフロー自動化を民主化することです。",
+			"paragraph2": "シンプルなUSDCサブスクリプションと、x402やERC-8004といったオープンなエージェントプロトコルを活用し、誰もがオンチェーンエージェントを作成・デプロイ・収益化でき、エコシステムで生み出す価値を獲得できるプラットフォームを構築しています。",
+			"goals": [
+				"AI自動化へのアクセスを民主化",
+				"最大限のセキュリティとプライバシーを確保",
+				"真に分散化されたインフラストラクチャを構築"
+			],
+			"vision": {
+				"title": "私たちのビジョン",
+				"description": "AI自動化がデジタル資産と同じくらいアクセス可能で取引可能であり、ユーザーが自分の運命をコントロールし、人工知能の力が大企業だけでなくすべての人によって活用される世界。"
+			}
+		},
+		"techStack": {
+			"title": "技術スタック",
+			"subtitle": "最高のパフォーマンス、セキュリティ、スケーラビリティを実現するために最先端の技術で構築されています。",
+			"stacks": {
+				"backend": {
+					"title": "バックエンドインフラストラクチャ",
+					"items": {
+						"framework": "Next.js 15",
+						"runtime": "Node.js 20+",
+						"database": "PostgreSQL",
+						"auth": "Web3 Auth",
+						"orm": "Drizzle"
+					}
+				},
+				"blockchain": {
+					"title": "ブロックチェーンインフラストラクチャ",
+					"items": {
+						"sdk": "thirdweb v5",
+						"vault": "thirdweb Vault",
+						"networks": "35+ EVMチェーン",
+						"security": "AWS Nitro",
+						"nftStandards": "ERC-721/1155"
+					}
+				},
+				"aiModels": {
+					"title": "AIモデル",
+					"items": {
+						"openai": "GPT-5, GPT-4.1",
+						"anthropic": "Claude 4",
+						"google": "Gemini 2.x",
+						"xai": "Grok-3",
+						"total": "20+ モデル"
+					}
+				},
+				"devops": {
+					"title": "DevOps",
+					"items": {
+						"container": "Docker",
+						"orchestration": "Kubernetes",
+						"cicd": "GitHub Actions",
+						"monitoring": "Prometheus",
+						"cloud": "AWS/GCP"
+					}
+				},
+				"frontend": {
+					"title": "フロントエンド",
+					"items": {
+						"framework": "React 19",
+						"styling": "Tailwind CSS",
+						"uiLibrary": "shadcn/ui",
+						"workflowUI": "React Flow",
+						"animations": "Framer Motion"
+					}
+				},
+				"security": {
+					"title": "セキュリティ",
+					"items": {
+						"walletAuth": "thirdweb",
+						"encryption": "AES-256",
+						"keyStorage": "AWS Nitro",
+						"compliance": "SOC 2, ISO",
+						"privacy": "GDPR"
+					}
+				}
+			},
+			"labels": {
+				"framework": "フレームワーク",
+				"runtime": "ランタイム",
+				"database": "データベース",
+				"auth": "認証",
+				"orm": "ORM",
+				"sdk": "SDK",
+				"vault": "ボールト",
+				"networks": "ネットワーク",
+				"security": "セキュリティ",
+				"nftStandards": "NFT標準",
+				"openai": "OpenAI",
+				"anthropic": "Anthropic",
+				"google": "Google AI",
+				"xai": "xAI",
+				"total": "合計モデル",
+				"container": "コンテナ",
+				"orchestration": "オーケストレーション",
+				"cicd": "CI/CD",
+				"monitoring": "モニタリング",
+				"cloud": "クラウド",
+				"styling": "スタイリング",
+				"uiLibrary": "UIライブラリ",
+				"workflowUI": "ワークフローUI",
+				"animations": "アニメーション",
+				"walletAuth": "ウォレット認証",
+				"encryption": "暗号化",
+				"keyStorage": "鍵ストレージ",
+				"compliance": "コンプライアンス",
+				"privacy": "プライバシー"
+			}
+		},
+		"roadmap": {
+			"title": "ロードマップ",
+			"subtitle": "AI自動化とブロックチェーン統合を革新するための私たちの旅。",
+			"quarters": {
+				"q4_2025": {
+					"quarter": "2025年第4四半期",
+					"title": "公開ローンチと初期成長",
+					"status": "進行中",
+					"items": [
+						{
+							"icon": "✓",
+							"text": "ランディングページ＆マーケティングサイト"
+						},
+						{
+							"icon": "✓",
+							"text": "本番デプロイ＆モニタリング"
+						},
+						{
+							"icon": "🚧",
+							"text": "オープンベータローンチ（2025年11月/12月）"
+						},
+						{
+							"icon": "🚧",
+							"text": "ベータ创設者プログラム（100名の创設メンバー）"
+						},
+						{
+							"icon": "🚧",
+							"text": "コミュニティ構築とユーザーオンボーディング"
+						},
+						{
+							"icon": "📋",
+							"text": "ユーザーフィードバックの統合と反復"
+						}
+					]
+				},
+				"q1_2026": {
+					"quarter": "2026年第1四半期",
+					"title": "AIエージェントプラットフォームと高度な機能",
+					"status": "計画中",
+					"items": [
+						{
+							"icon": "🤖",
+							"text": "Frosty Agent: AIエージェント＆アプリケーションビルダー - カスタムAIエージェントと小規模AIアプリケーションを作成",
+							"bold": true
+						},
+						{
+							"icon": "⚡",
+							"text": "Frosty Agent: 自然言語ワークフロー作成 - ユーザーの説明からワークフローを生成",
+							"bold": true
+						},
+						{
+							"icon": "🧠",
+							"text": "Nebula AIモデル統合 - パフォーマンス向上のための高度なAIモデル",
+							"bold": true
+						},
+						{
+							"icon": "📋",
+							"text": "RAG検索＆セマンティックドキュメント検索（Pro層）"
+						},
+						{
+							"icon": "📋",
+							"text": "高度なエージェントエコシステム機能"
+						},
+						{
+							"icon": "📋",
+							"text": "ワークフローマーケットプレイス＆テンプレートライブラリ"
+						}
+					]
+				},
+				"q2_2026": {
+					"quarter": "2026年第2四半期",
+					"title": "FrostyDAOとトークンローンチ",
+					"status": "計画中",
+					"items": [
+						{
+							"icon": "🔥",
+							"text": "$PERMAトークンフェアローンチ - ベータ创設者自動ホワイトリスト",
+							"bold": true
+						},
+						{
+							"icon": "🔥",
+							"text": "POLARガバナンストークン（$PERMAステーキングで獲得）",
+							"bold": true
+						},
+						{
+							"icon": "📋",
+							"text": "ステーキング報酬：POLARを獲得 + DAO運用からの収益分配"
+						},
+						{
+							"icon": "📋",
+							"text": "プロトコル所有流動性（POL） - DAOがサブスクリプション収益の95%を所有"
+						},
+						{
+							"icon": "📋",
+							"text": "オンチェーンガバナンス：財務配分と機能開発に投票"
+						},
+						{
+							"icon": "📋",
+							"text": "DAO財務管理のためのベータ创設者マルチシグ選出"
+						}
+					]
+				},
+				"q3_2026": {
+					"quarter": "2026年第3四半期",
+					"title": "プラットフォームスケールとマルチチェーン拡張",
+					"status": "計画中",
+					"items": [
+						{
+							"icon": "🌐",
+							"text": "マルチチェーン拡張：Solana、Cosmos、Polkadotサポート",
+							"bold": true
+						},
+						{
+							"icon": "🔗",
+							"text": "ZapierとMake.com統合アダプター",
+							"bold": true
+						},
+						{
+							"icon": "📱",
+							"text": "モバイルアプリローンチ（iOSおよびAndroid）"
+						},
+						{
+							"icon": "🏢",
+							"text": "エンタープライズ機能：SSO、チーム管理、監査ログ"
+						},
+						{
+							"icon": "📊",
+							"text": "高度な分析とワークフローパフォーマンス追跡"
+						},
+						{
+							"icon": "🎯",
+							"text": "10,000+アクティブユーザーのマイルストーン"
+						}
+					]
+				},
+				"q4_2026": {
+					"quarter": "2026年第4四半期",
+					"title": "AIマーケットプレイスとクリエイターエコノミー",
+					"status": "計画中",
+					"items": [
+						{
+							"icon": "🛒",
+							"text": "エージェントとワークフローマーケットプレイスローンチ",
+							"bold": true
+						},
+						{
+							"icon": "💰",
+							"text": "テンプレート作成者向け収益分配（$PERMAで支払い）",
+							"bold": true
+						},
+						{
+							"icon": "📚",
+							"text": "コミュニティテンプレートライブラリ：1,000+の事前構築ワークフロー"
+						},
+						{
+							"icon": "🤖",
+							"text": "高度なマルチエージェントオーケストレーションとコラボレーション"
+						},
+						{
+							"icon": "🎓",
+							"text": "クリエイター認定プログラムと教育リソース"
+						},
+						{
+							"icon": "🌟",
+							"text": "DAO資金援助による革新的なエージェント開発のための助成金"
+						}
+					]
+				}
+			},
+			"community": {
+				"title": "コミュニティに参加",
+				"description": "自動化の未来を構築する開発者、AI愛好家、ブロックチェーンのパイオニアとつながりましょう。",
+				"github": "GitHub",
+				"twitter": "Twitter"
+			}
+		}
+	},
+	"faq": {
+		"title": "よくある質問",
+		"subtitle": "FrostyFiについて知っておくべきすべて",
+		"stillHaveQuestions": "まだ質問がありますか？",
+		"askOnX": "Xで質問する",
+		"items": [
+			{
+				"question": "FrostyFiとは何ですか？",
+				"answer": "FrostyFi is a visual platform for building AI agents that act on-chain. Connect a large language model to blockchain operations, HTTP calls, or conditional logic using a drag-and-drop canvas — no smart-contract expertise required. Deploy your agent, expose it via a standard API, and let it run autonomously."
+			},
+			{
+				"question": "コードを書く必要がありますか？",
+				"answer": "No. FrostyFi's no-code visual builder lets you wire together AI models, on-chain actions, and external APIs by dragging nodes onto a canvas. Power users can drop in custom JavaScript nodes for anything the built-in library doesn't cover."
+			},
+			{
+				"question": "どのチェーンとAIモデルがサポートされていますか？",
+				"answer": "On the blockchain side, FrostyFi supports EVM-compatible networks (Ethereum, Base, Polygon, Arbitrum, Optimism, and more) as well as Solana. For AI, you can route requests through OpenAI, Anthropic, Google, Groq, and additional providers via OpenRouter — swap models per node without rebuilding your workflow."
+			},
+			{
+				"question": "支払いはどのように機能しますか？",
+				"answer": "Two layers: the app itself runs on simple USDC subscriptions on Base (Pro and Enterprise tiers) — pay in stablecoin, no NFT and no token required. Agent-to-agent payments use x402 — a per-request micropayment standard that settles in USDC on Base with no intermediary. Your agents can charge callers and pay other agents without any manual invoicing."
+			},
+			{
+				"question": "x402とは何ですか？",
+				"answer": "x402は、HTTP 402「Payment Required」レスポンスを利用して、クライアントがリクエストに対して支払いを行い、即座に再試行できるようにするオープンスタンダードです。アカウント、APIキー、サブスクリプションは一切不要です。FrostyFiでは、エージェントがBase上のUSDCで呼び出しごとに課金でき、同じ方法で他のエージェントに支払うこともできます。そのため、APIやエージェントは利用された瞬間に報酬を受け取れます。"
+			},
+			{
+				"question": "ERC-8004とは何ですか？",
+				"answer": "ERC-8004は「トラストレスエージェント」のためのEthereum標準です。公開レジストリを通じて、すべてのエージェントにポータブルなオンチェーンのアイデンティティと評判を付与するため、取引相手は誰に支払い、誰を信頼しているのかを検証できます。FrostyFiは、ワンクリックでエージェントをERC-8004レジストリに登録でき、オンチェーンに存在する検証可能なアイデンティティを持たせることができます。"
+			},
+			{
+				"question": "Permafrost（$PERMA）トークンはありますか？",
+				"answer": "The Permafrost ($PERMA) token is planned for 2026. It is not live today. When it launches, Permafrost is designed to serve as the platform's utility and governance token — staking, fee discounts, and protocol-owned liquidity. 現在のサブスクリプションはBase上のシンプルなUSDC決済です。FrostyFiを今すぐ利用するのに、NFTもトークンの購入も必要ありません。"
+			},
+			{
+				"question": "どうすれば始められますか？",
+				"answer": "Sign up at flow.frostylabs.ai. The free tier gives you access to the visual builder and a set of AI calls per month to explore the platform. No wallet setup is required to register — connect a wallet later when you want to use on-chain features."
+			}
+		]
+	},
+	"videoDemo": {
+		"title": "30秒でトークンを分析"
+	},
+	"poweredBy": {
+		"badge": "提供元",
+		"titlePrefix": "最高の",
+		"titleHighlight": "AIモデル",
+		"description": "最も強力な自動化機能を提供するために、主要なAIプロバイダーと統合しています。",
+		"moreModels": "+ OpenRouter経由でさらに"
+	},
+	"security": {
+		"badge": "エンタープライズセキュリティ",
+		"title": "あなたのセキュリティが私たちの優先事項",
+		"descriptionPrefix": "業界をリードする安全なキー管理ソリューション、",
+		"descriptionHighlight": "thirdweb Vault",
+		"descriptionSuffix": "によって実現",
+		"cta": "セキュリティについて詳しく学ぶ",
+		"features": {
+			"bankGrade": {
+				"title": "銀行レベルのセキュリティ",
+				"description": "AWS Nitro Enclavesで暗号化されたキー"
+			},
+			"nonCustodial": {
+				"title": "非カストディアル",
+				"description": "常に資産を管理できます"
+			},
+			"infrastructure": {
+				"title": "安全なインフラストラクチャ",
+				"description": "保存時および転送時の軍事レベルの暗号化"
+			},
+			"privacy": {
+				"title": "プライバシーファースト",
+				"description": "ゼロ知識アーキテクチャ"
+			}
+		}
+	},
+	"timeline": {
+		"badge": "ローンチタイムライン",
+		"title": "最初のユーザーになろう",
+		"descriptionPrefix": "ベータプログラムに参加して",
+		"descriptionHighlight": "限定创設メンバー特典",
+		"status": {
+			"inProgress": "進行中",
+			"planned": "予定"
+		},
+		"milestones": {
+			"beta": {
+				"title": "パブリックベータローンチ",
+				"items": [
+					"初月1ヶ月無料（Proティア）",
+					"ベータ创設NFTバッジ",
+					"アーリーアダプター特典"
+				]
+			},
+			"launch": {
+				"title": "完全プラットフォームローンチ",
+				"items": [
+					"マーケットプレイスローンチ",
+					"高度な機能",
+					"エンタープライズサポート"
+				]
+			}
+		},
+		"betaDate": "2025年12月",
+		"betaDescription": "限定特典付きパブリックベータローンチ",
+		"viewRoadmap": "完全なロードマップを見る"
+	}
 }

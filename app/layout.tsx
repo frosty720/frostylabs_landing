@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Orbitron } from "next/font/google";
+import { Space_Grotesk, JetBrains_Mono } from 'next/font/google';
 import "./globals.css";
 import { ThemeProvider } from "@/components/layouts/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
@@ -7,38 +7,38 @@ import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import Script from "next/script";
 import { ThirdwebProvider } from "thirdweb/react";
+import { SITE } from "@/lib/site";
+import { LenisProvider } from "@/lib/scroll/lenis-provider";
+import { MotionConfigProvider } from "@/components/layouts/motion-config-provider";
 
 const GA_MEASUREMENT_ID = "G-X9XDDBT2WM";
 
-const orbitron = Orbitron({
-  variable: "--font-orbitron",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
-});
+const spaceGrotesk = Space_Grotesk({ variable: '--font-display', subsets: ['latin'], weight: ['400', '500', '700'] });
+const jetbrainsMono = JetBrains_Mono({ variable: '--font-mono-accent', subsets: ['latin'], weight: ['400', '500'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://frostylabs.ai'),
-  title: "FrostyLabs - Build AI Agents for Web3 | Research • DeFi • NFTs • DAOs & More",
-  description: "Build AI-powered workflows for anything in Web3. Automate research, DeFi operations, NFT minting, DAO governance, and more across 35+ networks. No-code automation. Free beta launching December 2025.",
-  keywords: ["AI Web3 automation", "blockchain AI agents", "no-code DeFi automation", "AI workflow builder", "NFT automation", "DAO automation", "Web3 AI tools", "crypto automation", "blockchain automation"],
-  authors: [{ name: "FrostyLabs.ai" }],
-  creator: "FrostyLabs.ai",
-  publisher: "FrostyLabs.ai",
+  metadataBase: new URL(SITE.domain),
+  title: 'FrostyFi — Build x402 & ERC-8004 AI agents, no-code',
+  description: 'Build, deploy and monetize AI agents — no code. Pay per call with x402, carry a verifiable ERC-8004 on-chain identity, and act across EVM, Solana and Base.',
+  keywords: ['x402', 'x402 payments', 'x402 agents', 'ERC-8004', 'ERC-8004 agents', 'trustless agents', 'on-chain AI agents', 'AI agent identity', 'agent-to-agent payments', 'A2A protocol', 'no-code AI agents', 'AI workflow automation', 'EVM', 'Solana', 'Base'],
+  authors: [{ name: 'FrostyFi' }],
+  creator: 'FrostyFi',
+  publisher: 'FrostyFi',
 
   // OpenGraph
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://frostylabs.ai',
-    siteName: 'FrostyLabs',
-    title: "FrostyLabs - Build AI Agents for Web3",
-    description: "Build AI-powered workflows for anything in Web3. Automate research, DeFi operations, NFT minting, DAO governance, and more across 35+ networks.",
+    url: SITE.domain,
+    siteName: 'FrostyFi',
+    title: 'FrostyFi — Build x402 & ERC-8004 AI agents, no-code',
+    description: 'Build, deploy and monetize AI agents — no code. Pay per call with x402, carry a verifiable ERC-8004 on-chain identity, and act across EVM, Solana and Base.',
     images: [
       {
-        url: '/og-image.png', // You'll add this image
+        url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'FrostyLabs - AI Workflow Automation for Web3',
+        alt: 'FrostyFi — no-code platform for x402-paid, ERC-8004 AI agents',
       }
     ],
   },
@@ -48,9 +48,9 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@FrostyLabsAi',
     creator: '@FrostyLabsAi',
-    title: "FrostyLabs - Build AI Agents for Web3",
-    description: "Build AI-powered workflows for anything in Web3. Automate research, DeFi, NFTs, DAOs & more across 35+ networks.",
-    images: ['/twitter-image.png'], // You'll add this image
+    title: 'FrostyFi — Build x402 & ERC-8004 AI agents, no-code',
+    description: 'Build, deploy and monetize AI agents — no code. Pay per call with x402, carry a verifiable ERC-8004 on-chain identity, and act across EVM, Solana and Base.',
+    images: ['/twitter-image.png'],
   },
 
   // Additional
@@ -75,25 +75,22 @@ export const metadata: Metadata = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "FrostyLabs",
-  "description": "AI-powered workflow automation platform for Web3",
-  "url": "https://frostylabs.ai",
-  "logo": "https://frostylabs.ai/resources/frostylogo.png",
-  "sameAs": [
-    "https://github.com/FrostyLabsAi",
-    "https://x.com/FrostyLabsAi"
-  ],
+  "name": "FrostyFi",
+  "description": "The visual platform for AI agents that act on-chain",
+  "url": SITE.domain,
+  "logo": `${SITE.domain}/resources/frostylogo.png`,
+  "sameAs": [SITE.github, SITE.twitter],
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "Customer Support",
-    "url": "https://frostylabs.ai"
+    "url": SITE.domain,
   }
 };
 
 const softwareSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "FrostyLabs",
+  "name": "FrostyFi",
   "applicationCategory": "DeveloperApplication",
   "offers": {
     "@type": "Offer",
@@ -103,21 +100,18 @@ const softwareSchema = {
     "description": "Free beta access"
   },
   "operatingSystem": "Web",
-  "description": "Build AI-powered workflows for anything in Web3. Automate research, DeFi operations, NFT minting, DAO governance, and more.",
-  "screenshot": "https://frostylabs.ai/screenshots/workflow-builder.png",
+  "url": SITE.domain,
+  "description": "The visual platform for AI agents that act on-chain. Build workflows, run them anywhere, pay per call with x402.",
+  "screenshot": `${SITE.domain}/screenshots/workflow-builder.png`,
   "featureList": [
-    "20+ AI models including GPT-4, Claude, Gemini",
-    "35+ blockchain networks supported",
-    "15+ blockchain operations (swap, stake, mint, deploy)",
-    "No-code visual workflow builder",
+    "Visual no-code workflow builder",
+    "x402 per-call micropayments",
+    "EVM + Solana on-chain actions",
+    "Agent-to-agent (A2A) protocol",
     "Secure key management with thirdweb Vault",
-    "NFT-based subscription access"
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "ratingCount": "1"
-  }
+    "ERC-8004 on-chain agent identity",
+    "USDC subscriptions on Base"
+  ]
 };
 
 export default async function RootLayout({
@@ -160,7 +154,7 @@ export default async function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }}
         />
       </head>
-      <body className={`${orbitron.variable} antialiased`}>
+      <body className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} antialiased`}>
         <NextIntlClientProvider messages={messages}>
           <ThirdwebProvider>
             <ThemeProvider
@@ -169,7 +163,9 @@ export default async function RootLayout({
               enableSystem
               disableTransitionOnChange
             >
-              {children}
+              <MotionConfigProvider>
+                <LenisProvider>{children}</LenisProvider>
+              </MotionConfigProvider>
               <Toaster />
             </ThemeProvider>
           </ThirdwebProvider>

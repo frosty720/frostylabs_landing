@@ -568,12 +568,12 @@
 						},
 						{
 							"icon": "🔥",
-							"text": "POLAR治理代币（通过质押$PERMA获得）",
+							"text": "POLAR治理代币（通过锁定$PERMA获得）",
 							"bold": true
 						},
 						{
 							"icon": "📋",
-							"text": "质押奖励：获得POLAR + DAO运营收益分配"
+							"text": "锁定奖励：获得POLAR + DAO运营收益分配"
 						},
 						{
 							"icon": "📋",
@@ -696,7 +696,7 @@
 			},
 			{
 				"question": "有FROST代币吗？",
-				"answer": "The Permafrost ($PERMA) token is planned for 2026. It is not live today. When it launches, Permafrost is designed to serve as the platform's utility and governance token — staking, fee discounts, and protocol-owned liquidity. 当前的订阅是在 Base 上的简单 USDC 付款——现在使用 FrostyFi 无需 NFT，也无需购买代币。"
+				"answer": "The Permafrost ($PERMA) token is planned for 2026. It is not live today. When it launches, Permafrost is designed to serve as the platform's utility and governance token — locking, fee discounts, and protocol-owned liquidity. 当前的订阅是在 Base 上的简单 USDC 付款——现在使用 FrostyFi 无需 NFT，也无需购买代币。"
 			},
 			{
 				"question": "如何开始？",

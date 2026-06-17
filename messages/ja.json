@@ -568,12 +568,12 @@
 						},
 						{
 							"icon": "🔥",
-							"text": "POLARガバナンストークン（$PERMAステーキングで獲得）",
+							"text": "POLARガバナンストークン（$PERMAをロックして獲得）",
 							"bold": true
 						},
 						{
 							"icon": "📋",
-							"text": "ステーキング報酬：POLARを獲得 + DAO運用からの収益分配"
+							"text": "ロック報酬：POLARを獲得 + DAO運用からの収益分配"
 						},
 						{
 							"icon": "📋",
@@ -696,7 +696,7 @@
 			},
 			{
 				"question": "Permafrost（$PERMA）トークンはありますか？",
-				"answer": "The Permafrost ($PERMA) token is planned for 2026. It is not live today. When it launches, Permafrost is designed to serve as the platform's utility and governance token — staking, fee discounts, and protocol-owned liquidity. 現在のサブスクリプションはBase上のシンプルなUSDC決済です。FrostyFiを今すぐ利用するのに、NFTもトークンの購入も必要ありません。"
+				"answer": "The Permafrost ($PERMA) token is planned for 2026. It is not live today. When it launches, Permafrost is designed to serve as the platform's utility and governance token — locking, fee discounts, and protocol-owned liquidity. 現在のサブスクリプションはBase上のシンプルなUSDC決済です。FrostyFiを今すぐ利用するのに、NFTもトークンの購入も必要ありません。"
 			},
 			{
 				"question": "どうすれば始められますか？",

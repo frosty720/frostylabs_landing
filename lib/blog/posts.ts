@@ -24,7 +24,7 @@ export const posts: BlogPost[] = [
 			"Most AI agents can't get paid. Here's how to build one on a visual canvas, give it a verifiable on-chain identity, and let it earn USDC per request — live on Base mainnet, no code.",
 		date: '2026-06-19',
 		author: 'frostydev',
-		authorHandle: '@frostydev720',
+		authorHandle: '@frosty_onchain',
 		tags: ['x402', 'ERC-8004', 'AI agents', 'Base', 'No-code'],
 		readingTime: '4 min read',
 		image: '/blog/og/agent-that-earns.png',

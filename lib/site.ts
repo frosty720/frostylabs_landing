@@ -1,7 +1,7 @@
 export const SITE = {
 	name: 'FrostyLabs',
 	domain: 'https://frostylabs.ai',
-	appUrl: 'https://flow.frostylabs.ai',
+	appUrl: 'https://app.frostylabs.ai',
 	github: 'https://github.com/FrostyLabsAi',
 	twitter: 'https://x.com/FrostyLabsAi',
 	telegram: 'https://t.me/+ZX21TSI9AaY4ODUx',

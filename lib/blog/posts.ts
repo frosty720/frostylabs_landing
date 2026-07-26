@@ -1,4 +1,5 @@
 import type { ComponentType } from 'react';
+import { AgentCustody } from './content/agent-custody';
 import { AgentThatEarns } from './content/agent-that-earns';
 
 export interface BlogPost {
@@ -17,6 +18,19 @@ export interface BlogPost {
 }
 
 export const posts: BlogPost[] = [
+	{
+		slug: 'agent-custody',
+		title: 'What your agent is allowed to sign',
+		description:
+			"The moment an agent can spend real money, the question stops being 'can it pay?' and becomes 'how much can it lose?' How FrostyFi gives agents a wallet without giving them the keys: keys held in ThirdWeb Vault, scoped and revocable signing, and a hard cap on every spend.",
+		date: '2026-07-26',
+		author: 'frostydev',
+		authorHandle: '@frosty_onchain',
+		tags: ['Vault', 'Custody', 'Security', 'AI agents', 'Base'],
+		readingTime: '4 min read',
+		image: '/blog/og/agent-custody.png',
+		Body: AgentCustody,
+	},
 	{
 		slug: 'agent-that-earns',
 		title: 'Deploy an AI agent that earns USDC — no code',

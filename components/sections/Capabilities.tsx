@@ -12,14 +12,13 @@ import {
 	Sparkles,
 	Workflow,
 } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import { useReducedMotionOrTouch } from '@/lib/scroll/use-reduced-motion-or-touch';
 
 const EASE_OUT: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
 interface Tile {
 	icon: typeof Network;
-	title: string;
-	body: string;
 	/** Tailwind classes for the asymmetric grid span (desktop only). */
 	span: string;
 }
@@ -27,56 +26,38 @@ interface Tile {
 const TILES: Tile[] = [
 	{
 		icon: Cpu,
-		title: '100+ AI models',
-		body: 'Route any prompt to GPT, Claude, Gemini, Llama and more — swap models with one click.',
 		span: 'md:col-span-2 md:row-span-1',
 	},
 	{
 		icon: Network,
-		title: 'MCP servers',
-		body: 'Connect external tools and data through the Model Context Protocol.',
 		span: 'md:col-span-2 md:row-span-1',
 	},
 	{
 		icon: Boxes,
-		title: 'A2A protocol',
-		body: 'Agents talk to other agents over the open agent-to-agent standard.',
 		span: 'md:col-span-2 md:row-span-1',
 	},
 	{
 		icon: Rocket,
-		title: 'Agents & deployment',
-		body: 'Ship any workflow as an autonomous agent that runs on its own.',
 		span: 'md:col-span-2 md:row-span-1',
 	},
 	{
 		icon: CalendarClock,
-		title: 'Scheduling & triggers',
-		body: 'Fire on a cron, a webhook, or an on-chain event — no glue code.',
 		span: 'md:col-span-2 md:row-span-1',
 	},
 	{
 		icon: Plug,
-		title: 'Trading & DeFi nodes',
-		body: 'Uniswap, SushiSwap, PancakeSwap, Hyperliquid and Jupiter — swaps, perps and tokenized stocks on one canvas.',
 		span: 'md:col-span-2 md:row-span-1',
 	},
 	{
 		icon: Sparkles,
-		title: 'Media & messaging',
-		body: 'Generate images, video and voice, and reach users over SMS and WhatsApp — straight from a node.',
 		span: 'md:col-span-2 md:row-span-1',
 	},
 	{
 		icon: ShieldCheck,
-		title: 'Vault-secured signing',
-		body: 'Agents sign on-chain through thirdweb Vault — keys stay encrypted and never touch the workflow.',
 		span: 'md:col-span-2 md:row-span-1',
 	},
 	{
 		icon: Activity,
-		title: 'Live run monitoring',
-		body: 'Watch every run node-by-node — logs, timing, and alerts the moment something fails.',
 		span: 'md:col-span-2 md:row-span-1',
 	},
 ];
@@ -92,13 +73,14 @@ const item: Variants = {
 };
 
 export function Capabilities() {
+	const t = useTranslations('capabilities');
 	const reduceMotion = useReducedMotionOrTouch();
 
 	return (
 		<section id='capabilities' className='mx-auto max-w-6xl px-6 py-28'>
-			<span className='mono-label text-[#67e8f9]'>Capabilities</span>
+			<span className='mono-label text-[#67e8f9]'>{t('eyebrow')}</span>
 			<h2 className='mt-3 text-4xl font-semibold tracking-tight md:text-5xl'>
-				Everything an agent <span className='aurora-text'>needs</span>
+				{t('headingLead')} <span className='aurora-text'>{t('headingEmphasis')}</span>
 			</h2>
 
 			<motion.div
@@ -141,29 +123,30 @@ export function Capabilities() {
 							<Workflow className='h-6 w-6' strokeWidth={1.75} />
 						</span>
 						<h3 className='mt-5 text-2xl font-semibold text-white md:text-3xl'>
-							Visual workflows
+							{t('feature.title')}
 						</h3>
 						<p className='mt-2 max-w-md text-[#aab2c5]'>
-							Build agents on a no-code canvas — drag nodes, draw connections, and watch
-							the logic come together. No boilerplate, no deploy scripts.
+							{t('feature.body')}
 						</p>
 					</div>
 				</motion.div>
 
 				{/* REMAINING TILES */}
-				{TILES.map((t) => {
-					const Icon = t.icon;
+				{TILES.map((tile, index) => {
+					const Icon = tile.icon;
 					return (
 						<motion.div
-							key={t.title}
+							key={index}
 							variants={item}
-							className={`group col-span-1 rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-white/25 hover:bg-white/[0.05] ${t.span}`}
+							className={`group col-span-1 rounded-2xl border border-white/10 bg-white/[0.03] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-white/25 hover:bg-white/[0.05] ${tile.span}`}
 						>
 							<span className='flex h-11 w-11 items-center justify-center rounded-lg border border-white/10 bg-white/[0.03] text-[#a78bfa] transition-colors duration-200 group-hover:text-[#67e8f9]'>
 								<Icon className='h-5 w-5' strokeWidth={1.75} />
 							</span>
-							<h3 className='mt-5 text-lg font-medium text-white'>{t.title}</h3>
-							<p className='mt-1.5 text-sm text-[#aab2c5]'>{t.body}</p>
+							<h3 className='mt-5 text-lg font-medium text-white'>
+								{t(`items.${index}.title`)}
+							</h3>
+							<p className='mt-1.5 text-sm text-[#aab2c5]'>{t(`items.${index}.body`)}</p>
 						</motion.div>
 					);
 				})}

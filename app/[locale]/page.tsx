@@ -7,6 +7,7 @@ import { OnchainProof } from '@/components/sections/OnchainProof';
 import { StatsBand } from '@/components/sections/StatsBand';
 import { Capabilities } from '@/components/sections/Capabilities';
 import { Web3Native } from '@/components/sections/Web3Native';
+import { FrostyDao } from '@/components/sections/FrostyDao';
 import { Roadmap } from '@/components/sections/Roadmap';
 import { Pricing } from '@/components/Pricing';
 import { FAQ } from '@/components/FAQ';
@@ -24,6 +25,7 @@ export default function Home() {
 			<StatsBand />
 			<Capabilities />
 			<Web3Native />
+			<FrostyDao />
 			<Roadmap />
 			<Pricing />
 			<FAQ />

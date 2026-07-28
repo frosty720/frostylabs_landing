@@ -1,16 +1,16 @@
 'use client';
 import { motion, type Variants } from 'framer-motion';
 import { Check, Hammer, Snowflake } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 const EASE_OUT: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
 interface Phase {
 	icon: typeof Check;
-	label: string;
-	title: string;
 	/** Accent classes for the status pill + icon. */
 	accent: string;
-	items: string[];
+	/** Number of bullet items to read from translations. */
+	itemCount: number;
 	/** Dashed/teaser treatment for forward-looking work. */
 	teaser?: boolean;
 }
@@ -18,40 +18,19 @@ interface Phase {
 const PHASES: Phase[] = [
 	{
 		icon: Check,
-		label: 'Shipped',
-		title: 'Live today',
 		accent: 'text-[#67e8f9] border-[#67e8f9]/30 bg-[#67e8f9]/[0.08]',
-		items: [
-			'Visual workflow builder + AI workflow generation',
-			'EVM DEX nodes — Uniswap, SushiSwap & PancakeSwap (swaps + liquidity, multichain)',
-			'Hyperliquid — perps, spot & HIP-3 24/7 tokenized stocks, FX and gold',
-			'Solana via Jupiter — swaps, limit orders & DCA',
-			'Image, video & voice nodes, plus SMS + WhatsApp messaging',
-			'Agents with x402 micropayments, ERC-8004 identity & non-custodial Vault signing',
-		],
+		itemCount: 6,
 	},
 	{
 		icon: Hammer,
-		label: 'Next',
-		title: 'In the works',
 		accent: 'text-[#a78bfa] border-[#a78bfa]/30 bg-[#a78bfa]/[0.08]',
-		items: [
-			'A workflow-expert model — fine-tuned to draft and debug agents from a plain-language description',
-			'More integrations and on-chain actions, shipped on a steady cadence',
-			'Deeper run observability, alerting and analytics',
-		],
+		itemCount: 3,
 	},
 	{
 		icon: Snowflake,
-		label: 'Planned',
-		title: 'On the horizon',
 		accent: 'text-[#c4b5fd] border-[#a78bfa]/40 bg-[#a78bfa]/10',
 		teaser: true,
-		items: [
-			'Permafrost ($PERMA) — a token to coordinate the network’s economics across agents, builders and operators',
-			'Fair launch on Base, gated on real traction — not live, and nothing on FrostyFi requires it today',
-			'A broader agent marketplace and ecosystem',
-		],
+		itemCount: 3,
 	},
 ];
 
@@ -66,16 +45,14 @@ const item: Variants = {
 };
 
 export function Roadmap() {
+	const t = useTranslations('roadmapSection');
 	return (
 		<section id='roadmap' className='mx-auto max-w-6xl px-6 py-28'>
-			<span className='mono-label text-[#67e8f9]'>Roadmap</span>
+			<span className='mono-label text-[#67e8f9]'>{t('eyebrow')}</span>
 			<h2 className='mt-3 text-4xl font-semibold tracking-tight md:text-5xl'>
-				Where FrostyFi is <span className='aurora-text'>headed</span>
+				{t('heading')} <span className='aurora-text'>{t('headingHighlight')}</span>
 			</h2>
-			<p className='mt-4 max-w-xl text-[#aab2c5]'>
-				A lot already ships today. Here&apos;s what&apos;s live, what we&apos;re building next, and
-				the longer bets — including our own model and token.
-			</p>
+			<p className='mt-4 max-w-xl text-[#aab2c5]'>{t('description')}</p>
 
 			<motion.div
 				variants={container}
@@ -84,11 +61,11 @@ export function Roadmap() {
 				viewport={{ once: true, margin: '-15%' }}
 				className='mt-14 grid grid-cols-1 gap-5 md:grid-cols-3'
 			>
-				{PHASES.map((phase) => {
+				{PHASES.map((phase, index) => {
 					const Icon = phase.icon;
 					return (
 						<motion.div
-							key={phase.label}
+							key={index}
 							variants={item}
 							className={`flex flex-col rounded-2xl border p-7 transition-all duration-300 hover:-translate-y-1 ${
 								phase.teaser
@@ -105,15 +82,20 @@ export function Roadmap() {
 								<span
 									className={`mono-label inline-flex items-center rounded-full border px-3 py-1 ${phase.accent}`}
 								>
-									{phase.label}
+									{t(`phases.${index}.label`)}
 								</span>
 							</div>
-							<h3 className='mt-5 text-xl font-semibold text-white'>{phase.title}</h3>
+							<h3 className='mt-5 text-xl font-semibold text-white'>
+								{t(`phases.${index}.title`)}
+							</h3>
 							<ul className='mt-4 space-y-3'>
-								{phase.items.map((line) => (
-									<li key={line} className='flex items-start gap-3 text-sm text-[#aab2c5]'>
+								{Array.from({ length: phase.itemCount }, (_, itemIndex) => (
+									<li
+										key={itemIndex}
+										className='flex items-start gap-3 text-sm text-[#aab2c5]'
+									>
 										<span className='mt-2 h-1 w-1 shrink-0 rounded-full bg-[#67e8f9]' />
-										<span>{line}</span>
+										<span>{t(`phases.${index}.items.${itemIndex}`)}</span>
 									</li>
 								))}
 							</ul>

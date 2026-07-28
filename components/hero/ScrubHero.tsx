@@ -1,5 +1,5 @@
 'use client';
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { SITE } from '@/lib/site';
@@ -11,7 +11,11 @@ function HeroCopy() {
 		<div className='mx-auto flex max-w-3xl flex-col items-center gap-6 px-6 text-center'>
 			<span className='mono-label'>◆ {t('badge')}</span>
 			<h1 className='text-balance text-5xl font-semibold tracking-tight sm:text-6xl md:text-7xl'>
-				Build AI agents that <span className='aurora-text'>get paid</span>, on-chain
+				{t.rich('headline', {
+					accent: (chunks) => (
+						<span className='aurora-text'>{chunks}</span>
+					),
+				})}
 			</h1>
 			<p className='max-w-xl text-balance text-lg text-white/70'>{t('description')}</p>
 			<div className='flex flex-wrap items-center justify-center gap-4'>

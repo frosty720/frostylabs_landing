@@ -1,32 +1,11 @@
 'use client';
 import { motion, type Variants } from 'framer-motion';
 import { Coins, KeyRound, Network } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 const EASE_OUT: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
-interface Chip {
-	icon: typeof Network;
-	title: string;
-	body: string;
-}
-
-const CHIPS: Chip[] = [
-	{
-		icon: Network,
-		title: 'EVM, Solana & Hyperliquid',
-		body: 'Swap on every major DEX, trade perps and tokenized stocks — no separate tooling per chain.',
-	},
-	{
-		icon: Coins,
-		title: 'x402 micropayments',
-		body: 'Pay-per-call in USDC on Base. No per-API subscriptions to manage.',
-	},
-	{
-		icon: KeyRound,
-		title: 'Non-custodial keys',
-		body: 'Signing runs through thirdweb Vault — users keep control of their keys.',
-	},
-];
+const CHIP_ICONS = [Network, Coins, KeyRound];
 
 const container: Variants = {
 	hidden: {},
@@ -39,6 +18,7 @@ const item: Variants = {
 };
 
 export function OnchainProof() {
+	const t = useTranslations('onchainProof');
 	return (
 		<section className='aurora-bg relative overflow-hidden border-y border-white/5'>
 			<div className='grid-overlay pointer-events-none absolute inset-0' />
@@ -60,7 +40,7 @@ export function OnchainProof() {
 					{/* eslint-disable-next-line @next/next/no-img-element */}
 					<img
 						src='/screenshots/heroV1Findings.png'
-						alt='FrostyFi agent finding a live cross-DEX arbitrage on-chain'
+						alt={t('imageAlt')}
 						className='block w-full'
 					/>
 				</motion.div>
@@ -73,26 +53,23 @@ export function OnchainProof() {
 					viewport={{ once: true, margin: '-15%' }}
 				>
 					<motion.span variants={item} className='mono-label block text-[#67e8f9]'>
-						Proof, not promises
+						{t('eyebrow')}
 					</motion.span>
 					<motion.h2
 						variants={item}
 						className='mt-3 text-4xl font-semibold tracking-tight md:text-5xl'
 					>
-						Agents that <span className='aurora-text'>act on-chain</span>
+						{t('heading')} <span className='aurora-text'>{t('headingHighlight')}</span>
 					</motion.h2>
 					<motion.p variants={item} className='mt-4 max-w-md text-[#aab2c5]'>
-						It does not just suggest the next step — it takes it. The demo on the left is a
-						FrostyFi agent scanning Uniswap, SushiSwap and Hyperliquid and catching a live
-						cross-DEX spread on-chain.
+						{t('body')}
 					</motion.p>
 
 					<div className='mt-8 space-y-3'>
-						{CHIPS.map((c) => {
-							const Icon = c.icon;
+						{CHIP_ICONS.map((Icon, index) => {
 							return (
 								<motion.div
-									key={c.title}
+									key={index}
 									variants={item}
 									className='group flex items-start gap-4 rounded-xl border border-white/10 bg-white/[0.02] p-4 transition-colors duration-200 hover:border-white/20 hover:bg-white/[0.04]'
 								>
@@ -100,8 +77,8 @@ export function OnchainProof() {
 										<Icon className='h-5 w-5' strokeWidth={1.75} />
 									</span>
 									<div>
-										<h3 className='font-medium text-white'>{c.title}</h3>
-										<p className='mt-0.5 text-sm text-[#aab2c5]'>{c.body}</p>
+										<h3 className='font-medium text-white'>{t(`items.${index}.title`)}</h3>
+										<p className='mt-0.5 text-sm text-[#aab2c5]'>{t(`items.${index}.body`)}</p>
 									</div>
 								</motion.div>
 							);

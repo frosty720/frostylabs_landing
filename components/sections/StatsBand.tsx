@@ -1,6 +1,7 @@
 'use client';
 import { useRef, useState, useEffect } from 'react';
 import { useInView } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 import { useReducedMotionOrTouch } from '@/lib/scroll/use-reduced-motion-or-touch';
 import { countUpValue } from '@/lib/anim/count-up';
 
@@ -8,16 +9,15 @@ interface StatDef {
 	value: number;
 	decimals: number;
 	suffix: string;
-	label: string;
 }
 
 // Capability counts pulled from the product's existing site claims.
 // These are NOT live usage metrics — confirm/adjust here when ready.
 const STATS: StatDef[] = [
-	{ value: 100, decimals: 0, suffix: '+', label: 'AI models' },
-	{ value: 35, decimals: 0, suffix: '+', label: 'Blockchain networks' },
-	{ value: 80, decimals: 0, suffix: '+', label: 'On-chain operations' },
-	{ value: 100, decimals: 0, suffix: '%', label: 'No-code' },
+	{ value: 100, decimals: 0, suffix: '+' },
+	{ value: 35, decimals: 0, suffix: '+' },
+	{ value: 80, decimals: 0, suffix: '+' },
+	{ value: 100, decimals: 0, suffix: '%' },
 ];
 
 const DURATION_MS = 1600;
@@ -71,18 +71,19 @@ function StatNumber({ value, decimals, suffix }: StatNumberProps) {
 }
 
 export function StatsBand() {
+	const t = useTranslations('statsBand');
 	return (
 		<section
-			aria-label='By the numbers'
+			aria-label={t('ariaLabel')}
 			className='w-full border-y border-white/5 bg-[#070a10] py-16'
 		>
 			<div className='mx-auto grid max-w-5xl grid-cols-2 gap-y-12 px-6 md:grid-cols-4'>
-				{STATS.map((s) => (
-					<div key={s.label} className='flex flex-col items-center text-center'>
+				{STATS.map((s, index) => (
+					<div key={index} className='flex flex-col items-center text-center'>
 						<p className='aurora-text text-5xl font-bold tracking-tight md:text-6xl'>
 							<StatNumber value={s.value} decimals={s.decimals} suffix={s.suffix} />
 						</p>
-						<p className='mono-label mt-3 text-[#aab2c5]'>{s.label}</p>
+						<p className='mono-label mt-3 text-[#aab2c5]'>{t(`items.${index}.label`)}</p>
 					</div>
 				))}
 			</div>

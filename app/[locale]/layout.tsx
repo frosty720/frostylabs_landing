@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import { Space_Grotesk, JetBrains_Mono } from 'next/font/google';
-import "./globals.css";
+import "../globals.css";
 import { ThemeProvider } from "@/components/layouts/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import { NextIntlClientProvider } from "next-intl";
-import { getLocale, getMessages } from "next-intl/server";
+import { getMessages, setRequestLocale } from "next-intl/server";
+import { routing } from "@/i18n/routing";
 import Script from "next/script";
 import { ThirdwebProvider } from "thirdweb/react";
 import { SITE } from "@/lib/site";
@@ -16,8 +18,43 @@ const GA_MEASUREMENT_ID = "G-X9XDDBT2WM";
 const spaceGrotesk = Space_Grotesk({ variable: '--font-display', subsets: ['latin'], weight: ['400', '500', '700'] });
 const jetbrainsMono = JetBrains_Mono({ variable: '--font-mono-accent', subsets: ['latin'], weight: ['400', '500'] });
 
-export const metadata: Metadata = {
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+const OG_LOCALES: Record<string, string> = {
+  en: 'en_US',
+  es: 'es_ES',
+  fr: 'fr_FR',
+  ja: 'ja_JP',
+  ko: 'ko_KR',
+  zh: 'zh_CN',
+};
+
+/** `/` for English, `/es` etc. for the rest — mirrors `localePrefix: 'as-needed'`. */
+function localePath(locale: string): string {
+  return locale === routing.defaultLocale ? '/' : `/${locale}`;
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+
+  return {
   metadataBase: new URL(SITE.domain),
+
+  // Canonical + hreflang per locale. Without these Google treats the
+  // translations as duplicates of the English page instead of indexing them.
+  alternates: {
+    canonical: localePath(locale),
+    languages: {
+      ...Object.fromEntries(routing.locales.map((l) => [l, localePath(l)])),
+      'x-default': localePath(routing.defaultLocale),
+    },
+  },
   title: 'FrostyFi — Build x402 & ERC-8004 AI agents, no-code',
   description: 'Build, deploy and monetize AI agents — no code. Pay per call with x402, carry a verifiable ERC-8004 on-chain identity, and act across EVM, Solana and Base.',
   keywords: ['x402', 'x402 payments', 'x402 agents', 'ERC-8004', 'ERC-8004 agents', 'trustless agents', 'on-chain AI agents', 'AI agent identity', 'agent-to-agent payments', 'A2A protocol', 'no-code AI agents', 'AI workflow automation', 'EVM', 'Solana', 'Base'],
@@ -28,8 +65,8 @@ export const metadata: Metadata = {
   // OpenGraph
   openGraph: {
     type: 'website',
-    locale: 'en_US',
-    url: SITE.domain,
+    locale: OG_LOCALES[locale] ?? 'en_US',
+    url: `${SITE.domain}${localePath(locale)}`,
     siteName: 'FrostyFi',
     title: 'FrostyFi — Build x402 & ERC-8004 AI agents, no-code',
     description: 'Build, deploy and monetize AI agents — no code. Pay per call with x402, carry a verifiable ERC-8004 on-chain identity, and act across EVM, Solana and Base.',
@@ -75,7 +112,8 @@ export const metadata: Metadata = {
   other: {
     'base:app_id': '6a4cf5b515480740c618d8f4',
   },
-};
+  };
+}
 
 const organizationSchema = {
   "@context": "https://schema.org",
@@ -121,10 +159,17 @@ const softwareSchema = {
 
 export default async function RootLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }) {
-  const locale = await getLocale();
+  const { locale } = await params;
+  if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
+    notFound();
+  }
+  // Required for the statically-rendered locale segments to resolve messages.
+  setRequestLocale(locale);
   const messages = await getMessages();
 
   return (

@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link, usePathname, useRouter } from '@/i18n/navigation';
 import { Menu, X, Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
@@ -12,9 +12,7 @@ import {
 	DropdownMenuItem,
 	DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import { SUPPORTED_LOCALES, COOKIE_KEY_LOCALE } from '@/lib/const';
-import Cookies from 'js-cookie';
-import { useRouter } from 'next/navigation';
+import { SUPPORTED_LOCALES } from '@/lib/const';
 import { SITE } from '@/lib/site';
 
 interface NavLink {
@@ -29,6 +27,7 @@ export function Navigation() {
 	const t = useTranslations('nav');
 	const locale = useLocale();
 	const router = useRouter();
+	const pathname = usePathname();
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 	const [scrolled, setScrolled] = useState(false);
 
@@ -40,18 +39,21 @@ export function Navigation() {
 		return () => window.removeEventListener('scroll', handleScroll);
 	}, []);
 
+	// Navigate to the same page under the new locale, so the language change is a
+	// real URL change Google can crawl rather than a cookie flip.
 	const handleLocaleChange = (newLocale: string) => {
-		Cookies.set(COOKIE_KEY_LOCALE, newLocale, { expires: 365 });
-		router.refresh();
+		router.replace(pathname, { locale: newLocale });
 	};
 
 	const currentLocale = SUPPORTED_LOCALES.find((l) => l.code === locale);
 
 	const navLinks: NavLink[] = [
-		{ href: '#how', label: t('product') },
-		{ href: '#capabilities', label: t('capabilities') },
-		{ href: '#pricing', label: t('pricing') },
+		{ href: '/#how', label: t('product') },
+		{ href: '/#capabilities', label: t('capabilities') },
+		{ href: '/#roadmap', label: t('roadmap') },
+		{ href: '/#pricing', label: t('pricing') },
 		{ href: '/blog', label: t('blog') },
+		{ href: '/about', label: t('about') },
 		{ href: SITE.docs, label: t('docs'), external: true },
 		{ href: SITE.github, label: t('github'), external: true, icon: <Github className='w-4 h-4' /> },
 	];

@@ -1,12 +1,10 @@
 'use client';
 import { motion, type Variants } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 const EASE_OUT: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
 interface Agent {
-	tag: string;
-	name: string;
-	body: string;
 	img: string;
 	/** mono label shown in the browser-frame bar */
 	chrome: string;
@@ -16,31 +14,19 @@ interface Agent {
 
 const AGENTS: Agent[] = [
 	{
-		tag: 'Trading · DeFi',
-		name: 'Cross-DEX Arb Scanner',
-		body: 'Quotes Uniswap, SushiSwap and PancakeSwap in parallel, flags the spread the instant it appears, and pings you on Telegram.',
 		img: '/screenshots/agent-arb-scanner.jpg',
 		chrome: 'arb-scanner.agent',
 	},
 	{
-		tag: 'Research',
-		name: 'Daily Alpha Brief',
-		body: 'Pulls live market data and has AI write you a sharp, no-fluff daily brief — on a schedule, in your inbox or Telegram.',
 		img: '/screenshots/agent-alpha-brief.png',
 		chrome: 'alpha-brief.agent',
 	},
 	{
-		tag: 'Payments · Vault',
-		name: 'USDC Payout Agent',
-		body: 'Moves real USDC on-chain with a Vault-signed transaction — payouts, settlements and treasury runs, automated, with no private key ever exposed.',
 		img: '/screenshots/agent-usdc-transfer.png',
 		chrome: 'sepolia.basescan.org/tx/0x6cd6…f369',
 		href: 'https://sepolia.basescan.org/tx/0x6cd626bbd309d03c6b5c96fee909fe9337e4701f58433ae9e0454a354f3ff369',
 	},
 	{
-		tag: 'Paid API · x402',
-		name: 'Gas Oracle',
-		body: 'A pay-per-call API, live on-chain: real-time Ethereum gas, monetized with x402, behind a verifiable ERC-8004 identity.',
 		img: '/screenshots/agent-gas-oracle.png',
 		chrome: 'agent-frstygas · 8004scan',
 		href: 'https://8004scan.io/agents/base/54630',
@@ -58,6 +44,7 @@ const item: Variants = {
 };
 
 export function WhatYouCanBuild() {
+	const t = useTranslations('whatYouCanBuild');
 	return (
 		<section id='what-you-can-build' className='relative mx-auto max-w-6xl px-6 py-28'>
 			<motion.div
@@ -67,25 +54,24 @@ export function WhatYouCanBuild() {
 				viewport={{ once: true, margin: '-15%' }}
 			>
 				<motion.span variants={item} className='mono-label block text-[#67e8f9]'>
-					What you can build
+					{t('eyebrow')}
 				</motion.span>
 				<motion.h2
 					variants={item}
 					className='mt-3 max-w-2xl text-4xl font-semibold tracking-tight md:text-5xl'
 				>
-					Build almost <span className='aurora-text'>anything.</span>
+					{t('headingLead')} <span className='aurora-text'>{t('headingAccent')}</span>
 				</motion.h2>
 				<motion.p variants={item} className='mt-4 max-w-2xl text-[#aab2c5]'>
-					With MCP servers, 100+ models, and on-chain nodes for every major chain, your
-					agents can plug into nearly any tool, API or protocol — and act on it. The only
-					real limit is what you can describe. These four are just a taste:
+					{t('body')}
 				</motion.p>
 
 				<motion.div
 					variants={container}
 					className='mt-14 grid grid-cols-1 gap-5 md:grid-cols-2'
 				>
-					{AGENTS.map((a) => {
+					{AGENTS.map((a, index) => {
+						const name = t(`items.${index}.name`);
 						const cls =
 							'group flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] transition-all duration-300 hover:-translate-y-1 hover:border-white/25';
 						const inner = (
@@ -107,22 +93,24 @@ export function WhatYouCanBuild() {
 									{/* eslint-disable-next-line @next/next/no-img-element */}
 									<img
 										src={a.img}
-										alt={`${a.name} — a FrostyFi agent`}
+										alt={t('imgAlt', { name })}
 										className='absolute inset-0 h-full w-full object-cover object-top'
 									/>
 								</div>
 								<div className='flex flex-1 flex-col p-6'>
 									<span className='mono-label w-fit rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-[#67e8f9]'>
-										{a.tag}
+										{t(`items.${index}.tag`)}
 									</span>
-									<h3 className='mt-4 text-lg font-medium text-white'>{a.name}</h3>
-									<p className='mt-1.5 flex-1 text-sm text-[#aab2c5]'>{a.body}</p>
+									<h3 className='mt-4 text-lg font-medium text-white'>{name}</h3>
+									<p className='mt-1.5 flex-1 text-sm text-[#aab2c5]'>
+										{t(`items.${index}.body`)}
+									</p>
 								</div>
 							</>
 						);
 						return a.href ? (
 							<motion.a
-								key={a.name}
+								key={index}
 								href={a.href}
 								target='_blank'
 								rel='noreferrer'
@@ -132,7 +120,7 @@ export function WhatYouCanBuild() {
 								{inner}
 							</motion.a>
 						) : (
-							<motion.div key={a.name} variants={item} className={cls}>
+							<motion.div key={index} variants={item} className={cls}>
 								{inner}
 							</motion.div>
 						);

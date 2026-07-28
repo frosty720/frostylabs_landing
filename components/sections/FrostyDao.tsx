@@ -1,50 +1,21 @@
 'use client';
 import { motion, type Variants } from 'framer-motion';
-import { Flame, Vote, Coins, Landmark, Gift, Lock } from 'lucide-react';
+import {
+	Coins,
+	Flame,
+	Landmark,
+	Lock,
+	TrendingUp,
+	Vote,
+} from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 const EASE_OUT: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
-interface Pillar {
-	icon: typeof Flame;
-	title: string;
-	body: string;
-}
-
-// Restored from the original frostylabs.ai roadmap (FrostyDAO & Token Launch),
-// kept honest: framed as PLANNED / not live. To hide this whole section, remove
-// <FrostyDao /> from app/page.tsx.
-const PILLARS: Pillar[] = [
-	{
-		icon: Flame,
-		title: '$PERMA — fair launch',
-		body: 'A fair launch on Base — no VC allocation. Beta Founders are auto-whitelisted.',
-	},
-	{
-		icon: Vote,
-		title: 'POLAR governance',
-		body: 'Earn POLAR by locking $PERMA — that’s your voting weight in the DAO.',
-	},
-	{
-		icon: Landmark,
-		title: 'Protocol-Owned Liquidity',
-		body: 'The DAO owns up to 95% of subscription revenue, building permanent, treasury-backed liquidity.',
-	},
-	{
-		icon: Coins,
-		title: 'Locking rewards',
-		body: 'Lock $PERMA for POLAR plus a share of revenue from DAO operations.',
-	},
-	{
-		icon: Lock,
-		title: 'On-chain treasury',
-		body: 'Vote on treasury allocation and what gets built next; a Beta-Founder multisig stewards the treasury.',
-	},
-	{
-		icon: Gift,
-		title: 'DAO-funded grants',
-		body: 'Treasury grants for builders shipping standout agents and templates.',
-	},
-];
+// The FROST token — $FROST (liquid token) + PERMA (soulbound lock receipt).
+// Revenue engine is LIVE on Base (splitter + POL reserve); the token launches
+// later. Full design at docs.frostylabs.ai/docs/tokenomics.
+const PILLARS = [Coins, Lock, Landmark, TrendingUp, Flame, Vote];
 
 const container: Variants = {
 	hidden: {},
@@ -57,6 +28,7 @@ const item: Variants = {
 };
 
 export function FrostyDao() {
+	const t = useTranslations('frostyDao');
 	return (
 		<section
 			id='frostydao'
@@ -71,50 +43,81 @@ export function FrostyDao() {
 					viewport={{ once: true, margin: '-15%' }}
 				>
 					<motion.span variants={item} className='mono-label block text-[#c4b5fd]'>
-						FrostyDAO · $PERMA · Planned
+						{t('eyebrow')}
 					</motion.span>
 					<motion.h2
 						variants={item}
 						className='mt-3 max-w-2xl text-4xl font-semibold tracking-tight md:text-5xl'
 					>
-						A network owned by the <span className='aurora-text'>people who build it</span>
+						{t('headline')}{' '}
+						<span className='aurora-text'>{t('headlineAccent')}</span>
 					</motion.h2>
 					<motion.p variants={item} className='mt-4 max-w-2xl text-[#aab2c5]'>
-						Where FrostyFi is headed: a token and a DAO that route the platform’s economics
-						back to its users, builders and operators. Designed so the people creating value
-						own the upside.
+						{t('subhead')}
 					</motion.p>
 
-					{/* Honest framing — not live */}
+					{/* Honest status — engine live, token later */}
 					<motion.div
 						variants={item}
-						className='mt-6 inline-flex items-center gap-2 rounded-full border border-[#a78bfa]/30 bg-[#a78bfa]/[0.06] px-4 py-2 text-sm text-[#c4b5fd]'
+						className='mt-6 inline-flex max-w-2xl items-center gap-2 rounded-full border border-[#a78bfa]/30 bg-[#a78bfa]/[0.06] px-4 py-2 text-sm text-[#c4b5fd]'
 					>
-						<span className='h-1.5 w-1.5 rounded-full bg-[#a78bfa]' />
-						Planned for 2026 — not live today. FrostyFi runs on simple USDC subscriptions
-						on Base right now; no token is needed to use it.
+						<span className='h-1.5 w-1.5 rounded-full bg-[#67e8f9]' />
+						{t('status')}
 					</motion.div>
 
 					<motion.div
 						variants={container}
 						className='mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3'
 					>
-						{PILLARS.map((p) => {
-							const Icon = p.icon;
-							return (
-								<motion.div
-									key={p.title}
-									variants={item}
-									className='group flex flex-col rounded-2xl border border-white/10 bg-white/[0.02] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-white/25 hover:bg-white/[0.04]'
-								>
-									<span className='flex h-11 w-11 items-center justify-center rounded-lg border border-white/10 bg-white/[0.03] text-[#c4b5fd] transition-colors duration-200 group-hover:text-[#67e8f9]'>
-										<Icon className='h-5 w-5' strokeWidth={1.75} />
-									</span>
-									<h3 className='mt-5 text-lg font-medium text-white'>{p.title}</h3>
-									<p className='mt-1.5 text-sm text-[#aab2c5]'>{p.body}</p>
-								</motion.div>
-							);
-						})}
+						{PILLARS.map((Icon, index) => (
+							<motion.div
+								key={index}
+								variants={item}
+								className='group flex flex-col rounded-2xl border border-white/10 bg-white/[0.02] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-white/25 hover:bg-white/[0.04]'
+							>
+								<span className='flex h-11 w-11 items-center justify-center rounded-lg border border-white/10 bg-white/[0.03] text-[#c4b5fd] transition-colors duration-200 group-hover:text-[#67e8f9]'>
+									<Icon className='h-5 w-5' strokeWidth={1.75} />
+								</span>
+								<h3 className='mt-5 text-lg font-medium text-white'>
+									{t(`pillars.${index}.title`)}
+								</h3>
+								<p className='mt-1.5 text-sm text-[#aab2c5]'>
+									{t(`pillars.${index}.body`)}
+								</p>
+							</motion.div>
+						))}
+					</motion.div>
+
+					<motion.div
+						variants={item}
+						className='mt-8 rounded-2xl border border-[#67e8f9]/20 bg-[#67e8f9]/[0.05] p-6 sm:p-7'
+					>
+						<span className='mono-label block text-[#67e8f9]'>
+							{t('callout.label')}
+						</span>
+						<p className='mt-2 max-w-3xl text-[#aab2c5]'>
+							{t('callout.body')}{' '}
+							<span className='text-white'>{t('callout.accent')}</span>
+							{t('callout.bodyEnd')}
+						</p>
+					</motion.div>
+
+					<motion.div
+						variants={item}
+						className='mt-8 flex flex-wrap items-center gap-4'
+					>
+						<a
+							href='https://docs.frostylabs.ai/docs/tokenomics'
+							className='inline-flex items-center rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-[#05060b] transition-opacity hover:opacity-90'
+						>
+							{t('cta.tokenomics')} →
+						</a>
+						<a
+							href='https://docs.frostylabs.ai/docs/pol'
+							className='inline-flex items-center rounded-lg border border-white/15 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:border-white/35'
+						>
+							{t('cta.pol')}
+						</a>
 					</motion.div>
 				</motion.div>
 			</div>

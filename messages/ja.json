@@ -1,29 +1,31 @@
 {
   "metadata": {
-    "title": "FrostyFi — Build autonomous on-chain agents",
-    "description": "The visual platform for AI agents that act on-chain. Build workflows, run them anywhere, pay per call with x402. Now in beta.",
-    "keywords": "on-chain AI agents, x402 payments, no-code AI workflows, web3 automation, agent platform, EVM, Solana"
+    "title": "FrostyFi — 自律型オンチェーンエージェントを構築",
+    "description": "オンチェーンで動作するAIエージェントのためのビジュアルプラットフォーム。ワークフローを構築し、どこでも実行し、x402で呼び出しごとに支払い。ベータ版公開中。",
+    "keywords": "オンチェーンAIエージェント, x402決済, ノーコードAIワークフロー, web3自動化, エージェントプラットフォーム, EVM, Solana"
   },
   "nav": {
     "home": "ホーム",
     "useCases": "ユースケース",
     "features": "機能",
-    "pricing": "価格",
-    "about": "概要",
-    "product": "Product",
-    "capabilities": "Capabilities",
-    "docs": "Docs",
+    "pricing": "料金",
+    "about": "会社概要",
+    "product": "プロダクト",
+    "capabilities": "できること",
+    "roadmap": "ロードマップ",
+    "docs": "ドキュメント",
     "launchApp": "FrostyFi App",
     "github": "GitHub",
     "twitter": "Twitter",
     "blog": "ブログ"
   },
   "hero": {
-    "badge": "Now in beta",
-    "title": "Build autonomous on-chain agents",
-    "description": "The visual platform for AI agents that act on-chain. Describe it, build it visually, deploy it — workflows that pay per call with x402.",
+    "headline": "オンチェーンで<accent>報酬を得る</accent>AIエージェントを構築",
+    "badge": "ベータ版公開中",
+    "title": "自律型オンチェーンエージェントを構築",
+    "description": "オンチェーンで動作するAIエージェントのためのビジュアルプラットフォーム。伝えて、ビジュアルで組み立て、デプロイする——x402で呼び出しごとに支払うワークフロー。",
     "launchApp": "FrostyFi App",
-    "watchDemo": "Watch demo"
+    "watchDemo": "デモを見る"
   },
   "stats": {
     "aiModels": "AIモデル",
@@ -33,43 +35,43 @@
   },
   "useCases": {
     "title": "何を自動化しますか？",
-    "subtitle": "ソーシャルメディアからDeFi取引まで、FrostyFlowがすべて処理します。一度構築すれば、永遠に実行できます。",
-    "cta": "これらはほんの始まりに過ぎません。あなたは何を作りますか？",
-    "ctaButton": "今すぐ始める →",
+    "subtitle": "ソーシャルメディアからDeFiトレードまで、FrostyFlowがすべてを担います。一度作れば、ずっと動き続けます。",
+    "cta": "これはほんの始まりに過ぎません。あなたは何を作りますか？",
+    "ctaButton": "構築を始める →",
     "cards": {
       "socialMedia": {
         "badge": "マーケティング",
         "title": "ソーシャルメディア自動化",
-        "subtitle": "コンテンツ作成 → スケジューリング → マルチプラットフォーム投稿",
+        "subtitle": "コンテンツ作成 → スケジュール → マルチプラットフォーム投稿",
         "features": [
           "GPT-5がトレンドトピックから魅力的な投稿を生成",
-          "Claude 4がプラットフォーム固有のバリエーションを作成",
-          "ブラウザ自動化がTwitter、LinkedIn、Instagramに投稿",
-          "分析追跡とパフォーマンス最適化"
+          "Claude 4がプラットフォームごとのバリエーションを作成",
+          "ブラウザ自動化でTwitter、LinkedIn、Instagramに投稿",
+          "分析トラッキングとパフォーマンス最適化"
         ],
-        "benefit": "週20時間以上節約"
+        "benefit": "週20時間以上を節約"
       },
       "defiTrading": {
         "badge": "WEB3",
-        "title": "DeFi取引自動化",
+        "title": "DeFiトレード自動化",
         "subtitle": "監視 → 分析 → 実行 → 通知",
         "features": [
-          "DEX全体のトークン価格をリアルタイムで監視",
+          "DEX全体でトークン価格をリアルタイムに監視",
           "AIが市場トレンドを分析し、機会を特定",
-          "安全なthirdwebボールト（35以上のネットワーク）を介してスワップを実行",
-          "取引とポートフォリオの変更に関する即時通知"
+          "セキュアなthirdweb vaultでスワップを実行（35以上のネットワーク）",
+          "取引やポートフォリオの変化を即座に通知"
         ],
-        "benefit": "24時間365日の自動取引",
-        "subtext": "thirdwebインフラストラクチャによる支援"
+        "benefit": "24時間365日の自動トレード",
+        "subtext": "thirdwebインフラを活用"
       },
       "evmContract": {
         "badge": "ブロックチェーン",
         "title": "EVMコントラクト自動化",
-        "subtitle": "デプロイ → インタラクト → 監視 → 管理",
+        "subtitle": "デプロイ → 操作 → 監視 → 管理",
         "features": [
           "35以上のEVMチェーンにスマートコントラクトをデプロイ",
           "thirdweb SDKによる自動コントラクト呼び出し",
-          "イベントを監視し、ワークフローを自動的にトリガー",
+          "イベントを監視し、ワークフローを自動でトリガー",
           "ガス最適化とトランザクション管理"
         ],
         "benefit": "35以上のブロックチェーンネットワーク",
@@ -78,299 +80,103 @@
       "customerSupport": {
         "badge": "ビジネス",
         "title": "AIカスタマーサポート",
-        "subtitle": "受信 → 分類 → 応答 → エスカレーション",
+        "subtitle": "受信 → 分類 → 対応 → エスカレーション",
         "features": [
-          "メール、チャット、ソーシャルメディアからの問い合わせを受信",
-          "AIが緊急度を分類し、適切な部署にルーティング",
-          "RAG検索でパーソナライズされた応答を生成",
-          "複雑な問題を人間のエージェントに自動エスカレーション"
+          "メール、チャット、ソーシャルメディアから問い合わせを受信",
+          "AIが緊急度を分類し、適切な部門へ振り分け",
+          "RAG検索でパーソナライズされた回答を生成",
+          "複雑な問題は自動で人間の担当者にエスカレーション"
         ],
         "benefit": "応答時間を90%短縮"
       },
       "ecommerce": {
         "badge": "Eコマース",
         "title": "オンラインビジネス自動化",
-        "subtitle": "製品リサーチ → 出品 → マーケティング → 履行",
+        "subtitle": "商品リサーチ → 出品 → マーケティング → フルフィルメント",
         "features": [
-          "AIがトレンド製品と競合他社をリサーチ",
-          "SEO最適化された製品説明を生成",
-          "プラットフォーム全体の在庫と価格を自動更新",
+          "AIがトレンド商品や競合をリサーチ",
+          "SEO最適化された商品説明を生成",
+          "各プラットフォームで在庫と価格を自動更新",
           "パーソナライズされたマーケティングメールとフォローアップを送信"
         ],
-        "benefit": "雇用せずに拡大"
+        "benefit": "採用せずにスケール"
       },
       "contentCreation": {
         "badge": "コンテンツ",
-        "title": "コンテンツ作成パイプライン",
+        "title": "コンテンツ制作パイプライン",
         "subtitle": "リサーチ → 執筆 → 編集 → 公開 → プロモーション",
         "features": [
-          "リサーチエージェントがWebとデータベースからデータを収集",
+          "リサーチエージェントがWebやデータベースからデータを収集",
           "ライターエージェントがブログ記事、記事、スクリプトを作成",
-          "エディターエージェントがトーン、文法、SEO最適化を洗練",
-          "CMSに自動公開し、ソーシャルメディアでプロモーション"
+          "エディターエージェントがトーン、文法、SEOを最適化",
+          "CMSへ自動公開し、ソーシャルメディアでプロモーション"
         ],
-        "benefit": "コンテンツ出力を10倍に"
+        "benefit": "コンテンツ生産量を10倍に"
       }
     }
   },
   "pricing": {
-    "title": "ベータ価格",
-    "subtitle": "今すぐWeb3の自動化を始めましょう！",
-    "betaLabel": "Limited-time beta offer",
-    "founderBadgeLabel": "Beta Founder Badge",
-    "founderBadgeDesc": "First 100 members get an exclusive Beta Founder NFT badge + first month free + auto-whitelist for $PERMA launch.",
+    "title": "ベータ料金",
+    "subtitle": "今日からWeb3を自動化しよう！",
+    "betaLabel": "期間限定ベータ提供",
+    "founderBadgeLabel": "ベータファウンダーバッジ",
+    "founderBadgeDesc": "先着100名が創設メンバー限定バッジ + 初月無料を獲得。",
     "free": {
       "name": "無料",
-      "price": "永久無料",
+      "price": "ずっと無料",
       "description": "始めるのに最適",
       "emoji": "🆓",
       "cta": "始める",
       "features": [
         "無料モデルで月50メッセージ",
-        "アシスタントとエージェント無制限",
+        "アシスタントとエージェントは無制限",
         "保存ワークフロー5件",
-        "Skills、MCPサーバー、テンプレート",
+        "スキル、MCPサーバー、テンプレート",
         "JavaScriptコード実行"
       ]
     },
     "pro": {
-      "name": "プロ",
-      "price": "月額$25",
-      "description": "高度なワークフローを構築するプロフェッショナル向け",
+      "name": "Pro",
+      "price": "$25/月",
+      "description": "高度なワークフローを構築するプロ向け",
       "emoji": "⚡",
-      "badge": "人気No.1",
-      "cta": "プロを取得 →",
+      "badge": "最も人気",
+      "cta": "Proを入手 →",
       "features": [
-        "無料・高速モデル無制限",
-        "プレミアムメッセージ 月約400〜4,700件",
-        "OpenRouter経由のトップモデル15以上（Opus、GPT-5…）",
-        "アシスタントとエージェント無制限",
+        "無料・高速モデルが無制限",
+        "≈400〜4,700件のプレミアムメッセージ/月",
+        "OpenRouter経由でトップ15以上のモデル（Opus、GPT-5…）",
+        "アシスタントとエージェントは無制限",
         "保存ワークフロー50件",
-        "画像・動画・音声の生成",
-        "Frosty Engine（スケジュール＆デプロイ）",
-        "PythonとJavaScriptのコード実行"
+        "画像・動画・音声生成",
+        "Frosty Engine（スケジュール&デプロイ）",
+        "Python・JavaScriptコード実行"
       ]
     },
     "enterprise": {
-      "name": "エンタープライズ",
+      "name": "Enterprise",
       "price": "$99/月",
-      "description": "チームおよび高度な自動化向け",
+      "description": "チームと高度な自動化向け",
       "emoji": "🏢",
-      "cta": "エンタープライズを取得 →",
+      "cta": "Enterpriseを入手 →",
       "features": [
-        "無料・高速モデル無制限",
-        "プレミアムメッセージ 月約1,500〜18,000件",
-        "OpenRouter経由のトップモデル15以上（Opus、GPT-5…）",
-        "アシスタント・エージェント・ワークフロー無制限",
-        "カスタムエージェントサブドメイン無制限",
-        "画像・動画・音声の生成",
-        "Frosty Engine（実行無制限）",
+        "無料・高速モデルが無制限",
+        "≈1,500〜18,000件のプレミアムメッセージ/月",
+        "OpenRouter経由でトップ15以上のモデル（Opus、GPT-5…）",
+        "アシスタント、エージェント、ワークフローが無制限",
+        "カスタムエージェントサブドメインが無制限",
+        "画像・動画・音声生成",
+        "Frosty Engine（無制限実行）",
         "優先サポート・早期アクセス"
       ]
     }
   },
-  "features": {
-    "title": "強力な機能",
-    "subtitle": "AI自動化ワークフローを構築、展開、拡張するために必要なすべて。",
-    "cta": "すべての機能を探索",
-    "cards": {
-      "multiModel": {
-        "title": "マルチモデルAI",
-        "description": "GPT-5、Claude、Nebula、その他20以上のAIモデルを接続。コスト、速度、品質に基づいてインテリジェントにルーティング。"
-      },
-      "blockchain": {
-        "title": "ブロックチェーンボールト",
-        "description": "AWS Nitro Enclaveセキュリティを備えたthirdwebによる15以上のブロックチェーン操作。"
-      },
-      "workflow": {
-        "title": "ワークフロー自動化",
-        "description": "cronスケジューリング、Webhookトリガー、条件付きロジックを備えたビジュアルワークフロービルダー。"
-      },
-      "analytics": {
-        "title": "リアルタイム分析",
-        "description": "コスト追跡、パフォーマンスメトリクス、最適化インサイトを備えた包括的な監視。"
-      },
-      "security": {
-        "title": "エンタープライズセキュリティ",
-        "description": "エンドツーエンドの暗号化、セキュアエンクレーブ、SOC 2 Type II標準への準拠。"
-      },
-      "nft": {
-        "title": "NFTサブスクリプション",
-        "description": "アクセス権をNFTとして所有。譲渡可能、取引可能、将来性のあるサブスクリプションモデル。"
-      }
-    }
-  },
-  "featuresPage": {
-    "hero": {
-      "badge": "⚡ 強力な機能",
-      "title": "自動化に必要な",
-      "titleGradient": "すべて",
-      "description": "AI駆動のワークフローからブロックチェーン操作まで、FrostyLabsは最先端の技術でビジネスを構築、自動化、拡張するためのツールを提供します。",
-      "stats": {
-        "aiModels": "AIモデル",
-        "blockchainNetworks": "ブロックチェーンネットワーク",
-        "blockchainOperations": "ブロックチェーン操作",
-        "possibilities": "可能性"
-      }
-    },
-    "blockchain": {
-      "title": "ブロックチェーンボールト操作",
-      "subtitle": "AWS Nitro Enclave保護を備えた複数のチェーンで安全なブロックチェーン操作を実行します。",
-      "selectOperation": "操作を選択",
-      "selectedPrefix": "選択中:",
-      "securityNote": "すべての操作は、AWS Nitro Enclaves保護を備えたthirdweb Vault SDKによって保護されています。",
-      "clickPrompt": "上記のブロックチェーン操作をクリックして、詳細情報とセキュリティ機能を確認してください。",
-      "operations": {
-        "transfer": {
-          "title": "トークン転送",
-          "description": "ガス最適化を備えた複数チェーンでの安全なトークン転送"
-        },
-        "swap": {
-          "title": "トークンスワップ",
-          "description": "DEXアグリゲーターを介した最良価格ルーティングによる自動トークンスワップ"
-        },
-        "stake": {
-          "title": "ステーキング",
-          "description": "利回り最適化と報酬の複利運用を備えた自動ステーキング"
-        },
-        "bridge": {
-          "title": "資産ブリッジ",
-          "description": "セキュリティ検証を備えたクロスチェーン資産ブリッジ"
-        },
-        "mint": {
-          "title": "NFTミント",
-          "description": "メタデータ管理とIPFSストレージを備えた一括NFTミント"
-        },
-        "deploy": {
-          "title": "スマートコントラクト",
-          "description": "自動化されたスマートコントラクトのデプロイとインタラクション"
-        },
-        "governance": {
-          "title": "ガバナンス",
-          "description": "自動化されたDAO投票とガバナンス参加"
-        },
-        "yield": {
-          "title": "イールドファーミング",
-          "description": "リスク管理を備えた自動イールドファーミング"
-        }
-      }
-    },
-    "signup": {
-      "title": "数秒でサインアップ",
-      "subtitle": "暗号資産の知識は不要です。メール、ソーシャルログイン、または既存のウォレットでサインアップしてください - 複雑な処理は私たちが担当します。",
-      "chooseMethod": "サインアップ方法を選択",
-      "emailSocial": {
-        "title": "メール & ソーシャルログイン",
-        "description": "Google、Discord、Twitter、GitHub、またはメールでサインアップ - 他のアプリと同じように。",
-        "methods": [
-          "Google",
-          "Discord",
-          "Twitter",
-          "Email",
-          "GitHub",
-          "Passkey"
-        ]
-      },
-      "wallet": {
-        "title": "ウォレットを接続",
-        "description": "MetaMask、Coinbase Wallet、またはその他のウォレットをお持ちですか？即座に接続できます。",
-        "wallets": [
-          "MetaMask",
-          "Coinbase",
-          "Rainbow",
-          "Ledger"
-        ]
-      },
-      "behindScenes": {
-        "title": "舞台裏で何が起こっているのか？",
-        "steps": [
-          {
-            "title": "アプリ内ウォレットが自動的に作成されます",
-            "description": "サインアップすると、thirdwebが自動的に安全なブロックチェーンウォレットを作成します - 設定は不要です。"
-          },
-          {
-            "title": "管理する秘密鍵はありません",
-            "description": "ウォレットはログイン方法（メール、Googleなど）によって保護されています。書き留めたり紛失したりするシードフレーズはありません。"
-          },
-          {
-            "title": "ブロックチェーン機能を使用する準備完了",
-            "description": "USDCサブスクリプションでの支払い、ブロックチェーンワークフローの実行、スマートコントラクトとの対話 - すべて暗号資産の複雑さなしで。"
-          },
-          {
-            "title": "エンタープライズグレードのセキュリティ",
-            "description": "AWS Nitro Enclavesを備えたthirdwebのインフラストラクチャによって強化されています - 鍵が公開されることはありません。"
-          }
-        ]
-      },
-      "bestPart": {
-        "title": "一番の利点は？",
-        "description": "ブロックチェーンのすべての利点（USDCサブスクリプション、安全なワークフロー、マルチチェーンサポート）を、仕組みを理解する必要なく得られます。サインアップして自動化を開始するだけです！"
-      }
-    },
-    "security": {
-      "title": "安全なブロックチェーンウォレット管理",
-      "subtitle": "ワークフローは、thirdweb Vault SDKとAWS Nitro Enclavesによって強化されたエンタープライズグレードのセキュリティでブロックチェーンウォレットを作成および管理できます。",
-      "vault": {
-        "title": "thirdweb Vaultとは？",
-        "description": "thirdweb Vaultは、ワークフローが自動操作のためにブロックチェーンウォレットを作成および制御できるようにする安全な鍵管理システムです - あなたの代わりにトランザクションに署名できるロボットのようなものです。",
-        "features": [
-          {
-            "title": "ワークフローでウォレットを作成",
-            "description": "自動化ワークフローは、特定のタスク（取引ボット、NFTミントなど）専用のブロックチェーンウォレットを作成できます"
-          },
-          {
-            "title": "トランザクションに自動的に署名",
-            "description": "ワークフローは、手動承認なしでブロックチェーントランザクション、メッセージ、スマートコントラクト呼び出しに署名できます"
-          },
-          {
-            "title": "マルチチェーンサポート",
-            "description": "Ethereum、Polygon、Base、Arbitrumなど、35以上のサポートされているすべてのブロックチェーンネットワークで動作します"
-          },
-          {
-            "title": "あなたがコントロール",
-            "description": "ワークフローウォレットにアクセスして管理できるのはあなただけです - それらはあなたのアカウントに紐付けられています"
-          }
-        ]
-      },
-      "useCases": {
-        "title": "Vaultウォレットのユースケース",
-        "items": [
-          "自動化されたDeFi取引ボット",
-          "NFTミントと配布",
-          "スマートコントラクトのデプロイ",
-          "マルチシグ操作",
-          "トークン転送と支払い"
-        ]
-      },
-      "architecture": {
-        "title": "Vaultウォレットはどのように保護されていますか？",
-        "nitro": {
-          "title": "AWS Nitro Enclaves",
-          "description": "秘密鍵はAWS Nitro Enclavesに保存されます - AWS管理者でさえアクセスできない、隔離されたハードウェア保護環境です。",
-          "features": [
-            "CPUレベルの暗号化隔離",
-            "エンクレーブからのネットワークアクセスなし",
-            "コード整合性の暗号化構成証明"
-          ]
-        },
-        "encryption": {
-          "title": "エンドツーエンド暗号化",
-          "description": "Vaultウォレットとのすべての通信は、完全な前方秘匿性を持つxChaCha20-Poly1305暗号化を使用します。",
-          "features": [
-            "秘密鍵はエンクレーブを決して離れません",
-            "保存時および転送時に暗号化",
-            "ゼロ知識アーキテクチャ"
-          ]
-        }
-      }
-    }
-  },
   "aboutPage": {
     "hero": {
-      "badge": "🚀 2025年12月ローンチ",
-      "title": "未来を構築する",
-      "titleGradient": "AI自動化",
-      "description": "FrostyLabsは、AI自動化を民主化し、ブロックチェーン技術を誰にでもアクセス可能にするという使命を担っています。私たちは、次世代の自動化ワークフローを強化するツールを構築しています。",
+      "badge": "🚀 Baseで稼働中",
+      "title": "AI自動化の",
+      "titleGradient": "未来を築く",
+      "description": "FrostyLabsは、AI自動化を民主化し、ブロックチェーン技術を誰もが利用できるようにすることを使命としています。私たちは次世代の自動化ワークフローを支えるツールを構築しています。",
       "stats": {
         "aiModels": "AIモデル",
         "blockchainNetworks": "ブロックチェーンネットワーク",
@@ -378,290 +184,17 @@
       }
     },
     "mission": {
-      "title": "私たちの使命",
-      "paragraph1": "私たちは、AI自動化はアクセス可能で、安全で、真に分散化されるべきだと信じています。私たちの使命は、複数のAIモデルの力とブロックチェーン技術のセキュリティと所有権の利点を組み合わせることで、AIワークフロー自動化を民主化することです。",
-      "paragraph2": "シンプルなUSDCサブスクリプションと、x402やERC-8004といったオープンなエージェントプロトコルを活用し、誰もがオンチェーンエージェントを作成・デプロイ・収益化でき、エコシステムで生み出す価値を獲得できるプラットフォームを構築しています。",
+      "title": "私たちのミッション",
+      "paragraph1": "私たちは、AI自動化はアクセスしやすく、セキュアで、真に分散化されているべきだと考えています。私たちのミッションは、複数のAIモデルの力とブロックチェーン技術のセキュリティおよび所有のメリットを組み合わせ、AIワークフロー自動化を民主化することです。",
+      "paragraph2": "シンプルなUSDCサブスクリプションと、x402やERC-8004といったオープンなエージェントプロトコルにより、誰もがオンチェーンエージェントを作成、デプロイ、収益化でき、エコシステムで生み出した価値を獲得できるプラットフォームを構築しています。",
       "goals": [
         "AI自動化へのアクセスを民主化",
         "最大限のセキュリティとプライバシーを確保",
-        "真に分散化されたインフラストラクチャを構築"
+        "真に分散化されたインフラを構築"
       ],
       "vision": {
         "title": "私たちのビジョン",
-        "description": "AI自動化がデジタル資産と同じくらいアクセス可能で取引可能であり、ユーザーが自分の運命をコントロールし、人工知能の力が大企業だけでなくすべての人によって活用される世界。"
-      }
-    },
-    "techStack": {
-      "title": "技術スタック",
-      "subtitle": "最高のパフォーマンス、セキュリティ、スケーラビリティを実現するために最先端の技術で構築されています。",
-      "stacks": {
-        "backend": {
-          "title": "バックエンドインフラストラクチャ",
-          "items": {
-            "framework": "Next.js 15",
-            "runtime": "Node.js 20+",
-            "database": "PostgreSQL",
-            "auth": "Web3 Auth",
-            "orm": "Drizzle"
-          }
-        },
-        "blockchain": {
-          "title": "ブロックチェーンインフラストラクチャ",
-          "items": {
-            "sdk": "thirdweb v5",
-            "vault": "thirdweb Vault",
-            "networks": "35+ EVMチェーン",
-            "security": "AWS Nitro",
-            "nftStandards": "ERC-721/1155"
-          }
-        },
-        "aiModels": {
-          "title": "AIモデル",
-          "items": {
-            "openai": "GPT-5, GPT-4.1",
-            "anthropic": "Claude 4",
-            "google": "Gemini 2.x",
-            "xai": "Grok-3",
-            "total": "20+ モデル"
-          }
-        },
-        "devops": {
-          "title": "DevOps",
-          "items": {
-            "container": "Docker",
-            "orchestration": "Kubernetes",
-            "cicd": "GitHub Actions",
-            "monitoring": "Prometheus",
-            "cloud": "AWS/GCP"
-          }
-        },
-        "frontend": {
-          "title": "フロントエンド",
-          "items": {
-            "framework": "React 19",
-            "styling": "Tailwind CSS",
-            "uiLibrary": "shadcn/ui",
-            "workflowUI": "React Flow",
-            "animations": "Framer Motion"
-          }
-        },
-        "security": {
-          "title": "セキュリティ",
-          "items": {
-            "walletAuth": "thirdweb",
-            "encryption": "AES-256",
-            "keyStorage": "AWS Nitro",
-            "compliance": "SOC 2, ISO",
-            "privacy": "GDPR"
-          }
-        }
-      },
-      "labels": {
-        "framework": "フレームワーク",
-        "runtime": "ランタイム",
-        "database": "データベース",
-        "auth": "認証",
-        "orm": "ORM",
-        "sdk": "SDK",
-        "vault": "ボールト",
-        "networks": "ネットワーク",
-        "security": "セキュリティ",
-        "nftStandards": "NFT標準",
-        "openai": "OpenAI",
-        "anthropic": "Anthropic",
-        "google": "Google AI",
-        "xai": "xAI",
-        "total": "合計モデル",
-        "container": "コンテナ",
-        "orchestration": "オーケストレーション",
-        "cicd": "CI/CD",
-        "monitoring": "モニタリング",
-        "cloud": "クラウド",
-        "styling": "スタイリング",
-        "uiLibrary": "UIライブラリ",
-        "workflowUI": "ワークフローUI",
-        "animations": "アニメーション",
-        "walletAuth": "ウォレット認証",
-        "encryption": "暗号化",
-        "keyStorage": "鍵ストレージ",
-        "compliance": "コンプライアンス",
-        "privacy": "プライバシー"
-      }
-    },
-    "roadmap": {
-      "title": "ロードマップ",
-      "subtitle": "AI自動化とブロックチェーン統合を革新するための私たちの旅。",
-      "quarters": {
-        "q4_2025": {
-          "quarter": "2025年第4四半期",
-          "title": "公開ローンチと初期成長",
-          "status": "進行中",
-          "items": [
-            {
-              "icon": "✓",
-              "text": "ランディングページ＆マーケティングサイト"
-            },
-            {
-              "icon": "✓",
-              "text": "本番デプロイ＆モニタリング"
-            },
-            {
-              "icon": "🚧",
-              "text": "オープンベータローンチ（2025年11月/12月）"
-            },
-            {
-              "icon": "🚧",
-              "text": "ベータ创設者プログラム（100名の创設メンバー）"
-            },
-            {
-              "icon": "🚧",
-              "text": "コミュニティ構築とユーザーオンボーディング"
-            },
-            {
-              "icon": "📋",
-              "text": "ユーザーフィードバックの統合と反復"
-            }
-          ]
-        },
-        "q1_2026": {
-          "quarter": "2026年第1四半期",
-          "title": "AIエージェントプラットフォームと高度な機能",
-          "status": "計画中",
-          "items": [
-            {
-              "icon": "🤖",
-              "text": "Frosty Agent: AIエージェント＆アプリケーションビルダー - カスタムAIエージェントと小規模AIアプリケーションを作成",
-              "bold": true
-            },
-            {
-              "icon": "⚡",
-              "text": "Frosty Agent: 自然言語ワークフロー作成 - ユーザーの説明からワークフローを生成",
-              "bold": true
-            },
-            {
-              "icon": "🧠",
-              "text": "Nebula AIモデル統合 - パフォーマンス向上のための高度なAIモデル",
-              "bold": true
-            },
-            {
-              "icon": "📋",
-              "text": "RAG検索＆セマンティックドキュメント検索（Pro層）"
-            },
-            {
-              "icon": "📋",
-              "text": "高度なエージェントエコシステム機能"
-            },
-            {
-              "icon": "📋",
-              "text": "ワークフローマーケットプレイス＆テンプレートライブラリ"
-            }
-          ]
-        },
-        "q2_2026": {
-          "quarter": "2026年第2四半期",
-          "title": "FrostyDAOとトークンローンチ",
-          "status": "計画中",
-          "items": [
-            {
-              "icon": "🔥",
-              "text": "$PERMAトークンフェアローンチ - ベータ创設者自動ホワイトリスト",
-              "bold": true
-            },
-            {
-              "icon": "🔥",
-              "text": "POLARガバナンストークン（$PERMAをロックして獲得）",
-              "bold": true
-            },
-            {
-              "icon": "📋",
-              "text": "ロック報酬：POLARを獲得 + DAO運用からの収益分配"
-            },
-            {
-              "icon": "📋",
-              "text": "プロトコル所有流動性（POL） - DAOがサブスクリプション収益の95%を所有"
-            },
-            {
-              "icon": "📋",
-              "text": "オンチェーンガバナンス：財務配分と機能開発に投票"
-            },
-            {
-              "icon": "📋",
-              "text": "DAO財務管理のためのベータ创設者マルチシグ選出"
-            }
-          ]
-        },
-        "q3_2026": {
-          "quarter": "2026年第3四半期",
-          "title": "プラットフォームスケールとマルチチェーン拡張",
-          "status": "計画中",
-          "items": [
-            {
-              "icon": "🌐",
-              "text": "マルチチェーン拡張：Solana、Cosmos、Polkadotサポート",
-              "bold": true
-            },
-            {
-              "icon": "🔗",
-              "text": "ZapierとMake.com統合アダプター",
-              "bold": true
-            },
-            {
-              "icon": "📱",
-              "text": "モバイルアプリローンチ（iOSおよびAndroid）"
-            },
-            {
-              "icon": "🏢",
-              "text": "エンタープライズ機能：SSO、チーム管理、監査ログ"
-            },
-            {
-              "icon": "📊",
-              "text": "高度な分析とワークフローパフォーマンス追跡"
-            },
-            {
-              "icon": "🎯",
-              "text": "10,000+アクティブユーザーのマイルストーン"
-            }
-          ]
-        },
-        "q4_2026": {
-          "quarter": "2026年第4四半期",
-          "title": "AIマーケットプレイスとクリエイターエコノミー",
-          "status": "計画中",
-          "items": [
-            {
-              "icon": "🛒",
-              "text": "エージェントとワークフローマーケットプレイスローンチ",
-              "bold": true
-            },
-            {
-              "icon": "💰",
-              "text": "テンプレート作成者向け収益分配（$PERMAで支払い）",
-              "bold": true
-            },
-            {
-              "icon": "📚",
-              "text": "コミュニティテンプレートライブラリ：1,000+の事前構築ワークフロー"
-            },
-            {
-              "icon": "🤖",
-              "text": "高度なマルチエージェントオーケストレーションとコラボレーション"
-            },
-            {
-              "icon": "🎓",
-              "text": "クリエイター認定プログラムと教育リソース"
-            },
-            {
-              "icon": "🌟",
-              "text": "DAO資金援助による革新的なエージェント開発のための助成金"
-            }
-          ]
-        }
-      },
-      "community": {
-        "title": "コミュニティに参加",
-        "description": "自動化の未来を構築する開発者、AI愛好家、ブロックチェーンのパイオニアとつながりましょう。",
-        "github": "GitHub",
-        "twitter": "Twitter"
+        "description": "AI自動化があらゆるデジタル資産と同じようにアクセス可能で取引可能な世界。ユーザーが自らの運命を掌握し、人工知能の力が大企業だけでなく誰もが活用できる世界です。"
       }
     }
   },
@@ -672,68 +205,68 @@
     "askOnX": "Xで質問する",
     "items": [
       {
-        "question": "FrostyFiとは何ですか？",
-        "answer": "FrostyFi is a visual platform for building AI agents that act on-chain. Connect a large language model to blockchain operations, HTTP calls, or conditional logic using a drag-and-drop canvas — no smart-contract expertise required. Deploy your agent, expose it via a standard API, and let it run autonomously."
+        "question": "FrostyFiとは？",
+        "answer": "FrostyFiは、オンチェーンで動作するAIエージェントを構築するためのビジュアルプラットフォームです。ドラッグ&ドロップのキャンバスを使って、大規模言語モデルをブロックチェーン操作、HTTP呼び出し、条件分岐に接続——スマートコントラクトの専門知識は不要です。エージェントをデプロイし、標準APIとして公開して、自律的に動かしましょう。"
       },
       {
-        "question": "コードを書く必要がありますか？",
-        "answer": "No. FrostyFi's no-code visual builder lets you wire together AI models, on-chain actions, and external APIs by dragging nodes onto a canvas. Power users can drop in custom JavaScript nodes for anything the built-in library doesn't cover."
+        "question": "コードを書く必要はありますか？",
+        "answer": "いいえ。FrostyFiのノーコードビジュアルビルダーなら、ノードをキャンバスにドラッグするだけで、AIモデル、オンチェーンアクション、外部APIを組み合わせられます。パワーユーザーは、組み込みライブラリでカバーされないものにカスタムJavaScriptノードを追加できます。"
       },
       {
-        "question": "どのチェーンとAIモデルがサポートされていますか？",
-        "answer": "On the blockchain side, FrostyFi supports EVM-compatible networks (Ethereum, Base, Polygon, Arbitrum, Optimism, and more) as well as Solana. For AI, you can route requests through OpenAI, Anthropic, Google, Groq, and additional providers via OpenRouter — swap models per node without rebuilding your workflow."
+        "question": "どのチェーンとAIモデルに対応していますか？",
+        "answer": "ブロックチェーン側では、FrostyFiはEVM互換ネットワーク（Ethereum、Base、Polygon、Arbitrum、Optimismなど）に加えてSolanaに対応しています。AIについては、OpenAI、Anthropic、Google、Groq、およびOpenRouter経由の追加プロバイダーへリクエストをルーティングできます——ワークフローを作り直すことなく、ノードごとにモデルを切り替えられます。"
       },
       {
         "question": "支払いはどのように機能しますか？",
-        "answer": "Two layers: the app itself runs on simple USDC subscriptions on Base (Pro and Enterprise tiers) — pay in stablecoin, no NFT and no token required. Agent-to-agent payments use x402 — a per-request micropayment standard that settles in USDC on Base with no intermediary. Your agents can charge callers and pay other agents without any manual invoicing."
+        "answer": "2つのレイヤーがあります。アプリ自体はBase上のシンプルなUSDCサブスクリプション（ProとEnterpriseティア）で動作します——ステーブルコインで支払い、NFTもトークンも不要。エージェント間の支払いにはx402を使用します——Base上のUSDCで決済される、仲介者なしのリクエストごとのマイクロペイメント標準です。あなたのエージェントは、手動の請求書発行なしに、呼び出し元に課金し、他のエージェントに支払えます。"
       },
       {
-        "question": "x402とは何ですか？",
-        "answer": "x402は、HTTP 402「Payment Required」レスポンスを利用して、クライアントがリクエストに対して支払いを行い、即座に再試行できるようにするオープンスタンダードです。アカウント、APIキー、サブスクリプションは一切不要です。FrostyFiでは、エージェントがBase上のUSDCで呼び出しごとに課金でき、同じ方法で他のエージェントに支払うこともできます。そのため、APIやエージェントは利用された瞬間に報酬を受け取れます。"
+        "question": "x402とは？",
+        "answer": "x402は、HTTP 402「Payment Required」レスポンスを利用して、クライアントがリクエストに支払い、即座に再試行できるようにするオープン標準です——アカウント、APIキー、サブスクリプションは不要。FrostyFiでは、あなたのエージェントがBase上のUSDCで呼び出しごとに課金し、同じ方法で他のエージェントに支払えるため、APIやエージェントは使われた瞬間に報酬を得られます。"
       },
       {
-        "question": "ERC-8004とは何ですか？",
-        "answer": "ERC-8004は「トラストレスエージェント」のためのEthereum標準です。公開レジストリを通じて、すべてのエージェントにポータブルなオンチェーンのアイデンティティと評判を付与するため、取引相手は誰に支払い、誰を信頼しているのかを検証できます。FrostyFiは、ワンクリックでエージェントをERC-8004レジストリに登録でき、オンチェーンに存在する検証可能なアイデンティティを持たせることができます。"
+        "question": "ERC-8004とは？",
+        "answer": "ERC-8004は「トラストレスなエージェント」のためのEthereum標準です。公開レジストリを通じてすべてのエージェントにポータブルなオンチェーンのアイデンティティと評価を与えるため、取引相手は誰に支払い信頼しているかを検証できます。FrostyFiはワンクリックであなたのエージェントをERC-8004レジストリに登録でき、オンチェーンに存在する検証可能なアイデンティティを持たせられます。"
       },
       {
-        "question": "Permafrost（$PERMA）トークンはありますか？",
-        "answer": "The Permafrost ($PERMA) token is planned for 2026. It is not live today. When it launches, Permafrost is designed to serve as the platform's utility and governance token — locking, fee discounts, and protocol-owned liquidity. 現在のサブスクリプションはBase上のシンプルなUSDC決済です。FrostyFiを今すぐ利用するのに、NFTもトークンの購入も必要ありません。"
+        "question": "$FROSTトークンはありますか？",
+        "answer": "$FROSTはFrostyFiのプロトコルトークンです。まだローンチしておらず——TGEは未定です——現時点でFrostyFiを使うのに$FROSTは一切必要ありません。サブスクリプションはBase上のシンプルなUSDC決済です。ローンチ時には、$FROSTは支払う顧客が獲得し（1億枚のハードキャップ、プレセールなし）、それをソウルバウンドなPERMAポジションにロックすることで、プロトコル所有流動性とDAO収益の一部からUSDCの利回りを得られます。今FrostyFiを使うのにNFTもトークン購入も必要ありません。"
       },
       {
-        "question": "どうすれば始められますか？",
-        "answer": "Sign up at app.frostylabs.ai. The free tier gives you access to the visual builder and a set of AI calls per month to explore the platform. No wallet setup is required to register — connect a wallet later when you want to use on-chain features."
+        "question": "始めるにはどうすればいいですか？",
+        "answer": "app.frostylabs.aiでサインアップしてください。無料ティアでは、ビジュアルビルダーと、プラットフォームを試すための月ごとのAI呼び出しセットにアクセスできます。登録にウォレットのセットアップは不要です——オンチェーン機能を使いたくなったら、後でウォレットを接続してください。"
       }
     ]
   },
   "videoDemo": {
-    "title": "30秒でトークンを分析"
+    "title": "あらゆるトークンを30秒で分析"
   },
   "poweredBy": {
-    "badge": "提供元",
+    "badge": "搭載技術",
     "titlePrefix": "最高の",
-    "titleHighlight": "AIモデル",
-    "description": "最も強力な自動化機能を提供するために、主要なAIプロバイダーと統合しています。",
-    "moreModels": "+ OpenRouter経由でさらに"
+    "titleHighlight": "AIモデルを搭載",
+    "description": "私たちは主要なAIプロバイダーと統合し、最も強力な自動化能力を提供します。",
+    "moreModels": "+ OpenRouter経由でさらに多く"
   },
   "security": {
     "badge": "エンタープライズセキュリティ",
-    "title": "あなたのセキュリティが私たちの優先事項",
-    "descriptionPrefix": "業界をリードする安全なキー管理ソリューション、",
+    "title": "あなたのセキュリティが私たちの最優先事項",
+    "descriptionPrefix": "業界をリードするセキュアな鍵管理ソリューション、",
     "descriptionHighlight": "thirdweb Vault",
-    "descriptionSuffix": "によって実現",
-    "cta": "セキュリティについて詳しく学ぶ",
+    "descriptionSuffix": "を採用",
+    "cta": "私たちのセキュリティについてもっと知る",
     "features": {
       "bankGrade": {
         "title": "銀行レベルのセキュリティ",
-        "description": "AWS Nitro Enclavesで暗号化されたキー"
+        "description": "あなたの鍵はAWS Nitro Enclavesで暗号化"
       },
       "nonCustodial": {
-        "title": "非カストディアル",
-        "description": "常に資産を管理できます"
+        "title": "ノンカストディアル",
+        "description": "資産は常にあなたが管理"
       },
       "infrastructure": {
-        "title": "安全なインフラストラクチャ",
-        "description": "保存時および転送時の軍事レベルの暗号化"
+        "title": "セキュアなインフラ",
+        "description": "保存時も転送時も軍事レベルの暗号化"
       },
       "privacy": {
         "title": "プライバシーファースト",
@@ -741,35 +274,279 @@
       }
     }
   },
-  "timeline": {
-    "badge": "ローンチタイムライン",
-    "title": "最初のユーザーになろう",
-    "descriptionPrefix": "ベータプログラムに参加して",
-    "descriptionHighlight": "限定创設メンバー特典",
-    "status": {
-      "inProgress": "進行中",
-      "planned": "予定"
+  "trustStrip": {
+    "runsOnLabel": "対応",
+    "items": {
+      "0": "EVM",
+      "1": "Base",
+      "2": "Solana",
+      "3": "Ethereum",
+      "4": "x402",
+      "5": "ERC-8004",
+      "6": "A2A",
+      "7": "MCP",
+      "8": "OpenRouter",
+      "9": "Ollama",
+      "10": "Uniswap",
+      "11": "SushiSwap",
+      "12": "PancakeSwap",
+      "13": "Jupiter",
+      "14": "Hyperliquid",
+      "15": "thirdweb",
+      "16": "Twilio",
+      "17": "USDC"
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "使い方",
+    "headingPrefix": "アイデアから",
+    "headingHighlight": "オンチェーンエージェントへ",
+    "steps": {
+      "0": {
+        "title": "説明する",
+        "body": "FrostyFiにやりたいことを普通の言葉で伝えるだけ——「クロスDEXアービトラージをスキャンして知らせて」のように——すると、Frosty Architectがワークフロー全体を下書きします。"
+      },
+      "1": {
+        "title": "ビジュアルで構築",
+        "body": "キャンバス上でノードをドラッグ、接続、調整：LLM、DEXスワップ、Hyperliquidトレード、メディア、メッセージング、条件分岐。"
+      },
+      "2": {
+        "title": "オンチェーンにデプロイ",
+        "body": "エージェントとして出荷。オンチェーンでライブに見積もり、判断し、実行——アラート、スワップ、支払いを、スケジュール、Webhook、またはx402での呼び出しごとの課金で。"
+      }
+    }
+  },
+  "whatYouCanBuild": {
+    "eyebrow": "作れるもの",
+    "headingLead": "ほとんど",
+    "headingAccent": "何でも作れる。",
+    "body": "MCPサーバー、100以上のモデル、主要な全チェーン向けのオンチェーンノードにより、あなたのエージェントはほぼあらゆるツール、API、プロトコルに接続して、それに基づいて行動できます。唯一の本当の限界は、あなたが説明できることだけです。この4つはほんの一例です：",
+    "imgAlt": "{name} — FrostyFiエージェント",
+    "items": {
+      "0": {
+        "tag": "トレード · DeFi",
+        "name": "Cross-DEX Arb Scanner",
+        "body": "Uniswap、SushiSwap、PancakeSwapを並行して見積もり、スプレッドが現れた瞬間にフラグを立て、Telegramで通知します。"
+      },
+      "1": {
+        "tag": "リサーチ",
+        "name": "Daily Alpha Brief",
+        "body": "ライブの市場データを取得し、AIが鋭く無駄のない日次ブリーフを執筆——スケジュールに沿って、あなたの受信箱やTelegramに。"
+      },
+      "2": {
+        "tag": "支払い · Vault",
+        "name": "USDC Payout Agent",
+        "body": "Vaultで署名されたトランザクションで、実際のUSDCをオンチェーンで移動——支払い、決済、トレジャリー運用を自動化し、秘密鍵は一切露出しません。"
+      },
+      "3": {
+        "tag": "有料API · x402",
+        "name": "Gas Oracle",
+        "body": "オンチェーンで稼働する呼び出しごとの有料API：リアルタイムのEthereumガス代を、x402で収益化し、検証可能なERC-8004アイデンティティの背後で提供。"
+      }
+    }
+  },
+  "onchainProof": {
+    "eyebrow": "約束ではなく、証拠",
+    "heading": "オンチェーンで",
+    "headingHighlight": "行動するエージェント",
+    "body": "次のステップを提案するだけではなく、実際に実行します。左のデモは、Uniswap、SushiSwap、Hyperliquidをスキャンし、ライブのクロスDEXスプレッドをオンチェーンで捉えるFrostyFiエージェントです。",
+    "imageAlt": "ライブのクロスDEXアービトラージをオンチェーンで見つけるFrostyFiエージェント",
+    "items": {
+      "0": {
+        "title": "EVM、Solana、Hyperliquid",
+        "body": "あらゆる主要DEXでスワップし、パーペチュアルやトークン化株式を取引——チェーンごとに別々のツールは不要。"
+      },
+      "1": {
+        "title": "x402マイクロペイメント",
+        "body": "Base上のUSDCで呼び出しごとに支払い。管理すべきAPIごとのサブスクリプションはありません。"
+      },
+      "2": {
+        "title": "ノンカストディアルな鍵",
+        "body": "署名はthirdweb Vaultを介して実行——ユーザーは自分の鍵の管理を維持します。"
+      }
+    }
+  },
+  "statsBand": {
+    "ariaLabel": "数字で見る",
+    "items": {
+      "0": {
+        "label": "AIモデル"
+      },
+      "1": {
+        "label": "ブロックチェーンネットワーク"
+      },
+      "2": {
+        "label": "オンチェーン操作"
+      },
+      "3": {
+        "label": "ノーコード"
+      }
+    }
+  },
+  "capabilities": {
+    "eyebrow": "できること",
+    "headingLead": "エージェントに",
+    "headingEmphasis": "必要なすべて",
+    "feature": {
+      "title": "ビジュアルワークフロー",
+      "body": "ノーコードのキャンバスでエージェントを構築——ノードをドラッグし、接続を描き、ロジックが組み上がるのを見守るだけ。定型コードもデプロイスクリプトも不要。"
     },
-    "milestones": {
-      "beta": {
-        "title": "パブリックベータローンチ",
+    "items": {
+      "0": {
+        "title": "100以上のAIモデル",
+        "body": "あらゆるプロンプトをGPT、Claude、Gemini、Llamaなどにルーティング——ワンクリックでモデルを切り替え。"
+      },
+      "1": {
+        "title": "MCPサーバー",
+        "body": "Model Context Protocolを通じて外部ツールやデータを接続。"
+      },
+      "2": {
+        "title": "A2Aプロトコル",
+        "body": "エージェントがオープンなエージェント間標準で他のエージェントと通信。"
+      },
+      "3": {
+        "title": "エージェントとデプロイ",
+        "body": "あらゆるワークフローを、自律的に動く自律エージェントとして出荷。"
+      },
+      "4": {
+        "title": "スケジュールとトリガー",
+        "body": "cron、Webhook、オンチェーンイベントで起動——接続コードは不要。"
+      },
+      "5": {
+        "title": "トレード&DeFiノード",
+        "body": "Uniswap、SushiSwap、PancakeSwap、Hyperliquid、Jupiter——スワップ、パーペチュアル、トークン化株式を1つのキャンバスで。"
+      },
+      "6": {
+        "title": "メディア&メッセージング",
+        "body": "画像、動画、音声を生成し、SMSやWhatsAppでユーザーに届く——ノードから直接。"
+      },
+      "7": {
+        "title": "Vaultで保護された署名",
+        "body": "エージェントはthirdweb Vaultを介してオンチェーンで署名——鍵は暗号化されたまま、ワークフローに触れることはありません。"
+      },
+      "8": {
+        "title": "ライブ実行モニタリング",
+        "body": "すべての実行をノードごとに監視——ログ、タイミング、そして何かが失敗した瞬間のアラート。"
+      }
+    }
+  },
+  "web3Native": {
+    "eyebrow": "Web3ネイティブ",
+    "headingLead": "オンチェーン経済のために",
+    "headingHighlight": "構築",
+    "intro": "これは、ほとんどのエージェントプラットフォームが飛ばす部分です。FrostyFiのエージェントは、シートライセンスなしで、今日すでにオンチェーンで支払い、報酬を受け取り、決済しています。",
+    "items": [
+      {
+        "title": "x402マイクロペイメント",
+        "body": "エージェントとAPIはBase上のUSDCでリクエストごとに課金——シートライセンスも月額最低料金もなし。決済は利用の瞬間にオンチェーンで行われます。",
+        "tag": "Base上のUSDC"
+      },
+      {
+        "title": "オンチェーン実行",
+        "body": "エージェントはUniswap、SushiSwap、PancakeSwap、Hyperliquid、Jupiterで取引——スワップ、パーペチュアル、さらにはトークン化株式まで——をワークフロー内から実行し、資産が存在する場所で署名・決済します。",
+        "tag": "EVM · Solana · Hyperliquid"
+      },
+      {
+        "title": "ERC-8004アイデンティティ",
+        "body": "すべてのエージェントはERC-8004レジストリを通じてオンチェーンのアイデンティティを取得するため、取引相手は誰に支払い信頼しているかを検証できます。",
+        "tag": "オンチェーンレジストリ"
+      }
+    ],
+    "proofEyebrow": "証拠は、オンチェーン",
+    "proofHeadingLead": "x402とERC-8004、",
+    "proofHeadingHighlight": "Base上でライブ稼働。",
+    "proofIntro": "公開ERC-8004アイデンティティレジストリに登録されたFrostyFiエージェントと、Base上のUSDCで決済された実際のx402マイクロペイメント。どちらも今まさにオンチェーンにあります——クリックして検証してください。",
+    "cardIdentity": {
+      "title": "ERC-8004アイデンティティと評価",
+      "caption": "Agent #54630 · ★ 5.0/5.0 · 100/100 on Base",
+      "cta": "8004scan"
+    },
+    "cardPayment": {
+      "alt": "Baseメインネット上のUSDCで決済された実際のx402マイクロペイメント",
+      "title": "x402決済、オンチェーンで完了",
+      "caption": "0.01 USDC · 呼び出しごと · Baseメインネット",
+      "cta": "Basescan"
+    }
+  },
+  "roadmapSection": {
+    "eyebrow": "ロードマップ",
+    "heading": "FrostyFiが",
+    "headingHighlight": "向かう先",
+    "description": "すでに多くが今日出荷されています。ここでは、稼働中のもの、次に構築しているもの、そして私たち独自のモデルとトークンを含む長期的な賭けを紹介します。",
+    "phases": [
+      {
+        "label": "出荷済み",
+        "title": "今日稼働中",
         "items": [
-          "初月1ヶ月無料（Proティア）",
-          "ベータ创設NFTバッジ",
-          "アーリーアダプター特典"
+          "ビジュアルワークフロービルダー + AIワークフロー生成",
+          "EVM DEXノード — Uniswap、SushiSwap、PancakeSwap（スワップ + 流動性、マルチチェーン）",
+          "Hyperliquid — パーペチュアル、スポット、HIP-3の24時間365日トークン化株式、FX、金",
+          "Jupiter経由のSolana — スワップ、指値注文、DCA",
+          "画像・動画・音声ノード、そしてSMS + WhatsAppメッセージング",
+          "x402マイクロペイメント、ERC-8004アイデンティティ、ノンカストディアルなVault署名を備えたエージェント"
         ]
       },
-      "launch": {
-        "title": "完全プラットフォームローンチ",
+      {
+        "label": "次",
+        "title": "開発中",
         "items": [
-          "マーケットプレイスローンチ",
-          "高度な機能",
-          "エンタープライズサポート"
+          "ワークフロー専門モデル — 平易な言葉の説明からエージェントを下書き・デバッグするようファインチューニング",
+          "より多くの統合とオンチェーンアクションを、安定したペースで出荷",
+          "より深い実行の可観測性、アラート、分析"
+        ]
+      },
+      {
+        "label": "予定",
+        "title": "見据える先",
+        "items": [
+          "$FROST — 支払う顧客が獲得し、ネットワークの経済性を、それを構築・利用する人々へと還元する",
+          "収益に裏付けられ、ハードキャップされ、準備ができたときにローンチ——現在は稼働しておらず、今FrostyFiで必要なものは何もありません",
+          "より広範なエージェントマーケットプレイスとエコシステム"
         ]
       }
+    ]
+  },
+  "frostyDao": {
+    "eyebrow": "FrostyDAO · $FROST · 収益エンジンがBaseで稼働中",
+    "headline": "ネットワークを所有するのは、",
+    "headlineAccent": "それを築く人々",
+    "subhead": "$FROSTは、決して売られない流動性フロアを持つトークンです。すべての支払いの3分の1が永続的なプロトコル所有流動性を築き、ロックした人々はUSDCで収益の分配を得ます——支払う顧客が獲得し、インサイダーに売られることは決してありません。",
+    "status": "収益エンジンはBase上で稼働し、検証可能です。$FROSTトークンのローンチは後日——今日FrostyFiを使うのに必要なものは何もありません。",
+    "pillars": [
+      {
+        "title": "$FROST — 売られるのではなく、獲得する",
+        "body": "1億枚のハードキャップ。支払う顧客が、有限で収益連動の発行を通じて獲得——プレセールなし、VCなし、インサイダーラウンドなし。レートはプロダクトが$25k稼ぐごとに半減します。"
+      },
+      {
+        "title": "ロックして本物の利回りを",
+        "body": "$FROSTをソウルバウンドなPERMAポジションにロックし、USDCでプロトコル収益の分配を獲得——POLの取引手数料に加え、DAO収益の一部。保有するだけでは何も得られません。"
+      },
+      {
+        "title": "プロトコル所有流動性",
+        "body": "すべての支払いの3分の1がPOLへ。USDCとして蓄積され——決して使われず——ローンチ時に永続的なFROST/USDC流動性になります。準備金は増える一方です。"
+      },
+      {
+        "title": "お金を生むDAO",
+        "body": "貯金箱ではなく——稼ぐトレジャリー：ファーストパーティのx402エージェント群、流動性ブライブ、そしてコミュニティ投票による投資。稼いだ分の一部がロックした人々に支払われます。"
+      },
+      {
+        "title": "利用時にバーン",
+        "body": "$FROSTをFrostyG4、Architectビルド、優先実行に使うと100%バーンされます。デフレは誇大宣伝ではなく、実際の利用に応じて拡大します。"
+      },
+      {
+        "title": "ビルダーが所有",
+        "body": "ロックしてはしごを登る——プロダクト割引、次に投票、そして提案。価値を生み出す人々がそれを統治し、アップサイドを所有します。"
+      }
+    ],
+    "callout": {
+      "label": "流動性を加速する",
+      "body": "収益はPOLを着実に築き、",
+      "accent": "ボンドは素早く築く",
+      "bodyEnd": "。ローンチ後は、誰でもUSDCをボンドして割引価格の$FROSTを得られます——USDCはそのままPOLに入るため、1回のボンドで数ヶ月分の収益より多くの深さを加えられます。パーミッションレスで、公開価格が付き、トレジャリーの負債上限で制限されます。"
     },
-    "betaDate": "2025年12月",
-    "betaDescription": "限定特典付きパブリックベータローンチ",
-    "viewRoadmap": "完全なロードマップを見る"
+    "cta": {
+      "tokenomics": "トークノミクスを読む",
+      "pol": "POLフライホイールの仕組み"
+    }
   }
 }

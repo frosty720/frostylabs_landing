@@ -3,91 +3,80 @@
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
+const stats = [
+	{ icon: "🤖", value: "20+", labelKey: "aiModels" },
+	{ icon: "⛓️", value: "35+", labelKey: "blockchainNetworks" },
+	{ icon: "🚀", value: "TBA", labelKey: "launchDate" },
+];
+
 export function AboutHero() {
-  const t = useTranslations("aboutPage.hero");
+	const t = useTranslations("aboutPage.hero");
 
-  return (
-    <section className="relative pt-32 pb-20 px-6 overflow-hidden">
-      {/* Ice crystal ambient effects */}
-      <div className="absolute inset-0 ice-crystal opacity-20"></div>
-      <div className="absolute top-20 right-20 w-96 h-96 bg-frost-blue/5 rounded-full blur-3xl float-animation"></div>
-      <div className="absolute bottom-20 left-20 w-80 h-80 bg-ice-blue/5 rounded-full blur-3xl float-animation" style={{ animationDelay: '-3s' }}></div>
+	return (
+		<section className="aurora-bg relative overflow-hidden px-6 pt-32 pb-24">
+			<div className="grid-overlay pointer-events-none absolute inset-0" />
 
-      <div className="container mx-auto max-w-6xl relative z-10">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="text-center"
-        >
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="inline-block mb-6"
-          >
-            <span className="px-6 py-2 bg-gradient-to-r from-frost-blue/20 to-ice-blue/20 border border-frost-blue/30 rounded-full text-frost-blue font-semibold text-sm">
-              {t("badge")}
-            </span>
-          </motion.div>
+			<div className="relative z-10 mx-auto max-w-6xl">
+				<motion.div
+					initial={{ opacity: 0, y: 20 }}
+					animate={{ opacity: 1, y: 0 }}
+					transition={{ duration: 0.6 }}
+					className="text-center"
+				>
+					<motion.div
+						initial={{ opacity: 0, scale: 0.9 }}
+						animate={{ opacity: 1, scale: 1 }}
+						transition={{ duration: 0.5, delay: 0.2 }}
+						className="mb-6 inline-block"
+					>
+						<span className="mono-label inline-flex items-center rounded-full border border-white/10 bg-white/[0.03] px-4 py-1.5 text-[#67e8f9]">
+							{t("badge")}
+						</span>
+					</motion.div>
 
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="text-5xl md:text-7xl font-orbitron font-bold mb-6"
-          >
-            {t("title")}
-            <br />
-            <span className="gradient-text">{t("titleGradient")}</span>
-          </motion.h1>
+					<motion.h1
+						initial={{ opacity: 0, y: 20 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.6, delay: 0.3 }}
+						className="mb-6 text-5xl font-semibold tracking-tight md:text-7xl"
+					>
+						{t("title")}
+						<br />
+						<span className="aurora-text">{t("titleGradient")}</span>
+					</motion.h1>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="text-xl text-slate-300 max-w-3xl mx-auto mb-12"
-          >
-            {t("description")}
-          </motion.p>
+					<motion.p
+						initial={{ opacity: 0, y: 20 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.6, delay: 0.4 }}
+						className="mx-auto mb-12 max-w-3xl text-lg text-[#aab2c5] md:text-xl"
+					>
+						{t("description")}
+					</motion.p>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            className="flex flex-wrap justify-center gap-6"
-          >
-            <motion.div
-              whileHover={{ y: -8, scale: 1.05 }}
-              transition={{ type: "spring", stiffness: 300 }}
-              className="group frosted-glass rounded-xl p-6 border-2 border-frost-blue/30 hover:border-frost-blue min-w-[200px] transition-all duration-300"
-            >
-              <div className="text-3xl mb-2">🤖</div>
-              <div className="text-2xl font-orbitron font-bold gradient-text mb-1 group-hover:scale-110 transition-transform">20+</div>
-              <div className="text-slate-400 group-hover:text-frost-blue transition-colors">{t("stats.aiModels")}</div>
-            </motion.div>
-            <motion.div
-              whileHover={{ y: -8, scale: 1.05 }}
-              transition={{ type: "spring", stiffness: 300 }}
-              className="group frosted-glass rounded-xl p-6 border-2 border-ice-blue/30 hover:border-ice-blue min-w-[200px] transition-all duration-300"
-            >
-              <div className="text-3xl mb-2">⛓️</div>
-              <div className="text-2xl font-orbitron font-bold gradient-text mb-1 group-hover:scale-110 transition-transform">35+</div>
-              <div className="text-slate-400 group-hover:text-ice-blue transition-colors">{t("stats.blockchainNetworks")}</div>
-            </motion.div>
-            <motion.div
-              whileHover={{ y: -8, scale: 1.05 }}
-              transition={{ type: "spring", stiffness: 300 }}
-              className="group frosted-glass rounded-xl p-6 border-2 border-crystal-blue/30 hover:border-crystal-blue min-w-[200px] transition-all duration-300"
-            >
-              <div className="text-3xl mb-2">🚀</div>
-              <div className="text-2xl font-orbitron font-bold gradient-text mb-1 group-hover:scale-110 transition-transform">Dec 2025</div>
-              <div className="text-slate-400 group-hover:text-crystal-blue transition-colors">{t("stats.launchDate")}</div>
-            </motion.div>
-          </motion.div>
-        </motion.div>
-      </div>
-    </section>
-  );
+					<motion.div
+						initial={{ opacity: 0, y: 20 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.6, delay: 0.5 }}
+						className="flex flex-wrap justify-center gap-6"
+					>
+						{stats.map((stat) => (
+							<motion.div
+								key={stat.labelKey}
+								whileHover={{ y: -6 }}
+								transition={{ type: "spring", stiffness: 300 }}
+								className="frosted-glass min-w-[200px] rounded-2xl border border-white/10 p-6 transition-colors duration-300 hover:border-white/20"
+							>
+								<div className="mb-2 text-3xl">{stat.icon}</div>
+								<div className="mb-1 text-3xl font-semibold">
+									<span className="aurora-text">{stat.value}</span>
+								</div>
+								<div className="text-sm text-[#aab2c5]">{t(`stats.${stat.labelKey}`)}</div>
+							</motion.div>
+						))}
+					</motion.div>
+				</motion.div>
+			</div>
+		</section>
+	);
 }
-

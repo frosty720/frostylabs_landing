@@ -3,6 +3,9 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 export default () => {
   const nextConfig: NextConfig = {
+    async redirects() {
+      return [{ source: "/features", destination: "/", permanent: true }];
+    },
     webpack: (config, { isServer }) => {
       if (!isServer) {
         config.resolve.fallback = {

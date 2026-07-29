@@ -1,5 +1,8 @@
 import type { ComponentType } from 'react';
 import { AgentCustody } from './content/agent-custody';
+import { AgentIdentityPortability } from './content/agent-identity-portability';
+import { Erc8004SilentFailures } from './content/erc8004-silent-failures';
+import { WhatIsErc8004 } from './content/what-is-erc8004';
 import { AgentThatEarns } from './content/agent-that-earns';
 import { FrostToken } from './content/frost-token';
 
@@ -19,6 +22,45 @@ export interface BlogPost {
 }
 
 export const posts: BlogPost[] = [
+	{
+		slug: 'what-is-erc-8004',
+		title: 'What is ERC-8004?',
+		description:
+			'ERC-8004 gives an AI agent a permanent identity, a reputation that follows it, and third-party attestations — three on-chain registries, none of them owned by a platform. What each one does, what the standard deliberately does not solve, and what it looks like running in production on Base.',
+		date: '2026-07-29',
+		author: 'frostydev',
+		authorHandle: '@frosty_onchain',
+		tags: ['ERC-8004', 'Explainer', 'AI agents', 'Identity', 'Base'],
+		readingTime: '6 min read',
+		image: '/blog/og/what-is-erc-8004.png',
+		Body: WhatIsErc8004,
+	},
+	{
+		slug: 'erc8004-silent-failures',
+		title: 'Four ways ERC-8004 fails silently',
+		description:
+			"The testnet registry address also exists on mainnet as a live stub. The SDK's giveFeedback ships the wrong ABI. Feedback is permissionless despite an auth flow that suggests otherwise. Four failure modes we hit running agents on Base, none of which throw an error you can search for.",
+		date: '2026-07-29',
+		author: 'frostydev',
+		authorHandle: '@frosty_onchain',
+		tags: ['ERC-8004', 'Debugging', 'Base', 'AI agents', 'On-chain'],
+		readingTime: '6 min read',
+		image: '/blog/og/erc8004-silent-failures.png',
+		Body: Erc8004SilentFailures,
+	},
+	{
+		slug: 'agent-identity-portability',
+		title: 'Your agents identity belongs to you',
+		description:
+			"If a platform holds your agent's keys, does it hold your agent's identity too? For ERC-8004 the answer is no — the NFT is minted by your wallet, the metadata lives on IPFS, and reputation is keyed to the agent ID. Here is what actually breaks if you leave, and how to check every claim yourself on-chain.",
+		date: '2026-07-29',
+		author: 'frostydev',
+		authorHandle: '@frosty_onchain',
+		tags: ['ERC-8004', 'Identity', 'Portability', 'AI agents', 'Base'],
+		readingTime: '5 min read',
+		image: '/blog/og/agent-identity-portability.png',
+		Body: AgentIdentityPortability,
+	},
 	{
 		slug: 'frost-token',
 		title: '$FROST: the token with a liquidity floor that never sells',

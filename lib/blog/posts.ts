@@ -4,7 +4,6 @@ import { AgentIdentityPortability } from './content/agent-identity-portability';
 import { Erc8004SilentFailures } from './content/erc8004-silent-failures';
 import { WhatIsErc8004 } from './content/what-is-erc8004';
 import { AgentThatEarns } from './content/agent-that-earns';
-import { FrostToken } from './content/frost-token';
 
 export interface BlogPost {
 	slug: string;
@@ -60,19 +59,6 @@ export const posts: BlogPost[] = [
 		readingTime: '5 min read',
 		image: '/blog/og/agent-identity-portability.png',
 		Body: AgentIdentityPortability,
-	},
-	{
-		slug: 'frost-token',
-		title: '$FROST: the token with a liquidity floor that never sells',
-		description:
-			'Most AI tokens pay you in more of the token. $FROST does the opposite — a 100M hard cap earned by paying customers, protocol-owned liquidity that only fills, and real yield paid to lockers in USDC. Here is the whole design, live and verifiable on Base.',
-		date: '2026-07-27',
-		author: 'frostydev',
-		authorHandle: '@frosty_onchain',
-		tags: ['$FROST', 'Tokenomics', 'POL', 'DAO', 'Base'],
-		readingTime: '5 min read',
-		image: '/blog/og/frost-token.png',
-		Body: FrostToken,
 	},
 	{
 		slug: 'agent-custody',

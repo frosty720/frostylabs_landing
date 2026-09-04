@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "FrostyFi — Build autonomous on-chain agents",
-    "description": "The visual platform for AI agents that act on-chain. Build workflows, run them anywhere, pay per call with x402. Now in beta.",
+    "description": "The visual platform for AI agents that act on-chain. Build workflows, run them anywhere, pay per call with x402.",
     "keywords": "on-chain AI agents, x402 payments, no-code AI workflows, web3 automation, agent platform, EVM, Solana"
   },
   "nav": {
@@ -21,7 +21,7 @@
   },
   "hero": {
     "headline": "Build AI agents that <accent>get paid</accent>, on-chain",
-    "badge": "Now in beta",
+    "badge": "Live on Base",
     "title": "Build autonomous on-chain agents",
     "description": "The visual platform for AI agents that act on-chain. Describe it, build it visually, deploy it — workflows that pay per call with x402.",
     "launchApp": "FrostyFi App",
@@ -116,7 +116,7 @@
     }
   },
   "pricing": {
-    "title": "Beta Pricing",
+    "title": "Pricing",
     "subtitle": "Start Automating Web3 Today!",
     "betaLabel": "Limited-time beta offer",
     "founderBadgeLabel": "Beta Founder Badge",
@@ -132,7 +132,9 @@
         "Unlimited assistants & agents",
         "5 saved workflows",
         "Skills, MCP servers & templates",
-        "JavaScript code execution"
+        "JavaScript code execution",
+        "Deploy any agent — $5 per agent / 30 days",
+        "Earn per request with x402 (USDC on Base)"
       ]
     },
     "pro": {
@@ -150,7 +152,8 @@
         "50 saved workflows",
         "Image, video & voice generation",
         "Frosty Engine (scheduled & deployed)",
-        "Python & JavaScript code execution"
+        "Python & JavaScript code execution",
+        "Earn per request with x402 (USDC on Base)"
       ]
     },
     "enterprise": {
@@ -167,7 +170,8 @@
         "Unlimited custom agent subdomains",
         "Image, video & voice generation",
         "Frosty Engine (unlimited executions)",
-        "Priority support · early access"
+        "Priority support · early access",
+        "Earn per request with x402 (USDC on Base)"
       ]
     }
   },

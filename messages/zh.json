@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "FrostyFi — 构建自主的链上智能体",
-    "description": "面向链上行动的 AI 智能体的可视化平台。构建工作流，随处运行，通过 x402 按次调用付费。现已进入测试版。",
+    "description": "面向链上行动的 AI 智能体的可视化平台。构建工作流，随处运行，通过 x402 按次调用付费。",
     "keywords": "链上 AI 智能体, x402 支付, 无代码 AI 工作流, web3 自动化, 智能体平台, EVM, Solana"
   },
   "nav": {
@@ -21,7 +21,7 @@
   },
   "hero": {
     "headline": "构建在链上<accent>赚取收益</accent>的 AI 智能体",
-    "badge": "现已进入测试版",
+    "badge": "已在 Base 上线",
     "title": "构建自主的链上智能体",
     "description": "面向链上行动的 AI 智能体的可视化平台。描述它、可视化构建它、部署它——通过 x402 按次调用付费的工作流。",
     "launchApp": "FrostyFi 应用",
@@ -116,7 +116,7 @@
     }
   },
   "pricing": {
-    "title": "测试版定价",
+    "title": "价格",
     "subtitle": "立即开始自动化 Web3！",
     "betaLabel": "限时测试版优惠",
     "founderBadgeLabel": "测试版创始成员徽章",
@@ -132,7 +132,9 @@
         "无限量的助手与智能体",
         "5 个已保存工作流",
         "Skills、MCP 服务器与模板",
-        "JavaScript 代码执行"
+        "JavaScript 代码执行",
+        "部署任意代理 — 每个代理 $5 / 30 天",
+        "通过 x402 按请求收费（Base 上的 USDC）"
       ]
     },
     "pro": {
@@ -150,7 +152,8 @@
         "50 个已保存工作流",
         "图像、视频与语音生成",
         "Frosty Engine（定时与部署运行）",
-        "Python 与 JavaScript 代码执行"
+        "Python 与 JavaScript 代码执行",
+        "通过 x402 按请求收费（Base 上的 USDC）"
       ]
     },
     "enterprise": {
@@ -167,7 +170,8 @@
         "无限量的自定义智能体子域名",
         "图像、视频与语音生成",
         "Frosty Engine（无限次执行）",
-        "优先支持 · 抢先体验"
+        "优先支持 · 抢先体验",
+        "通过 x402 按请求收费（Base 上的 USDC）"
       ]
     }
   },

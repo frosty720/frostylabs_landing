@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "FrostyFi — Crea agentes autónomos on-chain",
-    "description": "La plataforma visual para agentes de IA que actúan on-chain. Crea flujos de trabajo, ejecútalos donde quieras y paga por llamada con x402. Ahora en beta.",
+    "description": "La plataforma visual para agentes de IA que actúan on-chain. Crea flujos de trabajo, ejecútalos donde quieras y paga por llamada con x402.",
     "keywords": "agentes de IA on-chain, pagos x402, flujos de trabajo de IA sin código, automatización web3, plataforma de agentes, EVM, Solana"
   },
   "nav": {
@@ -21,7 +21,7 @@
   },
   "hero": {
     "headline": "Crea agentes de IA que <accent>cobran</accent>, on-chain",
-    "badge": "Ahora en beta",
+    "badge": "En vivo en Base",
     "title": "Crea agentes autónomos on-chain",
     "description": "La plataforma visual para agentes de IA que actúan on-chain. Descríbelo, constrúyelo visualmente, despliégalo: flujos de trabajo que pagan por llamada con x402.",
     "launchApp": "FrostyFi App",
@@ -116,7 +116,7 @@
     }
   },
   "pricing": {
-    "title": "Precios beta",
+    "title": "Precios",
     "subtitle": "¡Empieza a automatizar Web3 hoy!",
     "betaLabel": "Oferta beta por tiempo limitado",
     "founderBadgeLabel": "Insignia de Fundador Beta",
@@ -132,7 +132,9 @@
         "Asistentes y agentes ilimitados",
         "5 flujos de trabajo guardados",
         "Skills, servidores MCP y plantillas",
-        "Ejecución de código JavaScript"
+        "Ejecución de código JavaScript",
+        "Despliega cualquier agente — $5 por agente / 30 días",
+        "Gana por solicitud con x402 (USDC en Base)"
       ]
     },
     "pro": {
@@ -150,7 +152,8 @@
         "50 flujos de trabajo guardados",
         "Generación de imagen, vídeo y voz",
         "Frosty Engine (programados y desplegados)",
-        "Ejecución de código Python y JavaScript"
+        "Ejecución de código Python y JavaScript",
+        "Gana por solicitud con x402 (USDC en Base)"
       ]
     },
     "enterprise": {
@@ -167,7 +170,8 @@
         "Subdominios de agente personalizados ilimitados",
         "Generación de imagen, vídeo y voz",
         "Frosty Engine (ejecuciones ilimitadas)",
-        "Soporte prioritario · acceso anticipado"
+        "Soporte prioritario · acceso anticipado",
+        "Gana por solicitud con x402 (USDC en Base)"
       ]
     }
   },

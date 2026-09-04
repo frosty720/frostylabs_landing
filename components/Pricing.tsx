@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { Check, Sparkles } from 'lucide-react';
+import { Check } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { SITE } from '@/lib/site';
 
@@ -14,9 +14,9 @@ type Tier = {
 };
 
 const tiers: Tier[] = [
-	{ key: 'free', featureCount: 5 },
-	{ key: 'pro', featureCount: 8, popular: true },
-	{ key: 'enterprise', featureCount: 8 },
+	{ key: 'free', featureCount: 7 },
+	{ key: 'pro', featureCount: 9, popular: true },
+	{ key: 'enterprise', featureCount: 9 },
 ];
 
 export function Pricing() {
@@ -40,10 +40,6 @@ export function Pricing() {
 					transition={{ duration: 0.5 }}
 					className='mb-16 text-center'
 				>
-					<span className='mono-label mb-4 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-5 py-2 text-[#67e8f9]'>
-						<Sparkles className='h-3.5 w-3.5' />
-						{t('betaLabel')}
-					</span>
 					<h2 className='mt-4 text-4xl font-bold tracking-tight md:text-5xl'>
 						<span className='aurora-text'>{t('title')}</span>
 					</h2>

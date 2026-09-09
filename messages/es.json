@@ -234,7 +234,7 @@
       },
       {
         "question": "¿Existe un token $FROST?",
-        "answer": "$FROST es el token de protocolo de FrostyFi. Aún no se ha lanzado —el TGE está por determinar— y nada en FrostyFi lo requiere hoy; las suscripciones son simples pagos en USDC en Base. Cuando se lance, los clientes de pago obtienen $FROST (límite máximo fijo de 100M, sin preventa), y puedes bloquearlo en una posición soulbound PERMA para ganar rendimiento en USDC procedente de la liquidez propiedad del protocolo y de una parte de las ganancias de la DAO. No se necesita ningún NFT ni la compra de ningún token para usar FrostyFi ahora."
+        "answer": "$FROST es el token de protocolo de FrostyFi. Aún no se ha lanzado —el TGE está por determinar— y nada en FrostyFi lo requiere hoy; las suscripciones son simples pagos en USDC en Base. Cuando se lance, los clientes de pago obtienen $FROST (sin preventa ni preminado — oferta limitada por presupuestos de acuñación públicos on-chain), y puedes bloquearlo en una posición soulbound PERMA para ganar rendimiento en USDC procedente de la liquidez propiedad del protocolo y de una parte de las ganancias de la DAO. No se necesita ningún NFT ni la compra de ningún token para usar FrostyFi ahora."
       },
       {
         "question": "¿Cómo empiezo?",
@@ -504,7 +504,7 @@
         "title": "En el horizonte",
         "items": [
           "$FROST — obtenido por los clientes de pago, redirige la economía de la red hacia las personas que la construyen y la usan",
-          "Respaldado por ingresos y con un límite máximo fijo, se lanzará cuando estemos listos: no está en vivo y nada en FrostyFi lo requiere hoy",
+          "Respaldado por ingresos y con una oferta limitada on-chain, se lanzará cuando estemos listos: no está en vivo y nada en FrostyFi lo requiere hoy",
           "Un marketplace y ecosistema de agentes más amplio"
         ]
       }
@@ -519,7 +519,7 @@
     "pillars": [
       {
         "title": "$FROST — obtenido, no vendido",
-        "body": "Límite máximo fijo de 100M. Los clientes de pago lo obtienen mediante emisiones finitas vinculadas a los ingresos: sin preventa, sin VC, sin ronda para personas con información privilegiada. La tasa se reduce a la mitad por cada $25k que gana el producto."
+        "body": "Sin preminado, sin preventa, sin ronda de VC. La oferta comienza en cero, y cada contrato que puede acuñar está limitado por un presupuesto público on-chain aplicado en bytecode. Los clientes de pago lo obtienen al precio de bono vigente."
       },
       {
         "title": "Bloquea para obtener rendimiento real",

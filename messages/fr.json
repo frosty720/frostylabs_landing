@@ -234,7 +234,7 @@
       },
       {
         "question": "Existe-t-il un token $FROST ?",
-        "answer": "$FROST est le token de protocole de FrostyFi. Il n'est pas encore lancé — la TGE reste à déterminer — et rien sur FrostyFi ne l'exige aujourd'hui ; les abonnements sont de simples paiements en USDC sur Base. Lors de son lancement, $FROST est gagné par les clients payants (plafond strict de 100M, sans prévente), et vous pouvez le verrouiller dans une position soulbound PERMA pour gagner un rendement en USDC issu de la liquidité détenue par le protocole et d'une part des revenus du DAO. Aucun NFT ni achat de token n'est nécessaire pour utiliser FrostyFi dès maintenant."
+        "answer": "$FROST est le token de protocole de FrostyFi. Il n'est pas encore lancé — la TGE reste à déterminer — et rien sur FrostyFi ne l'exige aujourd'hui ; les abonnements sont de simples paiements en USDC sur Base. Lors de son lancement, $FROST est gagné par les clients payants (sans prévente ni pré-minage — offre bornée par des budgets de frappe publics on-chain), et vous pouvez le verrouiller dans une position soulbound PERMA pour gagner un rendement en USDC issu de la liquidité détenue par le protocole et d'une part des revenus du DAO. Aucun NFT ni achat de token n'est nécessaire pour utiliser FrostyFi dès maintenant."
       },
       {
         "question": "Comment démarrer ?",
@@ -504,7 +504,7 @@
         "title": "À l'horizon",
         "items": [
           "$FROST — gagné par les clients payants, il redistribue l'économie du réseau aux personnes qui le construisent et l'utilisent",
-          "Adossé aux revenus et à offre strictement plafonnée, lancé quand nous serons prêts — pas encore actif, et rien sur FrostyFi ne l'exige aujourd'hui",
+          "Adossé aux revenus, avec une offre bornée on-chain, lancé quand nous serons prêts — pas encore actif, et rien sur FrostyFi ne l'exige aujourd'hui",
           "Une marketplace et un écosystème d'agents plus larges"
         ]
       }
@@ -519,7 +519,7 @@
     "pillars": [
       {
         "title": "$FROST — gagné, pas vendu",
-        "body": "Plafond strict de 100M. Les clients payants le gagnent via des émissions finies et liées aux revenus — sans prévente, sans VC, sans tour d'initiés. Le taux est divisé par deux tous les 25 000 $ générés par le produit."
+        "body": "Pas de pré-minage, pas de prévente, pas de tour VC. L'offre démarre à zéro, et chaque contrat capable de frapper est limité par un budget public on-chain appliqué dans le bytecode. Les clients payants le gagnent au prix du bond en vigueur."
       },
       {
         "title": "Verrouillez pour un vrai rendement",

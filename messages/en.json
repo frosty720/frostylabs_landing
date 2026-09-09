@@ -234,7 +234,7 @@
       },
       {
         "question": "Is there a $FROST token?",
-        "answer": "$FROST is FrostyFi's protocol token. It has not launched yet — TGE is to be determined — and nothing on FrostyFi requires it today; subscriptions are simple USDC payments on Base. When it launches, $FROST is earned by paying customers (100M hard cap, no presale), and you can lock it into a soulbound PERMA position to earn USDC yield from protocol-owned liquidity and a cut of DAO earnings. No NFT and no token purchase is needed to use FrostyFi now."
+        "answer": "$FROST is FrostyFi's protocol token. It has not launched yet — TGE is to be determined — and nothing on FrostyFi requires it today; subscriptions are simple USDC payments on Base. When it launches, $FROST is earned by paying customers (no presale, no pre-mine — supply bounded by public on-chain mint budgets), and you can lock it into a soulbound PERMA position to earn USDC yield from protocol-owned liquidity and a cut of DAO earnings. No NFT and no token purchase is needed to use FrostyFi now."
       },
       {
         "question": "How do I get started?",
@@ -504,7 +504,7 @@
         "title": "On the horizon",
         "items": [
           "$FROST — earned by paying customers, it routes the network's economics back to the people who build and use it",
-          "Revenue-backed and hard-capped, launching when we're ready — not live, and nothing on FrostyFi requires it today",
+          "Revenue-backed with supply bounded on-chain, launching when we're ready — not live, and nothing on FrostyFi requires it today",
           "A broader agent marketplace and ecosystem"
         ]
       }
@@ -519,7 +519,7 @@
     "pillars": [
       {
         "title": "$FROST — earned, not sold",
-        "body": "100M hard cap. Paying customers earn it through finite, revenue-linked emissions — no presale, no VC, no insider round. The rate halves every $25k the product earns."
+        "body": "No pre-mine, no presale, no VC round. Supply starts at zero, and every contract that can mint is bound by a public on-chain budget enforced in bytecode. Paying customers earn it at the live bond price."
       },
       {
         "title": "Lock for real yield",

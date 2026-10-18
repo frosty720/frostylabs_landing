@@ -15,8 +15,8 @@ type Tier = {
 
 const tiers: Tier[] = [
 	{ key: 'free', featureCount: 7 },
-	{ key: 'pro', featureCount: 9, popular: true },
-	{ key: 'enterprise', featureCount: 9 },
+	{ key: 'pro', featureCount: 10, popular: true },
+	{ key: 'enterprise', featureCount: 10 },
 ];
 
 export function Pricing() {

@@ -139,37 +139,39 @@
     },
     "pro": {
       "name": "Pro",
-      "price": "25 $/mois",
+      "price": "5 $/mois",
       "description": "Pour les professionnels qui créent des workflows avancés",
       "emoji": "⚡",
       "badge": "LE PLUS POPULAIRE",
       "cta": "Passer à Pro →",
       "features": [
         "Modèles gratuits et rapides illimités",
-        "≈400–4 700 messages premium/mois",
+        "≈80–470 messages premium/mois",
         "15+ modèles de pointe via OpenRouter (Opus, GPT-5…)",
         "Assistants et agents illimités",
         "50 workflows enregistrés",
         "Génération d'images, de vidéos et de voix",
         "Frosty Engine (planifié et déployé)",
+        "2 agents déployés inclus, puis 5 $ chacun",
         "Exécution de code Python et JavaScript",
         "Gagnez à chaque requête avec x402 (USDC sur Base)"
       ]
     },
     "enterprise": {
       "name": "Enterprise",
-      "price": "99 $/mois",
+      "price": "25 $/mois",
       "description": "Pour les équipes et l'automatisation avancée",
       "emoji": "🏢",
       "cta": "Passer à Enterprise →",
       "features": [
         "Modèles gratuits et rapides illimités",
-        "≈1 500–18 000 messages premium/mois",
+        "≈390–2 350 messages premium/mois",
         "15+ modèles de pointe via OpenRouter (Opus, GPT-5…)",
         "Assistants, agents et workflows illimités",
         "Sous-domaines d'agents personnalisés illimités",
         "Génération d'images, de vidéos et de voix",
         "Frosty Engine (exécutions illimitées)",
+        "7 agents déployés inclus, puis 5 $ chacun",
         "Support prioritaire · accès anticipé",
         "Gagnez à chaque requête avec x402 (USDC sur Base)"
       ]

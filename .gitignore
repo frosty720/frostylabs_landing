@@ -48,6 +48,10 @@ next-env.d.ts
 # Brainstorm visual companion
 .superpowers/
 
+# Agent tooling, plans and specs
+.claude/
+docs/superpowers/
+
 # Generated media (rebuild with `pnpm media`)
 public/frames/hero/frame_*.webp
 public/recordings/researchflow.mp4

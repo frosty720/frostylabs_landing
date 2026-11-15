@@ -513,46 +513,46 @@
     ]
   },
   "frostyDao": {
-    "eyebrow": "FrostyDAO · $FROST · Moteur de revenus en direct sur Base",
-    "headline": "Un réseau détenu par les",
-    "headlineAccent": "personnes qui le construisent",
-    "subhead": "$FROST est le token doté d'un plancher de liquidité qui ne vend jamais. Un tiers de chaque paiement construit une liquidité permanente détenue par le protocole, et les personnes qui verrouillent gagnent une part des revenus en USDC — gagnée par les clients payants, jamais vendue aux initiés.",
-    "status": "Le moteur de revenus est en direct et vérifiable sur Base. Le token $FROST sera lancé plus tard — rien n'est requis pour utiliser FrostyFi aujourd'hui.",
+    "eyebrow": "$FROSTY · Lancement sur BaseStonk · Base",
+    "headline": "Un seul token pour",
+    "headlineAccent": "tout ce que nous construisons",
+    "subhead": "$FROSTY relie FrostyFi, le terminal FrostyFunds et la recherche sur les fonds. Une offre fixe, une petite taxe de trading dont personne ne peut changer la répartition, et des récompenses en USDC pour les détenteurs. Pas de prévente, pas de VC, pas de mint.",
+    "status": "Adresse du contrat publiée au lancement. Rien n'est requis pour utiliser FrostyFi ou FrostyFunds.",
     "pillars": [
       {
-        "title": "$FROST — gagné, pas vendu",
-        "body": "Pas de pré-minage, pas de prévente, pas de tour VC. L'offre démarre à zéro, et chaque contrat capable de frapper est limité par un budget public on-chain appliqué dans le bytecode. Les clients payants le gagnent au prix du bond en vigueur."
+        "title": "1 milliard, offre fixe",
+        "body": "Tous les tokens existent dès le lancement et rien ne peut en créer d'autres. La liquidité de lancement va dans le pool, et personne, pas même nous, ne peut la retirer."
       },
       {
-        "title": "Verrouillez pour un vrai rendement",
-        "body": "Verrouillez $FROST dans une position soulbound PERMA et gagnez une part des revenus du protocole en USDC — frais de trading POL plus une part des gains du DAO. Le simple fait de détenir ne rapporte rien."
+        "title": "Récompenses en USDC",
+        "body": "Un quart de la part de taxe de FROSTY est versé aux détenteurs en USDC, automatiquement. Pas de staking, pas de verrouillage."
       },
       {
-        "title": "Liquidité détenue par le protocole",
-        "body": "Un tiers de chaque paiement est acheminé vers la POL. Elle s'accumule en USDC — jamais dépensée — et devient une liquidité FROST/USDC permanente au lancement. La réserve ne fait que croître."
+        "title": "Une liquidité qui ne fait que croître",
+        "body": "Un autre quart est ajouté au pool à chaque transaction taxée. Il approfondit le marché et ne peut pas être retiré."
       },
       {
-        "title": "Un DAO qui gagne de l'argent",
-        "body": "Pas une tirelire — une trésorerie qui rapporte : une flotte d'agents x402 en propre, des bribes de liquidité et des investissements votés par la communauté. Une part de ce qu'elle génère est reversée aux personnes qui verrouillent."
+        "title": "Rachats et burns",
+        "body": "La trésorerie gagne sur les swaps des fonds, les coffres de rendement, les abonnements et x402. Une partie achète du FROSTY dans le pool et le brûle."
       },
       {
-        "title": "Brûlé à l'usage",
-        "body": "Dépensez $FROST sur FrostyG4, les constructions Architect ou l'exécution prioritaire, et il est brûlé à 100 %. La déflation évolue avec l'usage réel, pas avec le hype."
+        "title": "Réduction sur la recherche",
+        "body": "Bientôt : les détenteurs de FROSTY paient moins cher la recherche FrostyFunds, les analyses et notes IA sur les actifs d'un fonds."
       },
       {
-        "title": "Détenu par les créateurs",
-        "body": "Verrouillez pour gravir les échelons — remises produit, puis vote, puis proposition. Les personnes qui créent la valeur la gouvernent et en captent la hausse."
+        "title": "Frais de fonds en FROSTY",
+        "body": "Prévu : les gérants paient les frais de protocole FrostyFunds en FROSTY à moitié prix, et ce FROSTY est brûlé."
       }
     ],
     "callout": {
-      "label": "Accélérer la liquidité",
-      "body": "Les revenus construisent la POL régulièrement ;",
-      "accent": "les bonds la construisent vite",
-      "bodyEnd": ". Après le lancement, chacun peut acheter des bonds en USDC contre du $FROST à prix réduit — les USDC vont directement dans la POL, de sorte qu'un seul bond peut ajouter plus de profondeur que des mois de revenus. Sans permission, à prix public, et plafonné par un plafond d'endettement de la trésorerie."
+      "label": "Fixé pour toujours",
+      "body": "1 % à l'achat, 3 % à la vente. Après la part de BaseStonk, la part de FROSTY est répartie",
+      "accent": "à parts égales entre les détenteurs, l'auto-liquidité, la trésorerie et une part d'équipe déclarée",
+      "bodyEnd": ". Les taux et la répartition sont fixés dans le contrat du pool au lancement et ne pourront jamais changer."
     },
     "cta": {
-      "tokenomics": "Lire la tokenomics",
-      "pol": "Comment fonctionne le flywheel POL"
+      "tokenomics": "Lire la page $FROSTY",
+      "funds": "Ouvrir FrostyFunds"
     }
   }
 }

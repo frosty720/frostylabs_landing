@@ -2,20 +2,20 @@
 import { motion, type Variants } from 'framer-motion';
 import {
 	Coins,
+	Droplets,
 	Flame,
+	HandCoins,
 	Landmark,
-	Lock,
-	TrendingUp,
-	Vote,
+	Sparkles,
 } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 const EASE_OUT: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
-// The FROST token — $FROST (liquid token) + PERMA (soulbound lock receipt).
-// Revenue engine is LIVE on Base (splitter + POL reserve); the token launches
-// later. Full design at docs.frostylabs.ai/docs/tokenomics.
-const PILLARS = [Coins, Lock, Landmark, TrendingUp, Flame, Vote];
+// The FROSTY token on BaseStonk (founder 2026-11-15): fixed supply, a 1% buy / 3% sell
+// tax split equally between holders, auto-liquidity, the treasury and the team. The
+// PERMA lock, bonds, POL and voting are retired. Full terms at docs.frostylabs.ai/docs/tokenomics.
+const PILLARS = [Coins, HandCoins, Droplets, Flame, Sparkles, Landmark];
 
 const container: Variants = {
 	hidden: {},
@@ -56,7 +56,7 @@ export function FrostyDao() {
 						{t('subhead')}
 					</motion.p>
 
-					{/* Honest status — engine live, token later */}
+					{/* Honest status — address published at launch */}
 					<motion.div
 						variants={item}
 						className='mt-6 inline-flex max-w-2xl items-center gap-2 rounded-full border border-[#a78bfa]/30 bg-[#a78bfa]/[0.06] px-4 py-2 text-sm text-[#c4b5fd]'
@@ -113,10 +113,10 @@ export function FrostyDao() {
 							{t('cta.tokenomics')} →
 						</a>
 						<a
-							href='https://docs.frostylabs.ai/docs/pol'
+							href='https://frostyfi.fund'
 							className='inline-flex items-center rounded-lg border border-white/15 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:border-white/35'
 						>
-							{t('cta.pol')}
+							{t('cta.funds')}
 						</a>
 					</motion.div>
 				</motion.div>

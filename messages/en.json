@@ -513,46 +513,46 @@
     ]
   },
   "frostyDao": {
-    "eyebrow": "FrostyDAO · $FROST · Revenue engine live on Base",
-    "headline": "A network owned by the",
-    "headlineAccent": "people who build it",
-    "subhead": "$FROST is the token with a liquidity floor that never sells. A third of every payment builds permanent, protocol-owned liquidity, and lockers earn a share of the revenue in USDC — earned by paying customers, never sold to insiders.",
-    "status": "The revenue engine is live and verifiable on Base. The $FROST token launches later — nothing is required to use FrostyFi today.",
+    "eyebrow": "$FROSTY · Launching on BaseStonk · Base",
+    "headline": "One token for",
+    "headlineAccent": "everything we build",
+    "subhead": "$FROSTY ties together FrostyFi, the FrostyFunds terminal and fund research. A fixed supply, a small trading tax with a split nobody can change, and USDC rewards for holders. No presale, no VC, no minting.",
+    "status": "Contract address coming at launch. Nothing is required to use FrostyFi or FrostyFunds.",
     "pillars": [
       {
-        "title": "$FROST — earned, not sold",
-        "body": "No pre-mine, no presale, no VC round. Supply starts at zero, and every contract that can mint is bound by a public on-chain budget enforced in bytecode. Paying customers earn it at the live bond price."
+        "title": "1B supply, fixed",
+        "body": "Every token exists at launch and nothing can mint more. Launch liquidity goes into the pool, and nobody, including us, can pull it."
       },
       {
-        "title": "Lock for real yield",
-        "body": "Lock $FROST into a soulbound PERMA position and earn a share of protocol revenue in USDC — POL trading fees plus a cut of DAO earnings. Holding alone earns nothing."
+        "title": "Holder rewards in USDC",
+        "body": "A quarter of FROSTY's tax share is paid to holders in USDC, automatically. No staking, no locking."
       },
       {
-        "title": "Protocol-Owned Liquidity",
-        "body": "A third of every payment routes to POL. It accumulates as USDC — never spent — and becomes permanent FROST/USDC liquidity at launch. The reserve only grows."
+        "title": "Liquidity that only grows",
+        "body": "Another quarter is added to the pool on every taxed trade. It deepens the market and can't be withdrawn."
       },
       {
-        "title": "A DAO that makes money",
-        "body": "Not a piggy bank — a treasury that earns: a first-party x402 agent fleet, liquidity bribes, and community-voted investments. A cut of what it makes is paid to lockers."
+        "title": "Buybacks and burns",
+        "body": "The treasury earns from fund swaps, yield vaults, subscriptions and x402. Part of it buys FROSTY from the pool and burns it."
       },
       {
-        "title": "Burn on use",
-        "body": "Spend $FROST on FrostyG4, Architect builds, or priority execution and it is 100% burned. Deflation scales with real usage, not hype."
+        "title": "Research discount",
+        "body": "Coming soon: FROSTY holders pay less for FrostyFunds research, the AI briefs and ratings on a fund's assets."
       },
       {
-        "title": "Owned by builders",
-        "body": "Lock to climb the ladder — product discounts, then voting, then proposing. The people creating the value govern it, and own the upside."
+        "title": "Fund fees in FROSTY",
+        "body": "Planned: fund managers pay the FrostyFunds protocol fee in FROSTY at half price, and that FROSTY is burned."
       }
     ],
     "callout": {
-      "label": "Accelerating the liquidity",
-      "body": "Revenue builds POL steadily;",
-      "accent": "bonds build it fast",
-      "bodyEnd": ". After launch, anyone can bond USDC for discounted $FROST — the USDC goes straight into POL, so a single bond can add more depth than months of revenue. Permissionless, publicly priced, and capped by a treasury debt ceiling."
+      "label": "Fixed forever",
+      "body": "1% on buys, 3% on sells. After BaseStonk's cut, FROSTY's share splits",
+      "accent": "equally between holders, auto-liquidity, the treasury and a disclosed team share",
+      "bodyEnd": ". The rates and the split are set in the pool's contract at launch and can never change."
     },
     "cta": {
-      "tokenomics": "Read the tokenomics",
-      "pol": "How the POL flywheel works"
+      "tokenomics": "Read the $FROSTY page",
+      "funds": "Open FrostyFunds"
     }
   }
 }

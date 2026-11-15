@@ -513,46 +513,46 @@
     ]
   },
   "frostyDao": {
-    "eyebrow": "FrostyDAO · $FROST · Motor de ingresos en vivo en Base",
-    "headline": "Una red propiedad de las",
-    "headlineAccent": "personas que la construyen",
-    "subhead": "$FROST es el token con un suelo de liquidez que nunca vende. Un tercio de cada pago construye liquidez permanente y propiedad del protocolo, y quienes bloquean ganan una parte de los ingresos en USDC, obtenidos por los clientes de pago, nunca vendidos a personas con información privilegiada.",
-    "status": "El motor de ingresos está en vivo y es verificable en Base. El token $FROST se lanza más adelante: nada es necesario para usar FrostyFi hoy.",
+    "eyebrow": "$FROSTY · Se lanza en BaseStonk · Base",
+    "headline": "Un token para",
+    "headlineAccent": "todo lo que construimos",
+    "subhead": "$FROSTY une FrostyFi, la terminal de FrostyFunds y la investigación de fondos. Suministro fijo, un pequeño impuesto de trading con un reparto que nadie puede cambiar y recompensas en USDC para los holders. Sin preventa, sin VC, sin acuñación.",
+    "status": "Dirección del contrato: se publica en el lanzamiento. No necesitas nada para usar FrostyFi o FrostyFunds.",
     "pillars": [
       {
-        "title": "$FROST — obtenido, no vendido",
-        "body": "Sin preminado, sin preventa, sin ronda de VC. La oferta comienza en cero, y cada contrato que puede acuñar está limitado por un presupuesto público on-chain aplicado en bytecode. Los clientes de pago lo obtienen al precio de bono vigente."
+        "title": "1B de suministro, fijo",
+        "body": "Todos los tokens existen desde el lanzamiento y nada puede acuñar más. La liquidez inicial va al pool y nadie, ni siquiera nosotros, puede retirarla."
       },
       {
-        "title": "Bloquea para obtener rendimiento real",
-        "body": "Bloquea $FROST en una posición soulbound PERMA y gana una parte de los ingresos del protocolo en USDC: comisiones de trading de POL más una porción de las ganancias de la DAO. Solo con mantener el token no se gana nada."
+        "title": "Recompensas en USDC",
+        "body": "Una cuarta parte de la porción del impuesto de FROSTY se paga a los holders en USDC, de forma automática. Sin staking, sin bloqueos."
       },
       {
-        "title": "Liquidez Propiedad del Protocolo",
-        "body": "Un tercio de cada pago se dirige a POL. Se acumula como USDC —nunca se gasta— y se convierte en liquidez permanente FROST/USDC en el lanzamiento. La reserva solo crece."
+        "title": "Liquidez que solo crece",
+        "body": "Otra cuarta parte se añade al pool en cada operación con impuesto. Profundiza el mercado y no se puede retirar."
       },
       {
-        "title": "Una DAO que gana dinero",
-        "body": "No es una hucha, sino una tesorería que genera ingresos: una flota de agentes x402 propios, incentivos de liquidez e inversiones votadas por la comunidad. Una parte de lo que gana se paga a quienes bloquean."
+        "title": "Recompras y quemas",
+        "body": "La tesorería gana con los swaps de los fondos, las bóvedas de rendimiento, las suscripciones y x402. Una parte compra FROSTY en el pool y lo quema."
       },
       {
-        "title": "Quema con el uso",
-        "body": "Gasta $FROST en FrostyG4, construcciones con Architect o ejecución prioritaria y se quema al 100%. La deflación escala con el uso real, no con el bombo."
+        "title": "Descuento en investigación",
+        "body": "Próximamente: los holders de FROSTY pagan menos por la investigación de FrostyFunds, los informes y calificaciones con IA de los activos de un fondo."
       },
       {
-        "title": "Propiedad de los constructores",
-        "body": "Bloquea para subir peldaños: descuentos en el producto, luego votación, luego proponer. Las personas que crean el valor lo gobiernan y son dueñas del potencial de crecimiento."
+        "title": "Comisiones de fondos en FROSTY",
+        "body": "Previsto: los gestores pagan la comisión del protocolo de FrostyFunds en FROSTY a mitad de precio, y ese FROSTY se quema."
       }
     ],
     "callout": {
-      "label": "Acelerando la liquidez",
-      "body": "Los ingresos construyen POL de forma constante;",
-      "accent": "los bonos lo construyen rápido",
-      "bodyEnd": ". Tras el lanzamiento, cualquiera puede emitir un bono en USDC a cambio de $FROST con descuento: el USDC va directamente a POL, de modo que un solo bono puede añadir más profundidad que meses de ingresos. Sin permisos, con precios públicos y limitado por un techo de deuda de la tesorería."
+      "label": "Fijo para siempre",
+      "body": "1 % en compras, 3 % en ventas. Tras la parte de BaseStonk, la porción de FROSTY se reparte",
+      "accent": "a partes iguales entre holders, auto-liquidez, la tesorería y una parte declarada para el equipo",
+      "bodyEnd": ". Las tasas y el reparto quedan fijados en el contrato del pool en el lanzamiento y nunca pueden cambiar."
     },
     "cta": {
-      "tokenomics": "Lee la tokenómica",
-      "pol": "Cómo funciona el flywheel de POL"
+      "tokenomics": "Ver la página de $FROSTY",
+      "funds": "Abrir FrostyFunds"
     }
   }
 }
